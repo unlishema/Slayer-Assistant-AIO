@@ -1,0 +1,1280 @@
+[
+    {
+        "default-creature": "Aberrant spectre#Slayer Tower",
+        "hidden-creatures": [],
+        "index": "Aberrant spectres",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Abyssal demon#Default",
+        "hidden-creatures": ["Abyssal demon (elite)"],
+        "index": "Abyssal Demons",
+        "alias": ["Abyssal demons"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Abyssal beast#Default",
+        "hidden-creatures": [],
+        "index": "Abyssal beasts",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Abyssal lord#Default",
+        "hidden-creatures": [],
+        "index": "Abyssal lords",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Abyssal savage#Asylum",
+        "hidden-creatures": [],
+        "index": "Abyssal savages",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Acheron mammoth#Default",
+        "hidden-creatures": [],
+        "index": "Acheron mammoths",
+        "alias": ["Acheron mammoth"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Adamant dragon#Default",
+        "hidden-creatures": [],
+        "index": "Adamant dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Airut#Melee",
+        "hidden-creatures": [],
+        "index": "Airut",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Ankou#Default",
+        "hidden-creatures": ["Ankou (elite)"],
+        "index": "Ankou",
+        "alias": ["Ankous"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Aquanite#Default",
+        "hidden-creatures": ["Aquanite (elite)"],
+        "index": "Aquanites",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Armoured phantom#1",
+        "hidden-creatures": [],
+        "index": "Armoured phantoms",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Capsarius#1",
+        "hidden-creatures": [],
+        "index": "Ascension members",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Kree'arra#Normal",
+        "hidden-creatures": [
+            "Spiritual mage",
+            "Spiritual ranger",
+            "Spiritual warrior"
+        ],
+        "index": "Aviansies",
+        "alias": ["Aviansie"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Banshee#Default",
+        "hidden-creatures": ["Mighty banshee"],
+        "index": "Banshees",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Basilisk#Large",
+        "hidden-creatures": [],
+        "index": "Basilisks",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Bat#Default",
+        "hidden-creatures": [],
+        "index": "Bats",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Black bear#Default",
+        "hidden-creatures": [
+            "Angry bear",
+            "Bear cub",
+            "Grizzly bear",
+            "Grizzly bear cub"
+        ],
+        "index": "Bears",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Chicken#White",
+        "hidden-creatures": [
+            "Bird",
+            "Chompy bird",
+            "Duckling",
+            "Jubbly bird",
+            "Mounted terrorbird gnome",
+            "Oomlie bird",
+            "Pekin",
+            "Penguin (monster)",
+            "Pernicious parrot",
+            "Rooster",
+            "Seagull",
+            "Tenacious toucan",
+            "Undead chicken",
+            "Undead pekin"
+        ],
+        "index": "Birds",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Black demon#1",
+        "hidden-creatures": ["Balfrug Kreeyath"],
+        "index": "Black demons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Queen Black Dragon#Normal",
+        "hidden-creatures": [
+            "Alanogard the Black",
+            "Verak Lith",
+            "Verak Little"
+        ],
+        "index": "Black dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Bloodveld#Default",
+        "hidden-creatures": [],
+        "index": "Bloodveld",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Blue dragon#1",
+        "hidden-creatures": [],
+        "index": "Blue dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Bound skeleton#1",
+        "hidden-creatures": [],
+        "index": "Bound skeletons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Brine rat#Default",
+        "hidden-creatures": [],
+        "index": "Brine rats",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Bronze dragon#Default",
+        "hidden-creatures": [],
+        "index": "Bronze dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Camel Warrior#Default",
+        "hidden-creatures": [],
+        "index": "Camel warriors",
+        "alias": ["Camel Warrior"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Catablepon#Default",
+        "hidden-creatures": [],
+        "index": "Catablepon",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Cave bug#Level 11",
+        "hidden-creatures": [],
+        "index": "Cave bugs",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Cave crawler#Level 24",
+        "hidden-creatures": [],
+        "index": "Cave crawlers",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Unspeakable horror#Default",
+        "hidden-creatures": [
+            "Cave horror (elite)",
+            "Unspeakable horror (elite)"
+        ],
+        "index": "Cave horrors",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Cave slime#Default",
+        "hidden-creatures": [
+            "Giant slime",
+            "Laboratory slime"
+        ],
+        "index": "Cave slimes",
+        "alias": ["Cave slime"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Celestial dragon#Default",
+        "hidden-creatures": [
+            "Astellarn",
+            "Celestial dragon (Dragonkin Laboratory)"
+        ],
+        "index": "Celestial dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Chaos Giant#Default",
+        "hidden-creatures": [],
+        "index": "Chaos giants",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Cockatrice#Default",
+        "hidden-creatures": [],
+        "index": "Cockatrice",
+        "alias": ["Cockatrices"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Cockroach drone#Default",
+        "hidden-creatures": [],
+        "index": "Cockroaches",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Corrupted scorpion#Default",
+        "hidden-creatures": [],
+        "index": "Corrupted creatures",
+        "alias": [
+            "Corrupted dust devils",
+            "Corrupted kalphites",
+            "Corrupted lizards",
+            "Corrupted scarabs",
+            "Corrupted scorpions",
+            "Corrupted worker"
+        ],
+        "comment": ""
+    },
+    {
+        "default-creature": "Cow#Standard (1)",
+        "hidden-creatures": [
+            "Cow calf",
+            "Super Cow",
+            "Undead cow"
+        ],
+        "index": "Cows",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Crawling hand#10a",
+        "hidden-creatures": [
+            "Skeletal hand",
+            "Zombie hand"
+        ],
+        "index": "Crawling hands",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Edimmu#Default",
+        "hidden-creatures": ["Edimmu (elite)"],
+        "index": "Creatures of Daemonheim",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Bulbous crawler#Default",
+        "hidden-creatures": [],
+        "index": "Creatures of the Lost Grove",
+        "alias": ["Lost Grove creatures"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Automaton Generator#Post-quest",
+        "hidden-creatures": [],
+        "index": "Cres's creations",
+        "alias": ["Automatons"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Crocodile#40",
+        "hidden-creatures": [
+            "Ol' Sawtooth",
+            "Sea crocodile"
+        ],
+        "index": "Crocodiles",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Crystal Shapeshifter#Magic",
+        "hidden-creatures": [],
+        "index": "Crystal shapeshifters",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Cyclops#57 (Crush)",
+        "hidden-creatures": ["Cyclossus"],
+        "index": "Cyclopes",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Dagannoth Rex#Default",
+        "hidden-creatures": [
+            "Dagannoth (Lighthouse)",
+            "Dagannoth (Waterbirth Island)",
+            "Dagannoth (Waterbirth Island, ranged)",
+            "Dagannoth fledgeling",
+            "Dagannoth guardian",
+            "Dagannoth spawn"
+        ],
+        "index": "Dagannoth",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Dark beast#19,000 life points",
+        "hidden-creatures": [
+            "Dark beast (elite)",
+            "Revenant dark beast"
+        ],
+        "index": "Dark beasts",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "K'ril Tsutsaroth#Normal",
+        "hidden-creatures": [
+            "Gargoyle",
+            "Imp",
+            "Kal'gerion demon",
+            "Kal'gerion demon (The Shadow Reef)",
+            "Tstanon Karlak",
+            "Yor'Ger the Deceiver",
+            "Zakl'n Gritch"
+        ],
+        "index": "Demons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Corrupted lizard#Default",
+        "hidden-creatures": [],
+        "index": "Desert lizards",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Desert strykewyrm#Default",
+        "hidden-creatures": [],
+        "index": "Desert strykewyrms",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Ripper dinosaur#Normal",
+        "hidden-creatures": [],
+        "index": "Dinosaurs",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Jackal#Default",
+        "hidden-creatures": [
+            "Guard dog",
+            "Shadow Hound",
+            "Wild dog"
+        ],
+        "index": "Dogs",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Queen Black Dragon#Normal",
+        "hidden-creatures": [],
+        "index": "Dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Corrupted dust devil#Default",
+        "hidden-creatures": ["Dust devil (elite)"],
+        "index": "Dust devils",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Earth warrior#Default",
+        "hidden-creatures": ["Earth warrior (elite)"],
+        "index": "Earth warriors",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Edimmu#Default",
+        "hidden-creatures": ["Edimmu (elite)"],
+        "index": "Edimmu",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Elf warrior#Melee",
+        "hidden-creatures": [
+            "Knight of Ardougne (West Ardougne)",
+            "Mourner (Mourner Tunnels)",
+            "Seren archer",
+            "Seren mage",
+            "Seren warrior"
+        ],
+        "index": "Elves",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Fetid zombie#1",
+        "hidden-creatures": [],
+        "index": "Fetid zombies",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Fever spider#Default",
+        "hidden-creatures": [],
+        "index": "Fever spiders",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Fire giant#Default",
+        "hidden-creatures": [],
+        "index": "Fire giants",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Flesh Crawler#Default",
+        "hidden-creatures": [],
+        "index": "Fleshcrawlers",
+        "alias": ["Flesh Crawlers"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Plague frog#Default",
+        "hidden-creatures": [
+            "Big frog",
+            "Frogeel",
+            "Giant frog"
+        ],
+        "index": "Frogs",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Fungal mage#Normal",
+        "hidden-creatures": [],
+        "index": "Fungal magi",
+        "alias": ["Fungal mages"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Ganodermic beast#Normal",
+        "hidden-creatures": [],
+        "index": "Ganodermic creatures",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Gargoyle#Regular",
+        "hidden-creatures": [],
+        "index": "Gargoyles",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Gelatinous abomination#Default",
+        "hidden-creatures": [],
+        "index": "Gelatinous abominations",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Hydrix dragon#Default",
+        "hidden-creatures": [],
+        "index": "Gemstone dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Ghost#1",
+        "hidden-creatures": [
+            "Edimmu (elite)",
+            "Ghost (Abandoned Mine)",
+            "Ghost (Ourania Runecrafting Altar)",
+            "Ghost (Shattered Worlds)",
+            "Ghost (Spirit of Summer)",
+            "Ghost (Stronghold of Security)",
+            "Revenant cyclops",
+            "Revenant demon",
+            "Revenant goblin",
+            "Revenant hobgoblin",
+            "Revenant icefiend",
+            "Revenant imp",
+            "Revenant ork",
+            "Revenant pyrefiend",
+            "Revenant vampyre",
+            "Revenant werewolf",
+            "Tormented soul (Uncharted Isles)",
+            "Tormented wraith",
+            "Tortured soul (Port Phasmatys)",
+            "Wight",
+            "Wight (Missing, Presumed Death)",
+            "Wight ranger",
+            "Wight ranger (Sliske's Endgame)"
+        ],
+        "index": "Ghosts",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Ravenous ghoul#Default",
+        "hidden-creatures": [
+            "Ghoul (Paterdomus)",
+            "Ravenous ghoul (Mazchna)"
+        ],
+        "index": "Ghouls",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Arch-Glacor#Normal mode",
+        "hidden-creatures": [],
+        "index": "Glacors",
+        "alias": ["Glacor"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Goblin#Level 11",
+        "hidden-creatures": [
+            "Angry goblin",
+            "Brokeface",
+            "Cave goblin (monster)",
+            "Cave goblin guard",
+            "Cave goblin miner",
+            "Guard (cave goblin)",
+            "Lumpnose",
+            "Sergeant Grimspike",
+            "Sergeant Steelwill",
+            "Sergeant Strongstack",
+            "Skoblin"
+        ],
+        "index": "Goblins",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Gorak#God Wars Dungeon",
+        "hidden-creatures": [],
+        "index": "Goraks",
+        "alias": ["Gorak"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Greater demon ash lord#Wilderness",
+        "hidden-creatures": [],
+        "index": "Greater demon berserkers and ash lords",
+        "alias": [
+            "Greater demon ash lords",
+            "Greater demon berserkers"
+        ],
+        "comment": ""
+    },
+    {
+        "default-creature": "K'ril Tsutsaroth#Normal",
+        "hidden-creatures": [
+            "Butcher demon",
+            "Champion of Infernus",
+            "Greater demon (elite)"
+        ],
+        "index": "Greater demons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Green dragon#1",
+        "hidden-creatures": [],
+        "index": "Green dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Grifolapine#Normal",
+        "hidden-creatures": [],
+        "index": "Grifolapines",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Grifolaroo#Normal",
+        "hidden-creatures": [],
+        "index": "Grifolaroos",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Mature grotworm#Default",
+        "hidden-creatures": ["Giant worm"],
+        "index": "Grotworms",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Harpie Bug Swarm#Default",
+        "hidden-creatures": ["Harpie Bug Swarm (elite)"],
+        "index": "Harpie bug swarms",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Hellhound#Normal",
+        "hidden-creatures": ["Hellhound (Heart of Gielinor)"],
+        "index": "Hellhounds",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Hill Giant#Default",
+        "hidden-creatures": [],
+        "index": "Hill giants",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Hobgoblin#Level 15",
+        "hidden-creatures": ["Hobgoblin (elite)"],
+        "index": "Hobgoblins",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Hydrix dragon#Default",
+        "hidden-creatures": [],
+        "index": "Hydrix dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Ice giant#Level 47 (1)",
+        "hidden-creatures": [],
+        "index": "Ice giants",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Ice strykewyrm#Default",
+        "hidden-creatures": [],
+        "index": "Ice strykewyrms",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Ice warrior#Normal",
+        "hidden-creatures": ["Icelord"],
+        "index": "Ice warriors",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Icefiend#God Wars Dungeon",
+        "hidden-creatures": ["Icefiend (Ghorrock)"],
+        "index": "Icefiends",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Infernal Mage#Default",
+        "hidden-creatures": ["Infernal Mage (elite)"],
+        "index": "Infernal mages",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Iron dragon#Default",
+        "hidden-creatures": [],
+        "index": "Iron dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Jelly#Default",
+        "hidden-creatures": [],
+        "index": "Jellies",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Jungle horror#Default",
+        "hidden-creatures": [
+            "Quetzathog",
+            "Sea horror"
+        ],
+        "index": "Jungle horrors",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Jungle strykewyrm#Default",
+        "hidden-creatures": [],
+        "index": "Jungle strykewyrms",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Kal'gerion demon#Bloodchiller",
+        "hidden-creatures": [],
+        "index": "Kal'gerion demons",
+        "alias": ["Kal'gerion demon"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Corrupted kalphite guardian#Default",
+        "hidden-creatures": [
+            "Exiled kalphite guardian",
+            "Exiled kalphite marauder",
+            "Exiled kalphite paragon"
+        ],
+        "index": "Kalphite",
+        "alias": ["Kalphites"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Killerwatt#Default",
+        "hidden-creatures": [],
+        "index": "Killerwatts",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Kurask#Examine #1",
+        "hidden-creatures": [],
+        "index": "Kurask",
+        "alias": ["Kurasks"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Lava strykewyrm#Default",
+        "hidden-creatures": [
+            "Engorged lava strykewyrm",
+            "Lava strykewyrm (Dragonkin Laboratory)"
+        ],
+        "index": "Lava strykewyrms",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Lesser demon#1",
+        "hidden-creatures": [],
+        "index": "Lesser demons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Living rock patriarch#Default",
+        "hidden-creatures": [],
+        "index": "Living rock creatures",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Wyvern#Default",
+        "hidden-creatures": ["Wyvern (elite)"],
+        "index": "Living wyverns",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Minotaur#Level 12",
+        "hidden-creatures": [],
+        "index": "Minotaurs",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Mithril dragon#Default",
+        "hidden-creatures": [],
+        "index": "Mithril dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Mogre#Default",
+        "hidden-creatures": [],
+        "index": "Mogres",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Molanisk#Default",
+        "hidden-creatures": [],
+        "index": "Molanisks",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Moss giant#Common (1)",
+        "hidden-creatures": [],
+        "index": "Moss giants",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Bladed muspah#Default",
+        "hidden-creatures": [],
+        "index": "Muspah",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Mutated jadinko baby#Default",
+        "hidden-creatures": [],
+        "index": "Mutated jadinkos",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Mutated zygomite#Level 58",
+        "hidden-creatures": [],
+        "index": "Mutated zygomites",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Nechryael#Default",
+        "hidden-creatures": [
+            "Nechryael (Heart of Gielinor)",
+            "Nechryael (elite)"
+        ],
+        "index": "Nechryael",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Nightmare#Default",
+        "hidden-creatures": [],
+        "index": "Nightmare creatures",
+        "alias": ["Nightmare"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Blood nihil#normal",
+        "hidden-creatures": [],
+        "index": "Nihil",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Nodon guard#Default",
+        "hidden-creatures": [],
+        "index": "Nodon dragonkin",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Enclave guard#Default",
+        "hidden-creatures": ["Skogre"],
+        "index": "Ogres",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Onyx dragon#Default",
+        "hidden-creatures": [],
+        "index": "Onyx dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Otherworldly being#Default",
+        "hidden-creatures": [],
+        "index": "Otherworldly beings",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Pyrefiend#Level 38",
+        "hidden-creatures": [],
+        "index": "Pyrefiends",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Warped rat#Default",
+        "hidden-creatures": [],
+        "index": "Rats",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Red dragon#1",
+        "hidden-creatures": [
+            "Red dragon (Dragonkin Laboratory)",
+            "Sangri the Red"
+        ],
+        "index": "Red dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Revenant cyclops#Default",
+        "hidden-creatures": [],
+        "index": "Revenants",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Ripper Demon#Default",
+        "hidden-creatures": ["Slasher Demon"],
+        "index": "Ripper demons",
+        "alias": ["Ripper Demon"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Risen ghost#Default",
+        "hidden-creatures": [],
+        "index": "Risen ghosts",
+        "alias": ["Risen ghost"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Rock slug#Default",
+        "hidden-creatures": [],
+        "index": "Rockslugs",
+        "alias": ["Rock slugs"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Rune dragon#Armoured",
+        "hidden-creatures": ["Elite rune dragon"],
+        "index": "Rune dragons",
+        "alias": ["Rune dragon"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Scarab akh#Default",
+        "hidden-creatures": [],
+        "index": "Scabarites",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Corrupted scorpion#Default",
+        "hidden-creatures": [
+            "Grave scorpion",
+            "King Scorpion",
+            "Pit Scorpion",
+            "Poison Scorpion",
+            "Scorpion (Ape Atoll)"
+        ],
+        "index": "Scorpions",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Sea Snake Hatchling#Default",
+        "hidden-creatures": [],
+        "index": "Sea snakes",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Shade#Default",
+        "hidden-creatures": [],
+        "index": "Shades",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Manifest shadow#Default",
+        "hidden-creatures": [],
+        "index": "Shadow creatures",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Shadow warrior#Default",
+        "hidden-creatures": [],
+        "index": "Shadow warriors",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Skeletal Wyvern#1",
+        "hidden-creatures": [],
+        "index": "Skeletal wyverns",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Skeleton (Lumbridge Catacombs)#Default",
+        "hidden-creatures": [
+            "Skeletal miner",
+            "Skeleton (Tarn's Lair)",
+            "Skeleton (Temple Trekking)",
+            "Skeleton fremennik",
+            "Undead one"
+        ],
+        "index": "Skeletons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "The Magister#Default",
+        "hidden-creatures": ["Oreb, the Magister"],
+        "index": "Soul devourers",
+        "alias": [
+            "Crocodile akh",
+            "Feline akh",
+            "Gorilla akh",
+            "Imperial guard akh",
+            "Salawa akh",
+            "Scarab akh",
+            "Soul devourer"
+        ],
+        "comment": ""
+    },
+    {
+        "default-creature": "Soulgazer#Default",
+        "hidden-creatures": ["Soulgazer (elite)"],
+        "index": "Soulgazers",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Deadly red spider#Default",
+        "hidden-creatures": [],
+        "index": "Spiders",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Spiritual mage#Armadyl",
+        "hidden-creatures": [],
+        "index": "Spiritual mages",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Spiritual warrior#Armadyl",
+        "hidden-creatures": [],
+        "index": "Spiritual warriors",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Veil-ripper Ozharakha#Default",
+        "hidden-creatures": ["Soulgazer (elite)"],
+        "index": "Stalker creatures",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Steel dragon#Default",
+        "hidden-creatures": [],
+        "index": "Steel dragons",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Desert strykewyrm#Default",
+        "hidden-creatures": ["WildyWyrm (2015, historical)"],
+        "index": "Strykewyrms",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Suqah#Level 73 (Dual wielding swords)",
+        "hidden-creatures": [],
+        "index": "Suqahs",
+        "alias": ["Suqah"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Terror dog#Level 61",
+        "hidden-creatures": [],
+        "index": "Terror dogs",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Tormented demon#Standard",
+        "hidden-creatures": [],
+        "index": "Tormented demons",
+        "alias": ["Tormented demon"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Ice troll runt#Default",
+        "hidden-creatures": [
+            "Mountain troll (well)",
+            "Stove",
+            "Troll brute (Davendale)"
+        ],
+        "index": "Trolls",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Turoth#60 - Large",
+        "hidden-creatures": [],
+        "index": "Turoth",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "TzHaar-Hur#Level 86",
+        "hidden-creatures": [],
+        "index": "TzHaar",
+        "alias": ["Volcanic creatures"],
+        "comment": ""
+    },
+    {
+        "default-creature": "Ghost#1",
+        "hidden-creatures": [
+            "Wight",
+            "Wight ranger",
+            "Wight ranger (Sliske's Endgame)"
+        ],
+        "index": "Undead",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Vampyre#Default",
+        "hidden-creatures": ["Feral vampyre"],
+        "index": "Vampyres",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Liverworts#Default",
+        "hidden-creatures": [],
+        "index": "Vile blooms",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Vyrewatch#Level 70",
+        "hidden-creatures": [],
+        "index": "Vyrewatch",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Wall beast#Default",
+        "hidden-creatures": [],
+        "index": "Wall beasts",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Warped terrorbird#1",
+        "hidden-creatures": [],
+        "index": "Warped terrorbirds",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Warped tortoise#Vulnerable",
+        "hidden-creatures": [],
+        "index": "Warped tortoises",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Waterfiend#Default",
+        "hidden-creatures": [
+            "Waterfiend (Ghorrock)",
+            "Waterfiend (Temple of Aminishi)",
+            "Waterfiend (elite)"
+        ],
+        "index": "Waterfiends",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Werewolf#Alexis",
+        "hidden-creatures": [],
+        "index": "Werewolves",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Adolescent White wolf#Default",
+        "hidden-creatures": [
+            "Fenris wolf",
+            "Fenris wolf (Sköll)"
+        ],
+        "index": "Wolves",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Armoured phantom#1",
+        "hidden-creatures": [],
+        "index": "Zemouregal's undead",
+        "alias": [],
+        "comment": ""
+    },
+    {
+        "default-creature": "Zombie#Level 29",
+        "hidden-creatures": [
+            "Zombie (Zogre Flesh Eaters)",
+            "Zombie cow (New Varrock)"
+        ],
+        "index": "Zombies",
+        "alias": [],
+        "comment": ""
+    }
+]

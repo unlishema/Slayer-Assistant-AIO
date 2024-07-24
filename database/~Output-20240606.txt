@@ -1,0 +1,1003 @@
+[Loading] ~defaults.json is missing!
+[Loading] ~images.json is missing!
+[Loading] masters.json is missing!
+[Loading] creatures.json is missing!
+[Loading] assignments.json is missing!
+[Loading] Fresh Start Detected!
+[Indexes] Extracting: database\wiki\slayerCatNames.json
+[Indexes] Initiating Fresh Start Protocol!
+[Fresh Start] Adding Fixed Alias: Abyssal Demons => Abyssal demons
+[Fresh Start] Adding Fixed Alias: Acheron mammoths => Acheron mammoth
+[Fresh Start] Adding Fixed Alias: Ankou => Ankous
+[Fresh Start] Adding Fixed Alias: Aviansies => Aviansie
+[Fresh Start] Adding Fixed Alias: Camel warriors => Camel Warrior
+[Fresh Start] Adding Fixed Alias: Cave slimes => Cave slime
+[Fresh Start] Adding Fixed Alias: Cockatrice => Cockatrices
+[Fresh Start] Removing Unused Index: Corrupted dust devils
+[Fresh Start] Removing Unused Index: Corrupted kalphites
+[Fresh Start] Removing Unused Index: Corrupted lizards
+[Fresh Start] Removing Unused Index: Corrupted scarabs
+[Fresh Start] Removing Unused Index: Corrupted scorpions
+[Fresh Start] Removing Unused Index: Corrupted worker
+[Fresh Start] Adding Fixed Alias: Creatures of the Lost Grove => Lost Grove creatures
+[Fresh Start] Adding Fixed Alias: Cres's creations => Automatons
+[Fresh Start] Removing Unused Index: Crocodile akh
+[Fresh Start] Removing Unused Index: Dwarves
+[Fresh Start] Removing Unused Index: Feline akh
+[Fresh Start] Adding Fixed Alias: Fleshcrawlers => Flesh Crawlers
+[Fresh Start] Adding Fixed Alias: Fungal magi => Fungal mages
+[Fresh Start] Adding Fixed Alias: Glacors => Glacor
+[Fresh Start] Adding Fixed Alias: Goraks => Gorak
+[Fresh Start] Removing Unused Index: Gorilla akh
+[Fresh Start] Removing Unused Index: Greater demon berserkers and ash lords
+[Fresh Start] Removing Unused Index: Imperial guard akh
+[Fresh Start] Adding Fixed Alias: Kal'gerion demons => Kal'gerion demon
+[Fresh Start] Adding Fixed Alias: Kalphite => Kalphites
+[Fresh Start] Adding Fixed Alias: Kurask => Kurasks
+[Fresh Start] Removing Unused Index: Monkeys
+[Fresh Start] Adding Fixed Alias: Nightmare creatures => Nightmare
+[Fresh Start] Removing Unused Index: Phantoms
+[Fresh Start] Removing Unused Index: Pigs
+[Fresh Start] Removing Unused Index: Polypore creatures
+[Fresh Start] Adding Fixed Alias: Ripper demons => Ripper Demon
+[Fresh Start] Adding Fixed Alias: Risen ghosts => Risen ghost
+[Fresh Start] Adding Fixed Alias: Rockslugs => Rock slugs
+[Fresh Start] Adding Fixed Alias: Rune dragons => Rune dragon
+[Fresh Start] Removing Unused Index: Salawa akh
+[Fresh Start] Removing Unused Index: Scarab akh
+[Fresh Start] Adding Fixed Alias: Soul devourers => Soul devourer
+[Fresh Start] Removing Unused Index: Spiritual rangers
+[Fresh Start] Adding Fixed Alias: Suqahs => Suqah
+[Fresh Start] Adding Fixed Alias: Tormented demons => Tormented demon
+[Fresh Start] Removing Unused Index: Volcanic creatures
+[Fresh Start] Removing Unused Index: Zarosian creatures
+[Fresh Start] Including Index as Alias: Corrupted dust devils => Corrupted creatures
+[Fresh Start] Including Index as Alias: Corrupted kalphites => Corrupted creatures
+[Fresh Start] Including Index as Alias: Corrupted lizards => Corrupted creatures
+[Fresh Start] Including Index as Alias: Corrupted scarabs => Corrupted creatures
+[Fresh Start] Including Index as Alias: Corrupted scorpions => Corrupted creatures
+[Fresh Start] Including Index as Alias: Corrupted worker => Corrupted creatures
+[Fresh Start] Including Index as Alias: Crocodile akh => Soul devourers
+[Fresh Start] Including Index as Alias: Feline akh => Soul devourers
+[Fresh Start] Including Index as Alias: Gorilla akh => Soul devourers
+[Fresh Start] Including Index as Alias: Imperial guard akh => Soul devourers
+[Fresh Start] Including Index as Alias: Salawa akh => Soul devourers
+[Fresh Start] Including Index as Alias: Scarab akh => Soul devourers
+[Fresh Start] Including Index as Alias: Volcanic creatures => TzHaar
+[Tasks] Extracting Database: database\wiki\Slayer_assignment.json
+[Tasks] Adding Missing Master: [1] Turael (https://runescape.wiki/w/Turael)
+[Tasks] Adding Missing Master: [2] Jacquelyn (https://runescape.wiki/w/Jacquelyn)
+[Tasks] Adding Missing Master: [3] Vannaka (https://runescape.wiki/w/Vannaka)
+[Tasks] Adding Missing Master: [4] The Raptor (https://runescape.wiki/w/The_Raptor)
+[Tasks] Adding Missing Master: [5] Mazchna (https://runescape.wiki/w/Mazchna)
+[Tasks] Adding Missing Master: [6] Chaeldar (https://runescape.wiki/w/Chaeldar)
+[Tasks] Adding Missing Master: [7] Sumona (https://runescape.wiki/w/Sumona)
+[Tasks] Adding Missing Master: [8] Duradel (https://runescape.wiki/w/Duradel)
+[Tasks] Adding Missing Master: [9] Kuradal (https://runescape.wiki/w/Kuradal)
+[Tasks] Adding Missing Master: [10] Morvran (https://runescape.wiki/w/Morvran)
+[Tasks] Adding Missing Master: [11] Laniakea (https://runescape.wiki/w/Laniakea)
+[Tasks] Adding Missing Master: [12] Mandrith (https://runescape.wiki/w/Mandrith)
+[Tasks] Updating Assignment: Aberrant spectres
+[Tasks] Updating Assignment: Abyssal beasts
+[Tasks] Updating Assignment: Abyssal demons
+[Tasks] Updating Assignment: Abyssal lords
+[Tasks] Updating Assignment: Abyssal savages
+[Tasks] Updating Assignment: Acheron mammoth
+[Tasks] Updating Assignment: Adamant dragons
+[Tasks] Updating Assignment: Airut
+[Tasks] Updating Assignment: Ankous
+[Tasks] Updating Assignment: Aquanites
+[Tasks] Updating Assignment: Armoured phantoms
+[Tasks] Updating Assignment: Ascension members
+[Tasks] Updating Assignment: Automatons
+[Tasks] Updating Assignment: Aviansie
+[Tasks] Updating Assignment: Banshees
+[Tasks] Updating Assignment: Basilisks
+[Tasks] Updating Assignment: Bats
+[Tasks] Updating Assignment: Bears
+[Tasks] Updating Assignment: Birds
+[Tasks] Updating Assignment: Black demons
+[Tasks] Updating Assignment: Black dragons
+[Tasks] Updating Assignment: Bloodveld
+[Tasks] Updating Assignment: Blue dragons
+[Tasks] Updating Assignment: Bound skeletons
+[Tasks] Updating Assignment: Brine rats
+[Tasks] Updating Assignment: Bronze dragons
+[Tasks] Updating Assignment: Camel Warrior
+[Tasks] Updating Assignment: Catablepon
+[Tasks] Updating Assignment: Cave bugs
+[Tasks] Updating Assignment: Cave crawlers
+[Tasks] Updating Assignment: Cave horrors
+[Tasks] Updating Assignment: Cave slime
+[Tasks] Updating Assignment: Celestial dragons
+[Tasks] Updating Assignment: Chaos Giants
+[Tasks] Updating Assignment: Cockatrices
+[Tasks] Updating Assignment: Cockroaches
+[Tasks] Updating Assignment: Corrupted creatures
+[Tasks] Updating Assignment: Cows
+[Tasks] Updating Assignment: Crawling hands
+[Tasks] Updating Assignment: Creatures of Daemonheim
+[Tasks] Updating Assignment: Crocodiles
+[Tasks] Updating Assignment: Crystal Shapeshifters
+[Tasks] Updating Assignment: Cyclopes
+[Tasks] Updating Assignment: Dagannoth
+[Tasks] Updating Assignment: Dark beasts
+[Tasks] Updating Assignment: Desert Lizards
+[Tasks] Updating Assignment: Desert Strykewyrms
+[Tasks] Updating Assignment: Demons
+[Tasks] Updating Assignment: Dinosaurs
+[Tasks] Updating Assignment: Dogs
+[Tasks] Updating Assignment: Dragons
+[Tasks] Updating Assignment: Dust devils
+[Tasks] Updating Assignment: Earth warriors
+[Tasks] Updating Assignment: Edimmu
+[Tasks] Updating Assignment: Elves
+[Tasks] Updating Assignment: Fetid zombies
+[Tasks] Updating Assignment: Fever spiders
+[Tasks] Updating Assignment: Fire giants
+[Tasks] Updating Assignment: Flesh Crawlers
+[Tasks] Updating Assignment: Frogs
+[Tasks] Updating Assignment: Fungal mages
+[Tasks] Updating Assignment: Ganodermic creatures
+[Tasks] Updating Assignment: Gargoyles
+[Tasks] Updating Assignment: Gelatinous abominations
+[Tasks] Updating Assignment: Gemstone dragons
+[Tasks] Updating Assignment: Ghosts
+[Tasks] Updating Assignment: Ghouls
+[Tasks] Updating Assignment: Glacor
+[Tasks] Updating Assignment: Goblins
+[Tasks] Updating Assignment: Gorak
+[Tasks] Updating Assignment: Greater demons
+[Tasks] Updating Assignment: Greater demon berserkers
+[Tasks] Updating Assignment: Greater demon ash lords
+[Tasks] Updating Assignment: Green dragons
+[Tasks] Updating Assignment: Grifolapines
+[Tasks] Updating Assignment: Grifolaroos
+[Tasks] Updating Assignment: Grotworms
+[Tasks] Updating Assignment: Harpie Bug Swarms
+[Tasks] Updating Assignment: Hellhounds
+[Tasks] Updating Assignment: Hill Giants
+[Tasks] Updating Assignment: Hobgoblins
+[Tasks] Updating Assignment: Hydrix dragons
+[Tasks] Updating Assignment: Icefiends
+[Tasks] Updating Assignment: Ice giants
+[Tasks] Updating Assignment: Ice strykewyrms
+[Tasks] Updating Assignment: Ice warriors
+[Tasks] Updating Assignment: Infernal Mages
+[Tasks] Updating Assignment: Iron dragons
+[Tasks] Updating Assignment: Jellies
+[Tasks] Updating Assignment: Jungle horrors
+[Tasks] Updating Assignment: Jungle strykewyrms
+[Tasks] Updating Assignment: Kal'gerion demon
+[Tasks] Updating Assignment: Kalphites
+[Tasks] Updating Assignment: Killerwatts
+[Tasks] Updating Assignment: Kurasks
+[Tasks] Updating Assignment: Lava strykewyrms
+[Tasks] Updating Assignment: Lesser demons
+[Tasks] Updating Assignment: Living rock creatures
+[Tasks] Updating Assignment: Living Wyverns
+[Tasks] Updating Assignment: Lost Grove creatures
+[Tasks] Updating Assignment: Mithril dragons
+[Tasks] Updating Assignment: Minotaurs
+[Tasks] Updating Assignment: Mogres
+[Tasks] Updating Assignment: Molanisks
+[Tasks] Updating Assignment: Moss giants
+[Tasks] Updating Assignment: Muspah
+[Tasks] Updating Assignment: Mutated jadinkos
+[Tasks] Updating Assignment: Mutated zygomites
+[Tasks] Updating Assignment: Nechryael
+[Tasks] Updating Assignment: Nightmare
+[Tasks] Updating Assignment: Nihil
+[Tasks] Updating Assignment: Nodon dragonkin
+[Tasks] Updating Assignment: Ogres
+[Tasks] Updating Assignment: Onyx dragons
+[Tasks] Updating Assignment: Otherworldly beings
+[Tasks] Updating Assignment: Pyrefiends
+[Tasks] Updating Assignment: Rats
+[Tasks] Updating Assignment: Red dragons
+[Tasks] Updating Assignment: Revenants
+[Tasks] Updating Assignment: Ripper Demon
+[Tasks] Updating Assignment: Risen ghost
+[Tasks] Updating Assignment: Rock slugs
+[Tasks] Updating Assignment: Rune dragon
+[Tasks] Updating Assignment: Scabarites
+[Tasks] Updating Assignment: Scorpions
+[Tasks] Updating Assignment: Sea snakes
+[Tasks] Updating Assignment: Shades
+[Tasks] Updating Assignment: Shadow creatures
+[Tasks] Updating Assignment: Shadow warriors
+[Tasks] Updating Assignment: Skeletal Wyverns
+[Tasks] Updating Assignment: Skeletons
+[Tasks] Updating Assignment: Soul devourer
+[Tasks] Updating Assignment: Soulgazers
+[Tasks] Updating Assignment: Spiders
+[Tasks] Updating Assignment: Spiritual mages
+[Tasks] Updating Assignment: Spiritual warriors
+[Tasks] Updating Assignment: Stalker creatures
+[Tasks] Updating Assignment: Steel dragons
+[Tasks] Updating Assignment: Strykewyrms
+[Tasks] Updating Assignment: Suqah
+[Tasks] Updating Assignment: Terror dogs
+[Tasks] Updating Assignment: Tormented demon
+[Tasks] Updating Assignment: Trolls
+[Tasks] Updating Assignment: Turoth
+[Tasks] Updating Assignment: TzHaar
+[Tasks] Updating Assignment: Undead
+[Tasks] Updating Assignment: Vampyres
+[Tasks] Updating Assignment: Vile blooms
+[Tasks] Updating Assignment: Vyrewatch
+[Tasks] Updating Assignment: Wall beasts
+[Tasks] Updating Assignment: Warped terrorbirds
+[Tasks] Updating Assignment: Warped tortoises
+[Tasks] Updating Assignment: Waterfiends
+[Tasks] Updating Assignment: Werewolves
+[Tasks] Updating Assignment: Wolves
+[Tasks] Updating Assignment: Zemouregal's undead
+[Tasks] Updating Assignment: Zombies
+[Assignment] Extracting Assignment: database\wiki\assignments\Aberrant spectres.json
+[Assignment] Adding Missing Creature: Aberrant spectre
+[Assignment] Extracting Assignment: database\wiki\assignments\Abyssal Demons.json
+[Assignment] Adding Missing Creature: Abyssal beast
+[Assignment] Adding Missing Creature: Abyssal demon
+[Assignment] Adding Missing Creature: Abyssal demon (elite)
+[Assignment] Adding Missing Creature: Abyssal lord
+[Assignment] Adding Missing Creature: Abyssal savage
+[Assignment] Extracting Assignment: database\wiki\assignments\Abyssal beasts.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Abyssal lords.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Abyssal savages.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Acheron mammoths.json
+[Assignment] Adding Missing Creature: Acheron mammoth
+[Assignment] Extracting Assignment: database\wiki\assignments\Adamant dragons.json
+[Assignment] Adding Missing Creature: Adamant dragon
+[Assignment] Extracting Assignment: database\wiki\assignments\Airut.json
+[Assignment] Adding Missing Creature: Airut
+[Assignment] Extracting Assignment: database\wiki\assignments\Ankou.json
+[Assignment] Adding Missing Creature: Ankou
+[Assignment] Adding Missing Creature: Ankou (Kili's Knowledge IV)
+[Assignment] Adding Missing Creature: Ankou (elite)
+[Assignment] Extracting Assignment: database\wiki\assignments\Aquanites.json
+[Assignment] Adding Missing Creature: Aquanite
+[Assignment] Adding Missing Creature: Aquanite (elite)
+[Assignment] Extracting Assignment: database\wiki\assignments\Armoured phantoms.json
+[Assignment] Adding Missing Creature: Armoured phantom
+[Assignment] Extracting Assignment: database\wiki\assignments\Ascension members.json
+[Assignment] Adding Missing Creature: Capsarius
+[Assignment] Adding Missing Creature: Gladius
+[Assignment] Adding Missing Creature: Legio Primus
+[Assignment] Adding Missing Creature: Legio Quartus
+[Assignment] Adding Missing Creature: Legio Quintus
+[Assignment] Adding Missing Creature: Legio Secundus
+[Assignment] Adding Missing Creature: Legio Sextus
+[Assignment] Adding Missing Creature: Legio Tertius
+[Assignment] Adding Missing Creature: Rorarius
+[Assignment] Adding Missing Creature: Scutarius
+[Assignment] Extracting Assignment: database\wiki\assignments\Aviansies.json
+[Assignment] Adding Missing Creature: Aviansie
+[Assignment] Adding Missing Creature: Flight Kilisa
+[Assignment] Adding Missing Creature: Flockleader Geerin
+[Assignment] Adding Missing Creature: Kree'arra
+[Assignment] Adding Missing Creature: Spiritual mage
+[Assignment] Adding Missing Creature: Spiritual ranger
+[Assignment] Adding Missing Creature: Spiritual warrior
+[Assignment] Adding Missing Creature: Wingman Skree
+[Assignment] Extracting Assignment: database\wiki\assignments\Banshees.json
+[Assignment] Adding Missing Creature: Banshee
+[Assignment] Adding Missing Creature: Mighty banshee
+[Assignment] Extracting Assignment: database\wiki\assignments\Basilisks.json
+[Assignment] Adding Missing Creature: Basilisk
+[Assignment] Extracting Assignment: database\wiki\assignments\Bats.json
+[Assignment] Adding Missing Creature: Albino bat
+[Assignment] Adding Missing Creature: Bat
+[Assignment] Adding Missing Creature: Giant bat
+[Assignment] Adding Missing Creature: Warped bat
+[Assignment] Extracting Assignment: database\wiki\assignments\Bears.json
+[Assignment] Adding Missing Creature: Angry bear
+[Assignment] Adding Missing Creature: Bear cub
+[Assignment] Adding Missing Creature: Black bear
+[Assignment] Adding Missing Creature: Grizzly bear
+[Assignment] Adding Missing Creature: Grizzly bear cub
+[Assignment] Extracting Assignment: database\wiki\assignments\Birds.json
+[Assignment] Adding Missing Creature: Bird
+[Assignment] Adding Missing Creature: Chicken
+[Assignment] Adding Missing Creature: Chompy bird
+[Assignment] Adding Missing Creature: Duck
+[Assignment] Adding Missing Creature: Duckling
+[Assignment] Adding Missing Creature: Jubbly bird
+[Assignment] Adding Missing Creature: Mounted terrorbird gnome
+[Assignment] Adding Missing Creature: Oomlie bird
+[Assignment] Adding Missing Creature: Pekin
+[Assignment] Adding Missing Creature: Penguin (monster)
+[Assignment] Adding Missing Creature: Pernicious parrot
+[Assignment] Adding Missing Creature: Rooster
+[Assignment] Adding Missing Creature: Seagull
+[Assignment] Adding Missing Creature: Tenacious toucan
+[Assignment] Adding Missing Creature: Terrorbird
+[Assignment] Adding Missing Creature: Undead chicken
+[Assignment] Adding Missing Creature: Undead pekin
+[Assignment] Extracting Assignment: database\wiki\assignments\Black demons.json
+[Assignment] Adding Missing Creature: Balfrug Kreeyath
+[Assignment] Adding Missing Creature: Black demon
+[Assignment] Extracting Assignment: database\wiki\assignments\Black dragons.json
+[Assignment] Adding Missing Creature: Alanogard the Black
+[Assignment] Adding Missing Creature: Baby black dragon
+[Assignment] Adding Missing Creature: Black dragon
+[Assignment] Adding Missing Creature: Black dragon (Dragonkin Laboratory)
+[Assignment] Adding Missing Creature: King Black Dragon
+[Assignment] Adding Missing Creature: Queen Black Dragon
+[Assignment] Adding Missing Creature: Verak Lith
+[Assignment] Adding Missing Creature: Verak Little
+[Assignment] Extracting Assignment: database\wiki\assignments\Bloodveld.json
+[Assignment] Adding Missing Creature: Bloodveld
+[Assignment] Adding Missing Creature: Bloodveld (God Wars Dungeon)
+[Assignment] Adding Missing Creature: Bloodveld (Heart of Gielinor)
+[Assignment] Adding Missing Creature: Mutated bloodveld
+[Assignment] Extracting Assignment: database\wiki\assignments\Blue dragons.json
+[Assignment] Adding Missing Creature: Baby blue dragon
+[Assignment] Adding Missing Creature: Blue dragon
+[Assignment] Adding Missing Creature: Vorkath
+[Assignment] Extracting Assignment: database\wiki\assignments\Bound skeletons.json
+[Assignment] Adding Missing Creature: Bound skeleton
+[Assignment] Extracting Assignment: database\wiki\assignments\Brine rats.json
+[Assignment] Adding Missing Creature: Brine rat
+[Assignment] Extracting Assignment: database\wiki\assignments\Bronze dragons.json
+[Assignment] Adding Missing Creature: Bronze dragon
+[Assignment] Extracting Assignment: database\wiki\assignments\Camel warriors.json
+[Assignment] Adding Missing Creature: Camel Warrior
+[Assignment] Extracting Assignment: database\wiki\assignments\Catablepon.json
+[Assignment] Adding Missing Creature: Catablepon
+[Assignment] Extracting Assignment: database\wiki\assignments\Cave bugs.json
+[Assignment] Adding Missing Creature: Cave bug
+[Assignment] Extracting Assignment: database\wiki\assignments\Cave crawlers.json
+[Assignment] Adding Missing Creature: Cave crawler
+[Assignment] Extracting Assignment: database\wiki\assignments\Cave horrors.json
+[Assignment] Adding Missing Creature: Cave horror
+[Assignment] Adding Missing Creature: Cave horror (elite)
+[Assignment] Adding Missing Creature: Unspeakable horror
+[Assignment] Adding Missing Creature: Unspeakable horror (elite)
+[Assignment] Extracting Assignment: database\wiki\assignments\Cave slimes.json
+[Assignment] Adding Missing Creature: Cave slime
+[Assignment] Adding Missing Creature: Giant slime
+[Assignment] Adding Missing Creature: Laboratory slime
+[Assignment] Extracting Assignment: database\wiki\assignments\Celestial dragons.json
+[Assignment] Adding Missing Creature: Astellarn
+[Assignment] Adding Missing Creature: Celestial dragon
+[Assignment] Adding Missing Creature: Celestial dragon (Dragonkin Laboratory)
+[Assignment] Adding Missing Creature: Elegorn the Celestial
+[Assignment] Extracting Assignment: database\wiki\assignments\Chaos giants.json
+[Assignment] Adding Missing Creature: Chaos Giant
+[Assignment] Extracting Assignment: database\wiki\assignments\Cockatrice.json
+[Assignment] Adding Missing Creature: Cockatrice
+[Assignment] Extracting Assignment: database\wiki\assignments\Cockroaches.json
+[Assignment] Adding Missing Creature: Cockroach drone
+[Assignment] Adding Missing Creature: Cockroach soldier
+[Assignment] Adding Missing Creature: Cockroach worker
+[Assignment] Adding Missing Creature: Warped cockroach
+[Assignment] Extracting Assignment: database\wiki\assignments\Corrupted creatures.json
+[Assignment] Adding Missing Creature: Corrupted dust devil
+[Assignment] Adding Missing Creature: Corrupted kalphite guardian
+[Assignment] Adding Missing Creature: Corrupted kalphite marauder
+[Assignment] Adding Missing Creature: Corrupted lizard
+[Assignment] Adding Missing Creature: Corrupted scarab
+[Assignment] Adding Missing Creature: Corrupted scorpion
+[Assignment] Adding Missing Creature: Corrupted worker
+[Assignment] Extracting Assignment: database\wiki\assignments\Cows.json
+[Assignment] Adding Missing Creature: Cow
+[Assignment] Adding Missing Creature: Cow calf
+[Assignment] Adding Missing Creature: Super Cow
+[Assignment] Adding Missing Creature: Undead cow
+[Assignment] Extracting Assignment: database\wiki\assignments\Crawling hands.json
+[Assignment] Adding Missing Creature: Crawling hand
+[Assignment] Adding Missing Creature: Skeletal hand
+[Assignment] Adding Missing Creature: Zombie hand
+[Assignment] Extracting Assignment: database\wiki\assignments\Creatures of Daemonheim.json
+[Assignment] Adding Missing Creature: Edimmu
+[Assignment] Adding Missing Creature: Edimmu (elite)
+[Assignment] Adding Missing Creature: Frost dragon
+[Assignment] Adding Missing Creature: Kal'gerion demon
+[Assignment] Adding Missing Creature: Seeker
+[Assignment] Adding Missing Creature: Soulgazer
+[Assignment] Extracting Assignment: database\wiki\assignments\Creatures of the Lost Grove.json
+[Assignment] Adding Missing Creature: Bulbous crawler
+[Assignment] Adding Missing Creature: Moss golem
+[Assignment] Adding Missing Creature: Vinecrawler
+[Assignment] Extracting Assignment: database\wiki\assignments\Cres's creations.json
+[Assignment] Adding Missing Creature: Automaton Generator
+[Assignment] Adding Missing Creature: Automaton Guardian
+[Assignment] Adding Missing Creature: Automaton Tracer
+[Assignment] Extracting Assignment: database\wiki\assignments\Crocodiles.json
+[Assignment] Adding Missing Creature: Crocodile
+[Assignment] Adding Missing Creature: Crocodile akh
+[Assignment] Adding Missing Creature: Ol' Sawtooth
+[Assignment] Adding Missing Creature: Sea crocodile
+[Assignment] Extracting Assignment: database\wiki\assignments\Crystal shapeshifters.json
+[Assignment] Adding Missing Creature: Crystal Shapeshifter
+[Assignment] Extracting Assignment: database\wiki\assignments\Cyclopes.json
+[Assignment] Adding Missing Creature: Cyclops
+[Assignment] Adding Missing Creature: Cyclossus
+[Assignment] Extracting Assignment: database\wiki\assignments\Dagannoth.json
+[Assignment] Adding Missing Creature: Dagannoth (Lighthouse)
+[Assignment] Adding Missing Creature: Dagannoth (Waterbirth Island)
+[Assignment] Adding Missing Creature: Dagannoth (Waterbirth Island, ranged)
+[Assignment] Adding Missing Creature: Dagannoth Prime
+[Assignment] Adding Missing Creature: Dagannoth Rex
+[Assignment] Adding Missing Creature: Dagannoth Supreme
+[Assignment] Adding Missing Creature: Dagannoth fledgeling
+[Assignment] Adding Missing Creature: Dagannoth guardian
+[Assignment] Adding Missing Creature: Dagannoth spawn
+[Assignment] Extracting Assignment: database\wiki\assignments\Dark beasts.json
+[Assignment] Adding Missing Creature: Dark beast
+[Assignment] Adding Missing Creature: Dark beast (elite)
+[Assignment] Adding Missing Creature: Revenant dark beast
+[Assignment] Extracting Assignment: database\wiki\assignments\Demons.json
+[Assignment] Adding Missing Creature: Cerberus Juvenile
+[Assignment] Adding Missing Creature: Gargoyle
+[Assignment] Adding Missing Creature: Greater demon
+[Assignment] Adding Missing Creature: Greater demon ash lord
+[Assignment] Adding Missing Creature: Greater demon berserker
+[Assignment] Adding Missing Creature: Greater demon brute
+[Assignment] Adding Missing Creature: Greater demon pyromancer
+[Assignment] Adding Missing Creature: Greater demon sage
+[Assignment] Adding Missing Creature: Greater demon savage
+[Assignment] Adding Missing Creature: Imp
+[Assignment] Adding Missing Creature: Imp scavenger
+[Assignment] Adding Missing Creature: K'ril Tsutsaroth
+[Assignment] Adding Missing Creature: Kal'gerion demon (The Shadow Reef)
+[Assignment] Adding Missing Creature: Lesser demon
+[Assignment] Adding Missing Creature: Revenant demon
+[Assignment] Adding Missing Creature: Ripper Demon
+[Assignment] Adding Missing Creature: Tormented demon
+[Assignment] Adding Missing Creature: Tstanon Karlak
+[Assignment] Adding Missing Creature: Yor'Ger the Deceiver
+[Assignment] Adding Missing Creature: Zakl'n Gritch
+[Assignment] Extracting Assignment: database\wiki\assignments\Desert lizards.json
+[Assignment] Adding Missing Creature: Desert Lizard
+[Assignment] Adding Missing Creature: Lizard
+[Assignment] Adding Missing Creature: Small Lizard
+[Assignment] Extracting Assignment: database\wiki\assignments\Desert strykewyrms.json
+[Assignment] Adding Missing Creature: Desert strykewyrm
+[Assignment] Extracting Assignment: database\wiki\assignments\Dinosaurs.json
+[Assignment] Adding Missing Creature: Baby Dinosaur Skeleton
+[Assignment] Adding Missing Creature: Brutish dinosaur
+[Assignment] Adding Missing Creature: Feral Dinosaur
+[Assignment] Adding Missing Creature: Orikalka
+[Assignment] Adding Missing Creature: Osseous
+[Assignment] Adding Missing Creature: Pthentraken
+[Assignment] Adding Missing Creature: Rathis
+[Assignment] Adding Missing Creature: Ripper dinosaur
+[Assignment] Adding Missing Creature: Venomous dinosaur
+[Assignment] Extracting Assignment: database\wiki\assignments\Dogs.json
+[Assignment] Adding Missing Creature: Guard dog
+[Assignment] Adding Missing Creature: Jackal
+[Assignment] Adding Missing Creature: Shadow Hound
+[Assignment] Adding Missing Creature: Wild dog
+[Assignment] Extracting Assignment: database\wiki\assignments\Dragons.json
+[Assignment] Adding Missing Creature: Baby red dragon
+[Assignment] Adding Missing Creature: Black stone dragon
+[Assignment] Adding Missing Creature: Brutal green dragon
+[Assignment] Adding Missing Creature: Dragonstone dragon
+[Assignment] Adding Missing Creature: Dragonstone dragon (Dragonkin Laboratory)
+[Assignment] Adding Missing Creature: Green dragon
+[Assignment] Adding Missing Creature: Hydrix dragon
+[Assignment] Adding Missing Creature: Hydrix dragon (Dragonkin Laboratory)
+[Assignment] Adding Missing Creature: Iron dragon
+[Assignment] Adding Missing Creature: Mithril dragon
+[Assignment] Adding Missing Creature: Nodon artificer
+[Assignment] Adding Missing Creature: Nodon engineer
+[Assignment] Adding Missing Creature: Nodon guard
+[Assignment] Adding Missing Creature: Nodon hunter
+[Assignment] Adding Missing Creature: Onyx dragon
+[Assignment] Adding Missing Creature: Onyx dragon (Dragonkin Laboratory)
+[Assignment] Adding Missing Creature: Red dragon
+[Assignment] Adding Missing Creature: Red dragon (Dragonkin Laboratory)
+[Assignment] Adding Missing Creature: Rune dragon
+[Assignment] Adding Missing Creature: Sangri the Red
+[Assignment] Adding Missing Creature: Siege engine
+[Assignment] Adding Missing Creature: Steel dragon
+[Assignment] Extracting Assignment: database\wiki\assignments\Dust devils.json
+[Assignment] Adding Missing Creature: Dust devil
+[Assignment] Adding Missing Creature: Dust devil (elite)
+[Assignment] Extracting Assignment: database\wiki\assignments\Earth warriors.json
+[Assignment] Adding Missing Creature: Earth warrior
+[Assignment] Adding Missing Creature: Earth warrior (elite)
+[Assignment] Extracting Assignment: database\wiki\assignments\Edimmu.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Elves.json
+[Assignment] Adding Missing Creature: Cadarn magus
+[Assignment] Adding Missing Creature: Cadarn ranger
+[Assignment] Adding Missing Creature: Elf warrior
+[Assignment] Adding Missing Creature: Iorwerth guard
+[Assignment] Adding Missing Creature: Iorwerth scout
+[Assignment] Adding Missing Creature: Knight of Ardougne (West Ardougne)
+[Assignment] Adding Missing Creature: Mourner (Mourner Tunnels)
+[Assignment] Adding Missing Creature: Seren archer
+[Assignment] Adding Missing Creature: Seren mage
+[Assignment] Adding Missing Creature: Seren warrior
+[Assignment] Extracting Assignment: database\wiki\assignments\Fetid zombies.json
+[Assignment] Adding Missing Creature: Fetid zombie
+[Assignment] Extracting Assignment: database\wiki\assignments\Fever spiders.json
+[Assignment] Adding Missing Creature: Fever spider
+[Assignment] Extracting Assignment: database\wiki\assignments\Fire giants.json
+[Assignment] Adding Missing Creature: Fire giant
+[Assignment] Extracting Assignment: database\wiki\assignments\Fleshcrawlers.json
+[Assignment] Adding Missing Creature: Flesh Crawler
+[Assignment] Extracting Assignment: database\wiki\assignments\Frogs.json
+[Assignment] Adding Missing Creature: Big frog
+[Assignment] Adding Missing Creature: Frog
+[Assignment] Adding Missing Creature: Frogeel
+[Assignment] Adding Missing Creature: Giant frog
+[Assignment] Adding Missing Creature: Plague frog
+[Assignment] Adding Missing Creature: Swamp frog
+[Assignment] Extracting Assignment: database\wiki\assignments\Fungal magi.json
+[Assignment] Adding Missing Creature: Fungal mage
+[Assignment] Extracting Assignment: database\wiki\assignments\Ganodermic creatures.json
+[Assignment] Adding Missing Creature: Ganodermic beast
+[Assignment] Adding Missing Creature: Ganodermic runt
+[Assignment] Extracting Assignment: database\wiki\assignments\Gargoyles.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Gelatinous abominations.json
+[Assignment] Adding Missing Creature: Gelatinous abomination
+[Assignment] Extracting Assignment: database\wiki\assignments\Gemstone dragons.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Ghosts.json
+[Assignment] Adding Missing Creature: Ahrim the Blighted
+[Assignment] Adding Missing Creature: Akrisae the Doomed
+[Assignment] Adding Missing Creature: Dharok the Wretched
+[Assignment] Adding Missing Creature: Ghast
+[Assignment] Adding Missing Creature: Ghost
+[Assignment] Adding Missing Creature: Ghost (Abandoned Mine)
+[Assignment] Adding Missing Creature: Ghost (Ourania Runecrafting Altar)
+[Assignment] Adding Missing Creature: Ghost (Shattered Worlds)
+[Assignment] Adding Missing Creature: Ghost (Spirit of Summer)
+[Assignment] Adding Missing Creature: Ghost (Stronghold of Security)
+[Assignment] Adding Missing Creature: Ghost healer
+[Assignment] Adding Missing Creature: Ghostly troll bruiser
+[Assignment] Adding Missing Creature: Ghostly troll thrower
+[Assignment] Adding Missing Creature: Ghostly warrior
+[Assignment] Adding Missing Creature: Guthan the Infested
+[Assignment] Adding Missing Creature: Karil the Tainted
+[Assignment] Adding Missing Creature: Linza the Disgraced
+[Assignment] Adding Missing Creature: Masuta the Descended
+[Assignment] Adding Missing Creature: Revenant cyclops
+[Assignment] Adding Missing Creature: Revenant dragon
+[Assignment] Adding Missing Creature: Revenant goblin
+[Assignment] Adding Missing Creature: Revenant hellhound
+[Assignment] Adding Missing Creature: Revenant hobgoblin
+[Assignment] Adding Missing Creature: Revenant icefiend
+[Assignment] Adding Missing Creature: Revenant imp
+[Assignment] Adding Missing Creature: Revenant knight
+[Assignment] Adding Missing Creature: Revenant ork
+[Assignment] Adding Missing Creature: Revenant pyrefiend
+[Assignment] Adding Missing Creature: Revenant vampyre
+[Assignment] Adding Missing Creature: Revenant werewolf
+[Assignment] Adding Missing Creature: Risen ghost
+[Assignment] Adding Missing Creature: Shade
+[Assignment] Adding Missing Creature: Shadow warrior
+[Assignment] Adding Missing Creature: Torag the Corrupted
+[Assignment] Adding Missing Creature: Tormented soul (Uncharted Isles)
+[Assignment] Adding Missing Creature: Tormented wraith
+[Assignment] Adding Missing Creature: Tortured soul (Port Phasmatys)
+[Assignment] Adding Missing Creature: Verac the Defiled
+[Assignment] Adding Missing Creature: Wight
+[Assignment] Adding Missing Creature: Wight (Missing, Presumed Death)
+[Assignment] Adding Missing Creature: Wight ranger
+[Assignment] Adding Missing Creature: Wight ranger (Sliske's Endgame)
+[Assignment] Extracting Assignment: database\wiki\assignments\Ghouls.json
+[Assignment] Adding Missing Creature: Ghoul
+[Assignment] Adding Missing Creature: Ghoul (Paterdomus)
+[Assignment] Adding Missing Creature: Ravenous ghoul
+[Assignment] Adding Missing Creature: Ravenous ghoul (Mazchna)
+[Assignment] Extracting Assignment: database\wiki\assignments\Glacors.json
+[Assignment] Adding Missing Creature: Arch-Glacor
+[Assignment] Adding Missing Creature: Bolstered Glacyte
+[Assignment] Adding Missing Creature: Enduring glacyte
+[Assignment] Adding Missing Creature: Glacor
+[Assignment] Adding Missing Creature: Glacyte
+[Assignment] Adding Missing Creature: Glacyte (Arch-Glacor)
+[Assignment] Adding Missing Creature: Sapping glacyte
+[Assignment] Adding Missing Creature: Unstable glacyte
+[Assignment] Extracting Assignment: database\wiki\assignments\Goblins.json
+[Assignment] Adding Missing Creature: Angry goblin
+[Assignment] Adding Missing Creature: Brokeface
+[Assignment] Adding Missing Creature: Cave goblin (monster)
+[Assignment] Adding Missing Creature: Cave goblin guard
+[Assignment] Adding Missing Creature: Cave goblin miner
+[Assignment] Adding Missing Creature: Goblin
+[Assignment] Adding Missing Creature: Goblin (Goblin Village)
+[Assignment] Adding Missing Creature: Goblin (God Wars Dungeon)
+[Assignment] Adding Missing Creature: Goblin (Stronghold of Security)
+[Assignment] Adding Missing Creature: Guard (cave goblin)
+[Assignment] Adding Missing Creature: Lumpnose
+[Assignment] Adding Missing Creature: Sergeant Grimspike
+[Assignment] Adding Missing Creature: Sergeant Steelwill
+[Assignment] Adding Missing Creature: Sergeant Strongstack
+[Assignment] Adding Missing Creature: Skoblin
+[Assignment] Adding Missing Creature: Stinkears
+[Assignment] Extracting Assignment: database\wiki\assignments\Goraks.json
+[Assignment] Adding Missing Creature: Gorak
+[Assignment] Extracting Assignment: database\wiki\assignments\Greater demons.json
+[Assignment] Adding Missing Creature: Butcher demon
+[Assignment] Adding Missing Creature: Champion of Infernus
+[Assignment] Adding Missing Creature: Chaos Demon
+[Assignment] Adding Missing Creature: Chaos Demon Savage
+[Assignment] Adding Missing Creature: Denizen of Infernus
+[Assignment] Adding Missing Creature: Greater demon (elite)
+[Assignment] Adding Missing Creature: Kor'Vath the Blightbringer
+[Assignment] Adding Missing Creature: La'Kalor the Unbroken
+[Assignment] Adding Missing Creature: Shara'Kor the Widowmaker
+[Assignment] Extracting Assignment: database\wiki\assignments\Green dragons.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Grifolapines.json
+[Assignment] Adding Missing Creature: Grifolapine
+[Assignment] Extracting Assignment: database\wiki\assignments\Grifolaroos.json
+[Assignment] Adding Missing Creature: Grifolaroo
+[Assignment] Extracting Assignment: database\wiki\assignments\Grotworms.json
+[Assignment] Adding Missing Creature: Giant worm
+[Assignment] Adding Missing Creature: Grotworm
+[Assignment] Adding Missing Creature: Mature grotworm
+[Assignment] Adding Missing Creature: Young grotworm
+[Assignment] Extracting Assignment: database\wiki\assignments\Harpie bug swarms.json
+[Assignment] Adding Missing Creature: Harpie Bug Swarm
+[Assignment] Adding Missing Creature: Harpie Bug Swarm (elite)
+[Assignment] Extracting Assignment: database\wiki\assignments\Hellhounds.json
+[Assignment] Adding Missing Creature: Hellhound
+[Assignment] Adding Missing Creature: Hellhound (Heart of Gielinor)
+[Assignment] Adding Missing Creature: Hellhound (The Zamorakian Undercity)
+[Assignment] Adding Missing Creature: Hellhound (summoned)
+[Assignment] Adding Missing Creature: Hellhound Alpha
+[Assignment] Adding Missing Creature: Hellhound Hunter
+[Assignment] Adding Missing Creature: Hellhound Hunter (summoned)
+[Assignment] Extracting Assignment: database\wiki\assignments\Hill giants.json
+[Assignment] Adding Missing Creature: Hill Giant
+[Assignment] Extracting Assignment: database\wiki\assignments\Hobgoblins.json
+[Assignment] Adding Missing Creature: Hobgoblin
+[Assignment] Adding Missing Creature: Hobgoblin (elite)
+[Assignment] Extracting Assignment: database\wiki\assignments\Hydrix dragons.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Ice giants.json
+[Assignment] Adding Missing Creature: Ice giant
+[Assignment] Extracting Assignment: database\wiki\assignments\Ice strykewyrms.json
+[Assignment] Adding Missing Creature: Ice strykewyrm
+[Assignment] Extracting Assignment: database\wiki\assignments\Ice warriors.json
+[Assignment] Adding Missing Creature: Ice warrior
+[Assignment] Adding Missing Creature: Icelord
+[Assignment] Extracting Assignment: database\wiki\assignments\Icefiends.json
+[Assignment] Adding Missing Creature: Icefiend
+[Assignment] Adding Missing Creature: Icefiend (Ghorrock)
+[Assignment] Extracting Assignment: database\wiki\assignments\Infernal mages.json
+[Assignment] Adding Missing Creature: Infernal Mage
+[Assignment] Adding Missing Creature: Infernal Mage (elite)
+[Assignment] Extracting Assignment: database\wiki\assignments\Iron dragons.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Jellies.json
+[Assignment] Adding Missing Creature: Jelly
+[Assignment] Extracting Assignment: database\wiki\assignments\Jungle horrors.json
+[Assignment] Adding Missing Creature: Jungle horror
+[Assignment] Adding Missing Creature: Quetzathog
+[Assignment] Adding Missing Creature: Sea horror
+[Assignment] Extracting Assignment: database\wiki\assignments\Jungle strykewyrms.json
+[Assignment] Adding Missing Creature: Jungle strykewyrm
+[Assignment] Extracting Assignment: database\wiki\assignments\Kal'gerion demons.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Kalphite.json
+[Assignment] Adding Missing Creature: Exiled Kalphite Queen
+[Assignment] Adding Missing Creature: Exiled kalphite guardian
+[Assignment] Adding Missing Creature: Exiled kalphite marauder
+[Assignment] Adding Missing Creature: Exiled kalphite paragon
+[Assignment] Adding Missing Creature: Exiled kalphite soldier
+[Assignment] Adding Missing Creature: Exiled kalphite worker
+[Assignment] Adding Missing Creature: Kalphite Guardian
+[Assignment] Adding Missing Creature: Kalphite King
+[Assignment] Adding Missing Creature: Kalphite Queen
+[Assignment] Adding Missing Creature: Kalphite Soldier
+[Assignment] Adding Missing Creature: Kalphite Worker
+[Assignment] Extracting Assignment: database\wiki\assignments\Killerwatts.json
+[Assignment] Adding Missing Creature: Killerwatt
+[Assignment] Extracting Assignment: database\wiki\assignments\Kurask.json
+[Assignment] Adding Missing Creature: Kurask
+[Assignment] Extracting Assignment: database\wiki\assignments\Lava strykewyrms.json
+[Assignment] Adding Missing Creature: Engorged lava strykewyrm
+[Assignment] Adding Missing Creature: Lava strykewyrm
+[Assignment] Adding Missing Creature: Lava strykewyrm (Dragonkin Laboratory)
+[Assignment] Adding Missing Creature: WildyWyrm (2015, historical)
+[Assignment] Extracting Assignment: database\wiki\assignments\Lesser demons.json
+[Assignment] Adding Missing Creature: Lesser demon (Wizards' Tower)
+[Assignment] Extracting Assignment: database\wiki\assignments\Living rock creatures.json
+[Assignment] Adding Missing Creature: Living rock patriarch
+[Assignment] Adding Missing Creature: Living rock protector
+[Assignment] Adding Missing Creature: Living rock striker
+[Assignment] Extracting Assignment: database\wiki\assignments\Living wyverns.json
+[Assignment] Adding Missing Creature: Wyvern
+[Assignment] Adding Missing Creature: Wyvern (elite)
+[Assignment] Extracting Assignment: database\wiki\assignments\Minotaurs.json
+[Assignment] Adding Missing Creature: Minotaur
+[Assignment] Extracting Assignment: database\wiki\assignments\Mithril dragons.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Mogres.json
+[Assignment] Adding Missing Creature: Mogre
+[Assignment] Extracting Assignment: database\wiki\assignments\Molanisks.json
+[Assignment] Adding Missing Creature: Molanisk
+[Assignment] Extracting Assignment: database\wiki\assignments\Moss giants.json
+[Assignment] Adding Missing Creature: Moss giant
+[Assignment] Extracting Assignment: database\wiki\assignments\Muspah.json
+[Assignment] Adding Missing Creature: Bladed muspah
+[Assignment] Adding Missing Creature: Force muspah
+[Assignment] Adding Missing Creature: Throwing muspah
+[Assignment] Extracting Assignment: database\wiki\assignments\Mutated jadinkos.json
+[Assignment] Adding Missing Creature: Mutated jadinko baby
+[Assignment] Adding Missing Creature: Mutated jadinko guard
+[Assignment] Adding Missing Creature: Mutated jadinko male
+[Assignment] Extracting Assignment: database\wiki\assignments\Mutated zygomites.json
+[Assignment] Adding Missing Creature: Mutated zygomite
+[Assignment] Extracting Assignment: database\wiki\assignments\Nechryael.json
+[Assignment] Adding Missing Creature: Nechryael
+[Assignment] Adding Missing Creature: Nechryael (Heart of Gielinor)
+[Assignment] Adding Missing Creature: Nechryael (elite)
+[Assignment] Extracting Assignment: database\wiki\assignments\Nightmare creatures.json
+[Assignment] Adding Missing Creature: Nightmare
+[Assignment] Extracting Assignment: database\wiki\assignments\Nihil.json
+[Assignment] Adding Missing Creature: Blood nihil
+[Assignment] Adding Missing Creature: Ice nihil
+[Assignment] Adding Missing Creature: Shadow nihil
+[Assignment] Adding Missing Creature: Smoke nihil
+[Assignment] Extracting Assignment: database\wiki\assignments\Nodon dragonkin.json
+[Assignment] Adding Missing Creature: Kerapac, the bound
+[Assignment] Adding Missing Creature: Nodon enforcer
+[Assignment] Extracting Assignment: database\wiki\assignments\Ogres.json
+[Assignment] Adding Missing Creature: Enclave guard
+[Assignment] Adding Missing Creature: Ogre
+[Assignment] Adding Missing Creature: Ogre chieftain
+[Assignment] Adding Missing Creature: Ogress
+[Assignment] Adding Missing Creature: Ogress champion
+[Assignment] Adding Missing Creature: Ogress warrior
+[Assignment] Adding Missing Creature: Skogre
+[Assignment] Adding Missing Creature: Zogre
+[Assignment] Extracting Assignment: database\wiki\assignments\Onyx dragons.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Otherworldly beings.json
+[Assignment] Adding Missing Creature: Otherworldly being
+[Assignment] Extracting Assignment: database\wiki\assignments\Pyrefiends.json
+[Assignment] Adding Missing Creature: Pyrefiend
+[Assignment] Adding Missing Creature: Pyrefiend (The Zamorakian Undercity)
+[Assignment] Adding Missing Creature: Pyrefiend (summoned)
+[Assignment] Adding Missing Creature: Seething Pyrefiend
+[Assignment] Adding Missing Creature: Smoulders
+[Assignment] Adding Missing Creature: Smoulders, the Revenger
+[Assignment] Extracting Assignment: database\wiki\assignments\Rats.json
+[Assignment] Adding Missing Creature: Angry giant rat
+[Assignment] Adding Missing Creature: Crypt rat
+[Assignment] Adding Missing Creature: Dungeon rat
+[Assignment] Adding Missing Creature: Giant crypt rat
+[Assignment] Adding Missing Creature: Giant rat
+[Assignment] Adding Missing Creature: Rat
+[Assignment] Adding Missing Creature: Warped rat
+[Assignment] Extracting Assignment: database\wiki\assignments\Red dragons.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Revenants.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Ripper demons.json
+[Assignment] Adding Missing Creature: Slasher Demon
+[Assignment] Extracting Assignment: database\wiki\assignments\Risen ghosts.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Rockslugs.json
+[Assignment] Adding Missing Creature: Rock slug
+[Assignment] Extracting Assignment: database\wiki\assignments\Rune dragons.json
+[Assignment] Adding Missing Creature: Elite rune dragon
+[Assignment] Extracting Assignment: database\wiki\assignments\Scabarites.json
+[Assignment] Adding Missing Creature: Locust lancer
+[Assignment] Adding Missing Creature: Locust ranger
+[Assignment] Adding Missing Creature: Locust rider
+[Assignment] Adding Missing Creature: Scabaras lancer
+[Assignment] Adding Missing Creature: Scabaras mage
+[Assignment] Adding Missing Creature: Scabaras ranger
+[Assignment] Adding Missing Creature: Scarab akh
+[Assignment] Adding Missing Creature: Scarab mage
+[Assignment] Adding Missing Creature: Small scarab
+[Assignment] Extracting Assignment: database\wiki\assignments\Scorpions.json
+[Assignment] Adding Missing Creature: Grave scorpion
+[Assignment] Adding Missing Creature: King Scorpion
+[Assignment] Adding Missing Creature: Pit Scorpion
+[Assignment] Adding Missing Creature: Poison Scorpion
+[Assignment] Adding Missing Creature: Scorpion
+[Assignment] Adding Missing Creature: Scorpion (Ape Atoll)
+[Assignment] Extracting Assignment: database\wiki\assignments\Sea snakes.json
+[Assignment] Adding Missing Creature: Sea Snake Hatchling
+[Assignment] Adding Missing Creature: Sea Snake Young
+[Assignment] Extracting Assignment: database\wiki\assignments\Shades.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Shadow creatures.json
+[Assignment] Adding Missing Creature: Blissful shadow
+[Assignment] Adding Missing Creature: Manifest shadow
+[Assignment] Adding Missing Creature: Shadow (Temple of Light)
+[Assignment] Adding Missing Creature: Truthful shadow
+[Assignment] Extracting Assignment: database\wiki\assignments\Shadow warriors.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Skeletal wyverns.json
+[Assignment] Adding Missing Creature: Skeletal Wyvern
+[Assignment] Extracting Assignment: database\wiki\assignments\Skeletons.json
+[Assignment] Adding Missing Creature: Bossy McBossFace's First mate
+[Assignment] Adding Missing Creature: Giant skeleton (Shadow Dungeon)
+[Assignment] Adding Missing Creature: Giant skeleton (Tarn's Lair)
+[Assignment] Adding Missing Creature: Huge skeleton
+[Assignment] Adding Missing Creature: Skeletal miner
+[Assignment] Adding Missing Creature: Skeletal shielder
+[Assignment] Adding Missing Creature: Skeleton
+[Assignment] Adding Missing Creature: Skeleton (Ape Atoll)
+[Assignment] Adding Missing Creature: Skeleton (Barrows)
+[Assignment] Adding Missing Creature: Skeleton (Dark Warriors' Fortress)
+[Assignment] Adding Missing Creature: Skeleton (Heart of Gielinor)
+[Assignment] Adding Missing Creature: Skeleton (Lumbridge Catacombs)
+[Assignment] Adding Missing Creature: Skeleton (Tarn's Lair)
+[Assignment] Adding Missing Creature: Skeleton (Temple Trekking)
+[Assignment] Adding Missing Creature: Skeleton (Ullek)
+[Assignment] Adding Missing Creature: Skeleton (Uncharted Isles)
+[Assignment] Adding Missing Creature: Skeleton Archer
+[Assignment] Adding Missing Creature: Skeleton Mage
+[Assignment] Adding Missing Creature: Skeleton archer (Ancient Awakening)
+[Assignment] Adding Missing Creature: Skeleton brute
+[Assignment] Adding Missing Creature: Skeleton fremennik
+[Assignment] Adding Missing Creature: Skeleton heavy
+[Assignment] Adding Missing Creature: Skeleton hero
+[Assignment] Adding Missing Creature: Skeleton knight
+[Assignment] Adding Missing Creature: Skeleton ranger (Ancient Awakening)
+[Assignment] Adding Missing Creature: Skeleton thug
+[Assignment] Adding Missing Creature: Skeleton warlord
+[Assignment] Adding Missing Creature: Skeleton warrior (Ancient Awakening)
+[Assignment] Adding Missing Creature: Skeleton warrior (Rasial)
+[Assignment] Adding Missing Creature: Summoned skeleton
+[Assignment] Adding Missing Creature: Summoned skeleton archer
+[Assignment] Adding Missing Creature: Training dummy
+[Assignment] Adding Missing Creature: Undead one
+[Assignment] Adding Missing Creature: Warped skeleton
+[Assignment] Extracting Assignment: database\wiki\assignments\Soul devourers.json
+[Assignment] Adding Missing Creature: Feline akh
+[Assignment] Adding Missing Creature: Gorilla akh
+[Assignment] Adding Missing Creature: Imperial mage akh
+[Assignment] Adding Missing Creature: Imperial ranger akh
+[Assignment] Adding Missing Creature: Imperial warrior akh
+[Assignment] Adding Missing Creature: Oreb, the Magister
+[Assignment] Adding Missing Creature: Salawa akh
+[Assignment] Adding Missing Creature: The Magister
+[Assignment] Extracting Assignment: database\wiki\assignments\Soulgazers.json
+[Assignment] Adding Missing Creature: Soulgazer (elite)
+[Assignment] Extracting Assignment: database\wiki\assignments\Spiders.json
+[Assignment] Adding Missing Creature: Corpse spider
+[Assignment] Adding Missing Creature: Crypt spider
+[Assignment] Adding Missing Creature: Deadly red spider
+[Assignment] Adding Missing Creature: Giant crypt spider
+[Assignment] Adding Missing Creature: Giant spider
+[Assignment] Adding Missing Creature: Ice spider
+[Assignment] Adding Missing Creature: Jungle spider
+[Assignment] Adding Missing Creature: Lava spider
+[Assignment] Adding Missing Creature: Poison spider
+[Assignment] Adding Missing Creature: Shadow spider
+[Assignment] Adding Missing Creature: Spider
+[Assignment] Adding Missing Creature: Spyndra
+[Assignment] Extracting Assignment: database\wiki\assignments\Spiritual mages.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Spiritual warriors.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Stalker creatures.json
+[Assignment] Adding Missing Creature: Veil-ripper Ozharakha
+[Assignment] Extracting Assignment: database\wiki\assignments\Steel dragons.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Strykewyrms.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Suqahs.json
+[Assignment] Adding Missing Creature: Suqah
+[Assignment] Extracting Assignment: database\wiki\assignments\Terror dogs.json
+[Assignment] Adding Missing Creature: Terror dog
+[Assignment] Extracting Assignment: database\wiki\assignments\Tormented demons.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Trolls.json
+[Assignment] Adding Missing Creature: Ice troll
+[Assignment] Adding Missing Creature: Ice troll female
+[Assignment] Adding Missing Creature: Ice troll grunt
+[Assignment] Adding Missing Creature: Ice troll male
+[Assignment] Adding Missing Creature: Ice troll runt
+[Assignment] Adding Missing Creature: Kraka
+[Assignment] Adding Missing Creature: Mountain troll
+[Assignment] Adding Missing Creature: Mountain troll (well)
+[Assignment] Adding Missing Creature: Pee Hat
+[Assignment] Adding Missing Creature: River troll
+[Assignment] Adding Missing Creature: Rock (monster)
+[Assignment] Adding Missing Creature: Stick
+[Assignment] Adding Missing Creature: Stove
+[Assignment] Adding Missing Creature: Thrower Troll
+[Assignment] Adding Missing Creature: Troll brute
+[Assignment] Adding Missing Creature: Troll brute (Davendale)
+[Assignment] Adding Missing Creature: Troll chucker
+[Assignment] Adding Missing Creature: Troll chucker (Davendale)
+[Assignment] Adding Missing Creature: Troll general
+[Assignment] Adding Missing Creature: Troll lout
+[Assignment] Adding Missing Creature: Troll shaman
+[Assignment] Adding Missing Creature: Troll shaman (Davendale)
+[Assignment] Adding Missing Creature: Troll spectator
+[Assignment] Adding Missing Creature: Undead troll
+[Assignment] Extracting Assignment: database\wiki\assignments\Turoth.json
+[Assignment] Adding Missing Creature: Turoth
+[Assignment] Extracting Assignment: database\wiki\assignments\TzHaar.json
+[Assignment] Adding Missing Creature: TzHaar-Hur
+[Assignment] Adding Missing Creature: TzHaar-Ket
+[Assignment] Adding Missing Creature: TzHaar-Mej
+[Assignment] Adding Missing Creature: TzHaar-Xil
+[Assignment] Extracting Assignment: database\wiki\assignments\Undead.json
+[Assignment] Adding Missing Creature: Animated spade
+[Assignment] Adding Missing Creature: Armoured zombie
+[Assignment] Adding Missing Creature: Bloated monstrosity
+[Assignment] Adding Missing Creature: Corpse archer
+[Assignment] Adding Missing Creature: Corpse carrier
+[Assignment] Adding Missing Creature: Corpse mage
+[Assignment] Adding Missing Creature: Crawling corpse torso
+[Assignment] Adding Missing Creature: Dragith Nurn
+[Assignment] Adding Missing Creature: General malpractitioner
+[Assignment] Adding Missing Creature: Graveside Phantom
+[Assignment] Adding Missing Creature: Magic axe
+[Assignment] Adding Missing Creature: Monkey Zombie
+[Assignment] Adding Missing Creature: Mummy (Jaldraocht Pyramid)
+[Assignment] Adding Missing Creature: Mummy (Ullek)
+[Assignment] Adding Missing Creature: Phantom sorcerer
+[Assignment] Adding Missing Creature: Phantom wizard
+[Assignment] Adding Missing Creature: Possessed pickaxe
+[Assignment] Adding Missing Creature: Possessed pickaxe (Lava Flow Mine)
+[Assignment] Adding Missing Creature: Putrid zombie (Rasial)
+[Assignment] Adding Missing Creature: Soulless armoured zombie
+[Assignment] Adding Missing Creature: Soulless unarmoured zombie
+[Assignment] Adding Missing Creature: Taraket the Necromancer
+[Assignment] Adding Missing Creature: Undead giant (Battle of Forinthry)
+[Assignment] Adding Missing Creature: Unstable zombie
+[Assignment] Adding Missing Creature: Zombie
+[Assignment] Adding Missing Creature: Zombie (New Varrock)
+[Assignment] Adding Missing Creature: Zombie cow (New Varrock)
+[Assignment] Adding Missing Creature: Zombie knight
+[Assignment] Adding Missing Creature: Zombie pirate
+[Assignment] Adding Missing Creature: Zombie swab
+[Assignment] Adding Missing Creature: Zombie warrior
+[Assignment] Extracting Assignment: database\wiki\assignments\Vampyres.json
+[Assignment] Adding Missing Creature: Angry vampyre
+[Assignment] Adding Missing Creature: Feral vampyre
+[Assignment] Adding Missing Creature: Vampyre
+[Assignment] Adding Missing Creature: Vampyre Juvenile
+[Assignment] Adding Missing Creature: Vampyre Juvinate
+[Assignment] Extracting Assignment: database\wiki\assignments\Vile blooms.json
+[Assignment] Adding Missing Creature: Devil's snare
+[Assignment] Adding Missing Creature: Lampenflora
+[Assignment] Adding Missing Creature: Liverworts
+[Assignment] Adding Missing Creature: Luminous snaggler
+[Assignment] Extracting Assignment: database\wiki\assignments\Vyrewatch.json
+[Assignment] Adding Missing Creature: Vyrelady
+[Assignment] Adding Missing Creature: Vyrelord
+[Assignment] Adding Missing Creature: Vyrewatch
+[Assignment] Extracting Assignment: database\wiki\assignments\Wall beasts.json
+[Assignment] Adding Missing Creature: Wall beast
+[Assignment] Extracting Assignment: database\wiki\assignments\Warped terrorbirds.json
+[Assignment] Adding Missing Creature: Warped terrorbird
+[Assignment] Extracting Assignment: database\wiki\assignments\Warped tortoises.json
+[Assignment] Adding Missing Creature: Warped tortoise
+[Assignment] Extracting Assignment: database\wiki\assignments\Waterfiends.json
+[Assignment] Adding Missing Creature: Maelstrom, Raging Waterfiend
+[Assignment] Adding Missing Creature: Torrential Waterfiend
+[Assignment] Adding Missing Creature: Torrential Waterfiend (summoned)
+[Assignment] Adding Missing Creature: Waterfiend
+[Assignment] Adding Missing Creature: Waterfiend (Ghorrock)
+[Assignment] Adding Missing Creature: Waterfiend (Temple of Aminishi)
+[Assignment] Adding Missing Creature: Waterfiend (The Zamorakian Undercity)
+[Assignment] Adding Missing Creature: Waterfiend (elite)
+[Assignment] Adding Missing Creature: Waterfiend (summoned)
+[Assignment] Extracting Assignment: database\wiki\assignments\Werewolves.json
+[Assignment] Adding Missing Creature: Werewolf
+[Assignment] Extracting Assignment: database\wiki\assignments\Wolves.json
+[Assignment] Adding Missing Creature: Adolescent White wolf
+[Assignment] Adding Missing Creature: Big Wolf
+[Assignment] Adding Missing Creature: Desert wolf
+[Assignment] Adding Missing Creature: Dire Wolf
+[Assignment] Adding Missing Creature: Fenris wolf
+[Assignment] Adding Missing Creature: Fenris wolf (Sköll)
+[Assignment] Adding Missing Creature: Ice wolf
+[Assignment] Adding Missing Creature: Jungle Wolf
+[Assignment] Adding Missing Creature: White wolf
+[Assignment] Adding Missing Creature: Wolf
+[Assignment] Extracting Assignment: database\wiki\assignments\Zemouregal's undead.json
+[Assignment] Extracting Assignment: database\wiki\assignments\Zombies.json
+[Assignment] Adding Missing Creature: Armoured zombie (The Shadow Reef)
+[Assignment] Adding Missing Creature: Armoured zombie (Uncharted Isles)
+[Assignment] Adding Missing Creature: Bossy McBossFace
+[Assignment] Adding Missing Creature: Dried zombie
+[Assignment] Adding Missing Creature: Empowering zombie
+[Assignment] Adding Missing Creature: Summoned Zombie
+[Assignment] Adding Missing Creature: Summoned Zombie (The Shadow Reef)
+[Assignment] Adding Missing Creature: Summoned armoured zombie
+[Assignment] Adding Missing Creature: Ulthven Keith
+[Assignment] Adding Missing Creature: Undead Witch
+[Assignment] Adding Missing Creature: Zombie (Lair of Tarn Razorlor)
+[Assignment] Adding Missing Creature: Zombie (Stronghold of Security)
+[Assignment] Adding Missing Creature: Zombie (Temple Trekking)
+[Assignment] Adding Missing Creature: Zombie (The Shadow Reef)
+[Assignment] Adding Missing Creature: Zombie (Uncharted Isles)
+[Assignment] Adding Missing Creature: Zombie (Wilderness)
+[Assignment] Adding Missing Creature: Zombie (Zogre Flesh Eaters)
+[Saving] Defaults: .\database\~defaults.json
+[Saving] ~images.json already exists!
+[Saving] Assignments: .\database\assignments.json
+[Saving] Creatures: .\database\creatures.json
+[Saving] Masters: .\database\masters.json
