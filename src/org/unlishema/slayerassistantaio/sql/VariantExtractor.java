@@ -43,17 +43,17 @@ public class VariantExtractor {
 					String name = variant.optString("name", "").trim();
 					String image = variant.optString("image", "").trim();
 					double experience = variant.optDouble("experience", 0);
-					double lifepointExp = variant.optDouble("lifepoint_exp", 0);
-					double slayerExp = variant.optDouble("slayer_exp", 0);
+					double lifepointExp = variant.optDouble("lifepoint-exp", 0);
+					double slayerExp = variant.optDouble("slayer-exp", 0);
 					String level = variant.optString("level", "").trim();
-					String slayerLevel = variant.optString("slayer_level", "").trim();
+					String slayerLevel = variant.optString("slayer-level", "").trim();
 					String lifepoints = variant.optString("lifepoints", "").trim();
 					String defence = variant.optString("defence", "").trim();
-					String maxMelee = variant.optString("max_melee", "").trim();
-					String maxRanged = variant.optString("max_ranged", "").trim();
-					String maxMagic = variant.optString("max_magic", "").trim();
-					String maxNecromancy = variant.optString("max_necromancy", "").trim();
-					String maxSpec = variant.optString("max_spec", "").trim();
+					String maxMelee = variant.optString("max-melee", "").trim();
+					String maxRanged = variant.optString("max-ranged", "").trim();
+					String maxMagic = variant.optString("max-magic", "").trim();
+					String maxNecromancy = variant.optString("max-necromancy", "").trim();
+					String maxSpec = variant.optString("max-spec", "").trim();
 
 					// Escape single quotes
 					creatureName = creatureName.replace("'", "''");
