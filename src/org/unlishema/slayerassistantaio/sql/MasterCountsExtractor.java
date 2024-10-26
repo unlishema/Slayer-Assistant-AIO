@@ -59,6 +59,7 @@ public class MasterCountsExtractor {
             }
 
             sqlStatements.append("\nON DUPLICATE KEY UPDATE\n");
+            sqlStatements.append("    count = VALUES(count),\n");
             sqlStatements.append("    updated_at = NOW();\n");
 
             // Write to SQL file

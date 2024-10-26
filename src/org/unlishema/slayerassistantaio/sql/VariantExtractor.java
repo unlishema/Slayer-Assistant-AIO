@@ -24,9 +24,9 @@ public class VariantExtractor {
 			StringBuilder sqlStatements = new StringBuilder();
 			sqlStatements.append("-- Insert into all_variants or update if the name already exists\n");
 			sqlStatements.append(
-					"INSERT INTO all_variants (creature_id, name, image, experience, lifepoint_exp, slayer_exp, level, slayer_level, lifepoints, defence, max_melee, max_ranged, max_magic, max_necromancy, max_spec)\n");
+					"INSERT INTO all_variants (id, creature_id, name, image, experience, lifepoint_exp, slayer_exp, level, slayer_level, lifepoints, defence, max_melee, max_ranged, max_magic, max_necromancy, max_spec)\n");
 			sqlStatements.append(
-					"SELECT c.id, v.name, v.image, v.experience, v.lifepoint_exp, v.slayer_exp, v.level, v.slayer_level, v.lifepoints, v.defence, v.max_melee, v.max_ranged, v.max_magic, v.max_necromancy, v.max_spec\n");
+					"SELECT v.id, c.id, v.name, v.image, v.experience, v.lifepoint_exp, v.slayer_exp, v.level, v.slayer_level, v.lifepoints, v.defence, v.max_melee, v.max_ranged, v.max_magic, v.max_necromancy, v.max_spec\n");
 			sqlStatements.append("FROM (\n");
 
 			// Loop through each creature
@@ -35,11 +35,15 @@ public class VariantExtractor {
 				String creatureName = creature.getString("name").trim(); // Get the creature name
 				JSONArray variantsArray = creature.getJSONArray("variants");
 
+				// Escape single quotes
+				creatureName = creatureName.replace("'", "''");
+				
 				// Loop through each variant
 				for (int j = 0; j < variantsArray.length(); j++) {
 					JSONObject variant = variantsArray.getJSONObject(j);
 
 					// Extracting variant details with defaults
+					int id = variant.optInt("id", 0);
 					String name = variant.optString("name", "").trim();
 					String image = variant.optString("image", "").trim();
 					double experience = variant.optDouble("experience", 0);
@@ -56,14 +60,13 @@ public class VariantExtractor {
 					String maxSpec = variant.optString("max-spec", "").trim();
 
 					// Escape single quotes
-					creatureName = creatureName.replace("'", "''");
 					name = name.replace("'", "''");
 					image = image.replace("'", "''");
 
 					// Build the inner SQL for variants
 					sqlStatements.append(String.format(
-							"SELECT (SELECT id FROM all_creatures WHERE name = '%s') AS creature_id, '%s' AS name, '%s' AS image, %.6f AS experience, %.2f AS lifepoint_exp, %.2f AS slayer_exp, '%s' AS level, '%s' AS slayer_level, '%s' AS lifepoints, '%s' AS defence, '%s' AS max_melee, '%s' AS max_ranged, '%s' AS max_magic, '%s' AS max_necromancy, '%s' AS max_spec\n",
-							creatureName, name, image, experience, lifepointExp, slayerExp, level, slayerLevel,
+							"SELECT '%d' AS id, (SELECT id FROM all_creatures WHERE name = '%s') AS creature_id, '%s' AS name, '%s' AS image, %.6f AS experience, %.2f AS lifepoint_exp, %.2f AS slayer_exp, '%s' AS level, '%s' AS slayer_level, '%s' AS lifepoints, '%s' AS defence, '%s' AS max_melee, '%s' AS max_ranged, '%s' AS max_magic, '%s' AS max_necromancy, '%s' AS max_spec\n",
+							id, creatureName, name, image, experience, lifepointExp, slayerExp, level, slayerLevel,
 							lifepoints, defence, maxMelee, maxRanged, maxMagic, maxNecromancy, maxSpec));
 
 					// Add a UNION ALL if not the last variant
@@ -76,6 +79,7 @@ public class VariantExtractor {
 			sqlStatements.append(") AS v\n");
 			sqlStatements.append("JOIN all_creatures c ON c.id = v.creature_id\n"); // Ensure only valid creature_ids
 			sqlStatements.append("ON DUPLICATE KEY UPDATE\n");
+			sqlStatements.append("    id = VALUES(id),\n");
 			sqlStatements.append("    name = VALUES(name),\n");
 			sqlStatements.append("    image = VALUES(image),\n");
 			sqlStatements.append("    experience = VALUES(experience),\n");

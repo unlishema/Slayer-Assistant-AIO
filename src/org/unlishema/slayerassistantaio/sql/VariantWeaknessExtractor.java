@@ -29,6 +29,9 @@ public class VariantWeaknessExtractor {
 				JSONObject creature = creaturesArray.getJSONObject(i);
 				String creatureName = creature.getString("name").trim(); // Get the creature name
 				JSONArray variantsArray = creature.getJSONArray("variants");
+				
+				// Escape single quotes for SQL
+				creatureName = creatureName.replace("'", "''");
 
 				// Loop through each variant, limiting to the first 3 variants
 				for (int j = 0; j < variantsArray.length(); j++) {
@@ -37,7 +40,6 @@ public class VariantWeaknessExtractor {
 					JSONArray weaknesses = variant.optJSONArray("weakness"); // Get the weakness array
 
 					// Escape single quotes for SQL
-					creatureName = creatureName.replace("'", "''");
 					variantName = variantName.replace("'", "''");
 
 					// Prepare a list of weakness names for the SQL IN clause

@@ -27,6 +27,7 @@ public class MasterExtractor {
 
 			for (int i = 0; i < mastersArray.length(); i++) {
 				JSONObject master = mastersArray.getJSONObject(i);
+				int id = master.optInt("id", 0); // Get the master id
 				String name = master.getString("name").trim(); // Get the master name
 				String url = master.getString("url").trim(); // Get the master URL
 
@@ -35,7 +36,7 @@ public class MasterExtractor {
 				name = name.replace("'", "''");
 				url = url.replace("'", "''");
 
-				sqlStatements.append(String.format("('%s', '%s')", name, url));
+				sqlStatements.append(String.format("('%d', '%s', '%s')", id, name, url));
 				if (i < mastersArray.length() - 1) {
 					sqlStatements.append(",\n");
 				}

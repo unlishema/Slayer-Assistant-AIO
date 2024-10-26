@@ -4051,7 +4051,6 @@
             "Ankou (elite)",
             "Armoured phantom",
             "Armoured zombie",
-            "Baby Dinosaur Skeleton",
             "Banshee",
             "Bloated monstrosity",
             "Bound skeleton",
@@ -4098,7 +4097,8 @@
             "Revenant dragon",
             "Revenant goblin",
             "Revenant hellhound",
-            "Revena"
+            "Revenant hobgoblin",
+            "Revenant i"
         ],
         "equipment": [
             "No Equipment"
@@ -4309,8 +4309,7 @@
         "index": "Wolves",
         "default-creature": "Adolescent White wolf#Default",
         "hidden-creatures": [
-            "Fenris wolf",
-            "Fenris wolf (Sk\u00f6ll)"
+            "Fenris wolf"
         ],
         "alias": [],
         "masters": [
@@ -4323,7 +4322,6 @@
             "Desert wolf",
             "Dire Wolf",
             "Fenris wolf",
-            "Fenris wolf (Sk\u00f6ll)",
             "Ice wolf",
             "Jungle Wolf",
             "White wolf",
@@ -4416,7 +4414,6 @@
             "Unstable zombie",
             "Zogre",
             "Zombie",
-            "Zombie (Entrana Dungeon)",
             "Zombie (Lair of Tarn Razorlor)",
             "Zombie (New Varrock)",
             "Zombie (Stronghold of Security)",
@@ -4428,7 +4425,9 @@
             "Zombie cow (New Varrock)",
             "Zombie hand",
             "Zombie knight",
-            "Zom"
+            "Zombie pirate",
+            "Zombie swab",
+            "Z"
         ],
         "equipment": [
             "No Equipment"

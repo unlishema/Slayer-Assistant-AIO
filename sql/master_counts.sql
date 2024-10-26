@@ -355,11 +355,6 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Greater demons'
 WHERE m.id = 4
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '120-140' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Bound skeletons'
-WHERE m.id = 4
-UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '40-65' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Ripper demons'
@@ -508,11 +503,6 @@ UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '50-90' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Vampyres'
-WHERE m.id = 5
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '60-100' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Aberrant spectres'
 WHERE m.id = 5
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '50-90' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1140,14 +1130,9 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Chaos giants'
 WHERE m.id = 9
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '80-110' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
-JOIN all_assignments a ON a.index = 'TzHaar'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-240' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Warped tortoises'
+JOIN all_assignments a ON a.index = 'Dust devils'
 WHERE m.id = 9
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '120-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1158,11 +1143,6 @@ UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '50-70' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Glacors'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '170-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Waterfiends'
 WHERE m.id = 9
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '40-50' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1185,6 +1165,21 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Muspah'
 WHERE m.id = 9
 UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '125-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Celestial dragons'
+WHERE m.id = 9
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '70-90' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Ganodermic creatures'
+WHERE m.id = 9
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Gargoyles'
+WHERE m.id = 9
+UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '65-80' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Grifolaroos'
@@ -1195,19 +1190,19 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Airut'
 WHERE m.id = 9
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-240' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+SELECT m.id AS master_id, a.id AS assignment_id, '90-130' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
-JOIN all_assignments a ON a.index = 'Spiritual mages'
+JOIN all_assignments a ON a.index = 'Jungle strykewyrms'
+WHERE m.id = 9
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Abyssal Demons'
 WHERE m.id = 9
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '120-170' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
-JOIN all_assignments a ON a.index = 'Stalker creatures'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '140-220' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Nechryael'
+JOIN all_assignments a ON a.index = 'Living rock creatures'
 WHERE m.id = 9
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '190-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1215,14 +1210,24 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Black demons'
 WHERE m.id = 9
 UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Dark beasts'
+WHERE m.id = 9
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '80-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Grotworms'
+WHERE m.id = 9
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '180-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Bloodveld'
+WHERE m.id = 9
+UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '65-80' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Cres''s creations'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '40-90' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Skeletal wyverns'
 WHERE m.id = 9
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '60-100' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1250,119 +1255,14 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Fire giants'
 WHERE m.id = 9
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '160-220' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Mutated jadinkos'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '40-90' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Nihil'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Corrupted creatures'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '60-70' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Terror dogs'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '100-125' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Ascension members'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '25-45' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Camel warriors'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Greater demons'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '100-200' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Ice strykewyrms'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '90-130' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Vyrewatch'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Dust devils'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '40-60' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Tormented demons'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '125-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Celestial dragons'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '70-90' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Ganodermic creatures'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Gargoyles'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '90-130' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Jungle strykewyrms'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Abyssal Demons'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '120-170' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Living rock creatures'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Dark beasts'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '80-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Grotworms'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '180-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Bloodveld'
-WHERE m.id = 9
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '50-100' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Suqahs'
-WHERE m.id = 9
-UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '65-80' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Grifolapines'
 WHERE m.id = 9
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '100-120' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+SELECT m.id AS master_id, a.id AS assignment_id, '160-220' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
-JOIN all_assignments a ON a.index = 'Nightmare creatures'
+JOIN all_assignments a ON a.index = 'Mutated jadinkos'
 WHERE m.id = 9
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '170-240' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1385,19 +1285,24 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Iron dragons'
 WHERE m.id = 9
 UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Corrupted creatures'
+WHERE m.id = 9
+UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '90-160' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Desert strykewyrms'
 WHERE m.id = 9
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Soul devourers'
-WHERE m.id = 9
-UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '20-45' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Acheron mammoths'
+WHERE m.id = 9
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '100-125' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Ascension members'
 WHERE m.id = 9
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1415,9 +1320,9 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Black dragons'
 WHERE m.id = 9
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '40-100' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+SELECT m.id AS master_id, a.id AS assignment_id, '25-45' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
-JOIN all_assignments a ON a.index = 'Steel dragons'
+JOIN all_assignments a ON a.index = 'Camel warriors'
 WHERE m.id = 9
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1425,9 +1330,14 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Edimmu'
 WHERE m.id = 9
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '50-75' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
-JOIN all_assignments a ON a.index = 'Ripper demons'
+JOIN all_assignments a ON a.index = 'Greater demons'
+WHERE m.id = 9
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '100-200' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Ice strykewyrms'
 WHERE m.id = 9
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '30-35' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1438,11 +1348,6 @@ UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '80-120' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Chaos giants'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '95-130' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'TzHaar'
 WHERE m.id = 10
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '150-180' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1458,11 +1363,6 @@ UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '90-130' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Nodon dragonkin'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '205-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Waterfiends'
 WHERE m.id = 10
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '40-60' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1492,12 +1392,27 @@ WHERE m.id = 10
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '150-180' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
+JOIN all_assignments a ON a.index = 'Celestial dragons'
+WHERE m.id = 10
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '85-110' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Ganodermic creatures'
+WHERE m.id = 10
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Gargoyles'
+WHERE m.id = 10
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '150-180' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
 JOIN all_assignments a ON a.index = 'Airut'
 WHERE m.id = 10
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '140-190' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
-JOIN all_assignments a ON a.index = 'Stalker creatures'
+JOIN all_assignments a ON a.index = 'Abyssal Demons'
 WHERE m.id = 10
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '170-265' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1510,9 +1425,24 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Black demons'
 WHERE m.id = 10
 UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Dark beasts'
+WHERE m.id = 10
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '100-180' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Grotworms'
+WHERE m.id = 10
+UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '80-100' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Cres''s creations'
+WHERE m.id = 10
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '100-120' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Creatures of the Lost Grove'
 WHERE m.id = 10
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '80-130' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1533,81 +1463,6 @@ UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '195-265' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Mutated jadinkos'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '50-110' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Nihil'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Corrupted creatures'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '120-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Ascension members'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '35-55' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Camel warriors'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Greater demons'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '120-240' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Ice strykewyrms'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '110-155' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Vyrewatch'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '50-75' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Tormented demons'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-180' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Celestial dragons'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '85-110' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Ganodermic creatures'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Gargoyles'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Abyssal Demons'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Dark beasts'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '100-180' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Grotworms'
-WHERE m.id = 10
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '100-120' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Creatures of the Lost Grove'
 WHERE m.id = 10
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '110-160' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1635,6 +1490,16 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Iron dragons'
 WHERE m.id = 10
 UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '50-110' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Nihil'
+WHERE m.id = 10
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Corrupted creatures'
+WHERE m.id = 10
+UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '100-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Shadow creatures'
@@ -1645,14 +1510,14 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Desert strykewyrms'
 WHERE m.id = 10
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Soul devourers'
-WHERE m.id = 10
-UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '30-55' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Acheron mammoths'
+WHERE m.id = 10
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '120-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Ascension members'
 WHERE m.id = 10
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '205-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1665,9 +1530,9 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Black dragons'
 WHERE m.id = 10
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '50-125' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+SELECT m.id AS master_id, a.id AS assignment_id, '35-55' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
-JOIN all_assignments a ON a.index = 'Steel dragons'
+JOIN all_assignments a ON a.index = 'Camel warriors'
 WHERE m.id = 10
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '170-265' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1675,9 +1540,19 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Edimmu'
 WHERE m.id = 10
 UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Greater demons'
+WHERE m.id = 10
+UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '60-85' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Ripper demons'
+WHERE m.id = 10
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '120-240' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Ice strykewyrms'
 WHERE m.id = 10
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '30-50' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1703,6 +1578,11 @@ UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '110-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Nodon dragonkin'
+WHERE m.id = 11
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '101-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Demons'
 WHERE m.id = 11
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '40-60' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1732,17 +1612,37 @@ WHERE m.id = 11
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '150-180' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
+JOIN all_assignments a ON a.index = 'Celestial dragons'
+WHERE m.id = 11
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '85-110' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Ganodermic creatures'
+WHERE m.id = 11
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Gargoyles'
+WHERE m.id = 11
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '150-180' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
 JOIN all_assignments a ON a.index = 'Airut'
 WHERE m.id = 11
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '140-190' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
-JOIN all_assignments a ON a.index = 'Stalker creatures'
+JOIN all_assignments a ON a.index = 'Abyssal Demons'
 WHERE m.id = 11
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '230-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Black demons'
+WHERE m.id = 11
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Dark beasts'
 WHERE m.id = 11
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '101-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1753,6 +1653,11 @@ UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '80-100' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Cres''s creations'
+WHERE m.id = 11
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '100-120' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Creatures of the Lost Grove'
 WHERE m.id = 11
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '80-130' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1770,9 +1675,34 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Living wyverns'
 WHERE m.id = 11
 UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '70-110' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Dinosaurs'
+WHERE m.id = 11
+UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '195-265' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Mutated jadinkos'
+WHERE m.id = 11
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '110-162' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Nightmare creatures'
+WHERE m.id = 11
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '205-290' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Dagannoth'
+WHERE m.id = 11
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '195-240' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Aquanites'
+WHERE m.id = 11
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '75-130' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Iron dragons'
 WHERE m.id = 11
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '50-110' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1790,129 +1720,14 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Armoured phantoms'
 WHERE m.id = 11
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '70-110' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Vile blooms'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '120-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Ascension members'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '35-55' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Camel warriors'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Greater demons'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '120-240' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Ice strykewyrms'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '110-155' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Vyrewatch'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '101-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Demons'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '50-75' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Tormented demons'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-180' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Celestial dragons'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '85-110' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Ganodermic creatures'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Gargoyles'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Abyssal Demons'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '120-160' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Undead'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Dark beasts'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '100-120' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Creatures of the Lost Grove'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '70-110' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Dinosaurs'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '110-162' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Nightmare creatures'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '205-290' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Dagannoth'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '50-75' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Rune dragons'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '195-240' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Aquanites'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '75-130' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Iron dragons'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '100-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Shadow creatures'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '150-250' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Soul devourers'
-WHERE m.id = 11
-UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '30-55' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Acheron mammoths'
 WHERE m.id = 11
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '120-160' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+SELECT m.id AS master_id, a.id AS assignment_id, '120-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
-JOIN all_assignments a ON a.index = 'Risen ghosts'
+JOIN all_assignments a ON a.index = 'Ascension members'
 WHERE m.id = 11
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '101-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1930,14 +1745,9 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Black dragons'
 WHERE m.id = 11
 UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '50-125' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+SELECT m.id AS master_id, a.id AS assignment_id, '35-55' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
-JOIN all_assignments a ON a.index = 'Steel dragons'
-WHERE m.id = 11
-UNION ALL
-SELECT m.id AS master_id, a.id AS assignment_id, '101-150' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
-FROM all_masters m
-JOIN all_assignments a ON a.index = 'Strykewyrms'
+JOIN all_assignments a ON a.index = 'Camel warriors'
 WHERE m.id = 11
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '170-265' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -1945,9 +1755,19 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Edimmu'
 WHERE m.id = 11
 UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '180-300' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Greater demons'
+WHERE m.id = 11
+UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '60-85' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
 FROM all_masters m
 JOIN all_assignments a ON a.index = 'Ripper demons'
+WHERE m.id = 11
+UNION ALL
+SELECT m.id AS master_id, a.id AS assignment_id, '120-240' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
+FROM all_masters m
+JOIN all_assignments a ON a.index = 'Ice strykewyrms'
 WHERE m.id = 11
 UNION ALL
 SELECT m.id AS master_id, a.id AS assignment_id, '30-50' AS count, NOW() AS created_at, NOW() AS updated_at, 0 AS is_deleted
@@ -2050,4 +1870,5 @@ FROM all_masters m
 JOIN all_assignments a ON a.index = 'Living wyverns'
 WHERE m.id = 12
 ON DUPLICATE KEY UPDATE
+    count = VALUES(count),
     updated_at = NOW();

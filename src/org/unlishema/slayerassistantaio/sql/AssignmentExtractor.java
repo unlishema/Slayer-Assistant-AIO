@@ -30,6 +30,7 @@ public class AssignmentExtractor {
 				JSONObject assignment = assignmentsArray.getJSONObject(i);
 
 				// Extracting fields with defaults
+				int id = assignment.optInt("id", 0);
 				String index = assignment.optString("index", "").trim();
 				String defaultCreature = assignment.optString("default-creature", "").trim();
 
@@ -38,7 +39,7 @@ public class AssignmentExtractor {
 				defaultCreature = defaultCreature.replace("'", "''");
 
 				// Build SQL insert statement
-				sqlStatements.append(String.format("('%s', '%s')", index, defaultCreature));
+				sqlStatements.append(String.format("('%d', '%s', '%s')", id, index, defaultCreature));
 
 				// Add a comma and newline after the entry, if not the last item
 				if (i < assignmentsArray.length() - 1) {
@@ -47,6 +48,7 @@ public class AssignmentExtractor {
 			}
 
 			sqlStatements.append("\nON DUPLICATE KEY UPDATE\n");
+			sqlStatements.append("    index = VALUES(index),\n");
 			sqlStatements.append("    default_creature = VALUES(default_creature),\n");
 			sqlStatements.append("    updated_at = NOW();\n");
 

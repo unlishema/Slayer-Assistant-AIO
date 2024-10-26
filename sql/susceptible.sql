@@ -1,4 +1,4 @@
--- Insert into all_susceptible or update if the name already exists
+-- Insert into all_susceptible or update if the link already exists
 INSERT INTO all_susceptible (link)
 VALUES
 ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>'),

@@ -28,13 +28,14 @@ public class CreatureExtractor {
 
 			for (int i = 0; i < creaturesArray.length(); i++) {
 				JSONObject creature = creaturesArray.getJSONObject(i);
+				int id = creature.optInt("id", 0);
 				String name = creature.getString("name");
 
 				// Escape single quotes by replacing ' with ''
 				name = name.replace("'", "''");
 
 				// Build SQL insert statement
-				sqlStatements.append(String.format("('%s')", name));
+				sqlStatements.append(String.format("('%d', '%s')", id, name));
 				if (i < creaturesArray.length() - 1) {
 					sqlStatements.append(",\n");
 				}

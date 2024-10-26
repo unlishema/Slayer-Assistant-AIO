@@ -15,37 +15,37 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Abyssal_bane_equipment" title="Abyssal bane equipment" target="_blank"><img src="./images/susceptible/s/Abyssal_head.png" decoding="async" loading="lazy" width="22" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Abyssal_bane_equipment" title="Abyssal bane equipment" target="_blank"><img src="./images/susceptible/s/Abyssal_head.png" decoding="async" loading="lazy" width="22" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Abyssal beast' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Abyssal_bane_equipment" title="Abyssal bane equipment" target="_blank"><img src="./images/susceptible/s/Abyssal_head.png" decoding="async" loading="lazy" width="22" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Abyssal_bane_equipment" title="Abyssal bane equipment" target="_blank"><img src="./images/susceptible/s/Abyssal_head.png" decoding="async" loading="lazy" width="22" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Abyssal demon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Abyssal_bane_equipment" title="Abyssal bane equipment" target="_blank"><img src="./images/susceptible/s/Abyssal_head.png" decoding="async" loading="lazy" width="22" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Abyssal_bane_equipment" title="Abyssal bane equipment" target="_blank"><img src="./images/susceptible/s/Abyssal_head.png" decoding="async" loading="lazy" width="22" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Abyssal demon (elite)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Abyssal_bane_equipment" title="Abyssal bane equipment" target="_blank"><img src="./images/susceptible/s/Abyssal_head.png" decoding="async" loading="lazy" width="22" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Abyssal_bane_equipment" title="Abyssal bane equipment" target="_blank"><img src="./images/susceptible/s/Abyssal_head.png" decoding="async" loading="lazy" width="22" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Abyssal lord' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Abyssal_bane_equipment" title="Abyssal bane equipment" target="_blank"><img src="./images/susceptible/s/Abyssal_head.png" decoding="async" loading="lazy" width="22" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Abyssal_bane_equipment" title="Abyssal bane equipment" target="_blank"><img src="./images/susceptible/s/Abyssal_head.png" decoding="async" loading="lazy" width="22" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Abyssal savage' AND v.name = 'Asylum'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Abyssal_bane_equipment" title="Abyssal bane equipment" target="_blank"><img src="./images/susceptible/s/Abyssal_head.png" decoding="async" loading="lazy" width="22" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Abyssal_bane_equipment" title="Abyssal bane equipment" target="_blank"><img src="./images/susceptible/s/Abyssal_head.png" decoding="async" loading="lazy" width="22" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Abyssal savage' AND v.name = 'Wilderness'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -57,7 +57,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Adamant dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -75,7 +75,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Ankou' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -250,108 +250,108 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
+WHERE c.name = 'Kree''arra' AND v.name = 'Hard Mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Kree''arra' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
-WHERE c.name = 'Kree''''arra' AND v.name = 'The World Wakes'
+WHERE c.name = 'Kree''arra' AND v.name = 'The World Wakes'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
-WHERE c.name = 'Kree''''''''arra' AND v.name = 'Hard Mode'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual mage' AND v.name = 'Zamorak'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual mage' AND v.name = 'Armadyl'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual mage' AND v.name = 'Saradomin'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual mage' AND v.name = 'Bandos'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual mage' AND v.name = 'The World Wakes'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual ranger' AND v.name = 'Zamorak'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual ranger' AND v.name = 'Armadyl'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual ranger' AND v.name = 'Saradomin'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual ranger' AND v.name = 'Bandos'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual ranger' AND v.name = 'The World Wakes'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual warrior' AND v.name = 'Zamorak'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual warrior' AND v.name = 'Armadyl'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual warrior' AND v.name = 'Saradomin'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual warrior' AND v.name = 'Bandos'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Spiritual warrior' AND v.name = 'The World Wakes'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -363,25 +363,25 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Banshee' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Mighty banshee' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Basiliskbane_ammunition" title="Basiliskbane ammunition" target="_blank"><img src="./images/susceptible/Basilisk_head.png" decoding="async" loading="lazy" width="25" height="16"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Basiliskbane_ammunition" title="Basiliskbane ammunition" target="_blank"><img src="./images/susceptible/Basilisk_head.png" decoding="async" loading="lazy" width="25" height="16"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Basilisk' AND v.name = 'Large'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Basiliskbane_ammunition" title="Basiliskbane ammunition" target="_blank"><img src="./images/susceptible/Basilisk_head.png" decoding="async" loading="lazy" width="25" height="16"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Basiliskbane_ammunition" title="Basiliskbane ammunition" target="_blank"><img src="./images/susceptible/Basilisk_head.png" decoding="async" loading="lazy" width="25" height="16"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Basilisk' AND v.name = 'Small'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -525,6 +525,12 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Mounted terrorbird gnome' AND v.name = 'Level 53'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Oomlie bird' AND v.name = 'Default'
 UNION ALL
@@ -585,121 +591,121 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Balfrug Kreeyath' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Black demon' AND v.name = '1'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Black demon' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Black demon' AND v.name = '3'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Black demon' AND v.name = '4'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Black demon' AND v.name = '5'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Black demon' AND v.name = 'Wilderness'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Alanogard the Black' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Baby black dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Black dragon' AND v.name = '1'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Black dragon' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Black dragon' AND v.name = '3'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Black dragon' AND v.name = '4'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Black dragon' AND v.name = '5'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Black dragon (Dragonkin Laboratory)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'King Black Dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Queen Black Dragon' AND v.name = 'Normal'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Queen Black Dragon' AND v.name = 'Crystal'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Queen Black Dragon' AND v.name = 'Carapace'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Queen Black Dragon' AND v.name = 'Crystal'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Queen Black Dragon' AND v.name = 'Normal'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Verak Lith' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -741,50 +747,38 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Baby blue dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Blue dragon' AND v.name = '1'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Blue dragon' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Blue dragon' AND v.name = '3'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Blue dragon' AND v.name = '4'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Blue dragon' AND v.name = '5'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Vorkath' AND v.name = 'Story mode'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Vorkath' AND v.name = 'Normal mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -796,7 +790,19 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+WHERE c.name = 'Vorkath' AND v.name = 'Normal mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Vorkath' AND v.name = 'Requiem for a Dragon'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+WHERE c.name = 'Vorkath' AND v.name = 'Story mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -825,7 +831,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Bronze dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -933,25 +939,25 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Astellarn' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Celestial dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Celestial dragon (Dragonkin Laboratory)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Elegorn the Celestial' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -1149,56 +1155,56 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Edimmu' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Edimmu (elite)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Frost dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Kal''gerion demon' AND v.name = 'Bloodchiller'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kal''''gerion demon' AND v.name = 'Riftsplitter'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Kal''gerion demon' AND v.name = 'Riftsplitter'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kal''''''''gerion demon' AND v.name = 'Pummeller'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Kal''gerion demon' AND v.name = 'Pummeller'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kal''''''''''''''''gerion demon' AND v.name = 'Thunderous'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Kal''gerion demon' AND v.name = 'Thunderous'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kal''''''''''''''''''''''''''''''''gerion demon' AND v.name = 'Warmonger'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Kal''gerion demon' AND v.name = 'Warmonger'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kal''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''gerion demon' AND v.name = 'Rush of Blood'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Kal''gerion demon' AND v.name = 'Rush of Blood'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -1377,43 +1383,43 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Dagannoth (Lighthouse)' AND v.name = 'Level 77'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Dagannoth (Lighthouse)' AND v.name = 'Level 78'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Dagannoth (Waterbirth Island)' AND v.name = 'Melee (78)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Dagannoth (Waterbirth Island)' AND v.name = 'Melee (79)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Dagannoth (Waterbirth Island)' AND v.name = 'Blood Runs Deep (78)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Dagannoth (Waterbirth Island, ranged)' AND v.name = 'Ranged (78)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Dagannoth (Waterbirth Island, ranged)' AND v.name = 'Ranged (79)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -1431,25 +1437,25 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Dagannoth Supreme' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Dagannoth fledgeling' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Dagannoth guardian' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Balmung" title="Balmung" target="_blank"><img src="./images/susceptible/Balmung.png" decoding="async" loading="lazy" width="25" height="28"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Dagannoth spawn' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -1473,229 +1479,229 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant dark beast' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Cerberus Juvenile' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Gargoyle' AND v.name = 'Regular'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Gargoyle' AND v.name = 'Wilderness'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Greater demon' AND v.name = '1'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Greater demon' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Greater demon' AND v.name = '3'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Greater demon' AND v.name = '4'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Greater demon' AND v.name = '5'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Greater demon ash lord' AND v.name = 'The Zamorakian Undercity'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Greater demon ash lord' AND v.name = 'Wilderness'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Greater demon berserker' AND v.name = 'The Zamorakian Undercity'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Greater demon berserker' AND v.name = 'Wilderness'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Greater demon brute' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Greater demon pyromancer' AND v.name = 'The Zamorakian Undercity'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Greater demon pyromancer' AND v.name = 'Wilderness'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Greater demon sage' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Greater demon savage' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Imp' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Imp' AND v.name = 'God Wars Dungeon'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Imp scavenger' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'K''ril Tsutsaroth' AND v.name = 'Hard mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'K''ril Tsutsaroth' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'K''''ril Tsutsaroth' AND v.name = 'Hard mode'
+WHERE c.name = 'K''ril Tsutsaroth' AND v.name = 'The World Wakes'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'K''''''''ril Tsutsaroth' AND v.name = 'The World Wakes'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Kal''gerion demon (The Shadow Reef)' AND v.name = 'Bloodchiller'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kal''''gerion demon (The Shadow Reef)' AND v.name = 'Riftsplitter'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Kal''gerion demon (The Shadow Reef)' AND v.name = 'Pummeller'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kal''''''''gerion demon (The Shadow Reef)' AND v.name = 'Pummeller'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Kal''gerion demon (The Shadow Reef)' AND v.name = 'Riftsplitter'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kal''''''''''''''''gerion demon (The Shadow Reef)' AND v.name = 'Warmonger'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Kal''gerion demon (The Shadow Reef)' AND v.name = 'Warmonger'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Lesser demon' AND v.name = '1'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Lesser demon' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Lesser demon' AND v.name = '3'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Lesser demon' AND v.name = '4'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Lesser demon' AND v.name = '5'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant demon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Ripper Demon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Tormented demon' AND v.name = 'Standard'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Tormented demon' AND v.name = 'While Guthix Sleeps'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Tstanon Karlak' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -1703,6 +1709,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Yor''Ger the Deceiver' AND v.name = 'Normal mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Yor''Ger the Deceiver' AND v.name = 'Story mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -1755,12 +1767,6 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Necklace_of_Salamancy" title="Necklace of Salamancy" target="_blank"><img src="./images/susceptible/Necklace_of_Salamancy.png" decoding="async" loading="lazy" width="25" height="22"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Baby Dinosaur Skeleton' AND v.name = 'Default'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Necklace_of_Salamancy" title="Necklace of Salamancy" target="_blank"><img src="./images/susceptible/Necklace_of_Salamancy.png" decoding="async" loading="lazy" width="25" height="22"></a>')
 WHERE c.name = 'Brutish dinosaur' AND v.name = 'Normal'
 UNION ALL
@@ -1803,7 +1809,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Necklace_of_Salamancy" title="Necklace of Salamancy" target="_blank"><img src="./images/susceptible/Necklace_of_Salamancy.png" decoding="async" loading="lazy" width="25" height="22"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Necklace_of_Salamancy" title="Necklace of Salamancy" target="_blank"><img src="./images/susceptible/Necklace_of_Salamancy.png" decoding="async" loading="lazy" width="25" height="22"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Rathis' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -1851,175 +1857,181 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Wild dog' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Baby red dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Black stone dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Brutal green dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Dragonstone dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Dragonstone dragon (Dragonkin Laboratory)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Green dragon' AND v.name = '1'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Green dragon' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Green dragon' AND v.name = '3'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Green dragon' AND v.name = '4'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Green dragon' AND v.name = '5'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Hydrix dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Hydrix dragon (Dragonkin Laboratory)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Iron dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Mithril dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Nodon artificer' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Nodon engineer' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Nodon guard' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Nodon hunter' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Onyx dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Onyx dragon (Dragonkin Laboratory)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Red dragon' AND v.name = '1'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Red dragon' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Red dragon' AND v.name = '3'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Red dragon' AND v.name = '4'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Red dragon' AND v.name = '5'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Red dragon (Dragonkin Laboratory)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Rune dragon' AND v.name = 'Armoured'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Rune dragon' AND v.name = 'Unarmoured'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Sangri the Red' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -2031,7 +2043,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Steel dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -2241,25 +2253,25 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Ahrim the Blighted' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
-WHERE c.name = 'Ahrim the Blighted' AND v.name = 'Ritual of the Mahjarrat'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Ahrim the Blighted' AND v.name = 'Rise of the Six'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+WHERE c.name = 'Ahrim the Blighted' AND v.name = 'Ritual of the Mahjarrat'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Akrisae the Doomed' AND v.name = 'Barrows'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -2271,25 +2283,25 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Akrisae the Doomed' AND v.name = 'Sliske''s Endgame'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Dharok the Wretched' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Dharok the Wretched' AND v.name = 'Ritual of the Mahjarrat'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Dharok the Wretched' AND v.name = 'Rise of the Six'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -2397,61 +2409,61 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Ghostly troll bruiser' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Ghostly troll thrower' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Ghostly warrior' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Guthan the Infested' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Guthan the Infested' AND v.name = 'Ritual of the Mahjarrat'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Guthan the Infested' AND v.name = 'Rise of the Six'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Karil the Tainted' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Karil the Tainted' AND v.name = 'Rise of the Six'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Linza the Disgraced' AND v.name = 'Barrows'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Linza the Disgraced' AND v.name = 'Sliske''s Endgame'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -2463,121 +2475,121 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant cyclops' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant dragon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant goblin' AND v.name = '16'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant goblin' AND v.name = '19'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant goblin' AND v.name = '22'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant goblin' AND v.name = '28'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant hellhound' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant hobgoblin' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant icefiend' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant imp' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant knight' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant ork' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant pyrefiend' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant vampyre' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Revenant_bane_equipment" title="Revenant bane equipment" target="_blank"><img src="./images/susceptible/Corrupt_Vesta%27s_longsword.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Revenant werewolf' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Risen ghost' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Shade' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Shadow warrior' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Torag the Corrupted' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Torag the Corrupted' AND v.name = 'Rise of the Six'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -2589,31 +2601,31 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Tormented wraith' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Tortured soul (Port Phasmatys)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Verac the Defiled' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Verac the Defiled' AND v.name = 'Rise of the Six'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Wight' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -2625,7 +2637,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ghost_hunter_equipment" title="Ghost hunter equipment" target="_blank"><img src="./images/susceptible/s/Ghost_hunter_backpack.png" decoding="async" loading="lazy" width="20" height="29"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Wight ranger' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -2638,13 +2650,13 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Wight ranger (Sliske''''s Endgame)' AND v.name = '78 (Weak in slash)'
+WHERE c.name = 'Wight ranger (Sliske''s Endgame)' AND v.name = '78 (Weak in slash)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'Wight ranger (Sliske''''''''s Endgame)' AND v.name = '85'
+WHERE c.name = 'Wight ranger (Sliske''s Endgame)' AND v.name = '85'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -2680,13 +2692,13 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Arch-Glacor' AND v.name = 'Normal mode'
+WHERE c.name = 'Arch-Glacor' AND v.name = 'Hard mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Arch-Glacor' AND v.name = 'Hard mode'
+WHERE c.name = 'Arch-Glacor' AND v.name = 'Normal mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -2777,6 +2789,18 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Cave goblin guard' AND v.name = 'Spear'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Cave goblin miner' AND v.name = 'Mining'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Cave goblin miner' AND v.name = 'Slacking off'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -3021,67 +3045,67 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Butcher demon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Champion of Infernus' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Chaos Demon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Chaos Demon Savage' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Denizen of Infernus' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Greater demon (elite)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Kor''Vath the Blightbringer' AND v.name = '140,000 life points'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kor''''Vath the Blightbringer' AND v.name = '170,000 life points'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Kor''Vath the Blightbringer' AND v.name = '170,000 life points'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kor''''''''Vath the Blightbringer' AND v.name = '400,000 life points'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Kor''Vath the Blightbringer' AND v.name = '400,000 life points'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'La''Kalor the Unbroken' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Shara''Kor the Widowmaker' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3147,13 +3171,13 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Hellhound' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Hellhound' AND v.name = 'God Wars Dungeon'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3177,25 +3201,25 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Hellhound (summoned)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Hellhound Alpha' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Hellhound Hunter' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Hellhound Hunter (summoned)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3273,19 +3297,19 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Icefiend' AND v.name = 'Ice Mountain'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Icefiend' AND v.name = 'God Wars Dungeon'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Icefiend' AND v.name = 'Ice Mountain (melting)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3333,19 +3357,25 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Sea horror' AND v.name = 'Story mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Jungle strykewyrm' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Exiled Kalphite Queen' AND v.name = 'First form'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Exiled Kalphite Queen' AND v.name = 'Second form'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3393,31 +3423,31 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
-WHERE c.name = 'Kalphite King' AND v.name = 'Melee'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
 WHERE c.name = 'Kalphite King' AND v.name = 'Magic'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
+WHERE c.name = 'Kalphite King' AND v.name = 'Melee'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Kalphite King' AND v.name = 'Ranged'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Kalphite Queen' AND v.name = 'First form'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Kalphite Queen' AND v.name = 'Second form'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3579,19 +3609,19 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Ancient_Magicks" title="Ancient Magicks" target="_blank"><img src="./images/susceptible/Ice_Barrage_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ancient_Magicks" title="Ancient Magicks" target="_blank"><img src="./images/susceptible/Ice_Barrage_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Bladed muspah' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Ancient_Magicks" title="Ancient Magicks" target="_blank"><img src="./images/susceptible/Ice_Barrage_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ancient_Magicks" title="Ancient Magicks" target="_blank"><img src="./images/susceptible/Ice_Barrage_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Force muspah' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Ancient_Magicks" title="Ancient Magicks" target="_blank"><img src="./images/susceptible/Ice_Barrage_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Ancient_Magicks" title="Ancient Magicks" target="_blank"><img src="./images/susceptible/Ice_Barrage_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Throwing muspah' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3627,7 +3657,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Nechryael' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3647,6 +3677,18 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Nightmare' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Blood nihil' AND v.name = 'boss'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Blood nihil' AND v.name = 'normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -3688,18 +3730,18 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kerapac, the bound' AND v.name = 'Normal mode'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Kerapac, the bound' AND v.name = 'Hard mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Kerapac, the bound' AND v.name = 'Normal mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Nodon enforcer' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3765,37 +3807,37 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Brutal_arrows" title="Brutal arrows" target="_blank"><img src="./images/susceptible/s/Steel_brutal_2.png" decoding="async" loading="lazy" width="19" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Brutal_arrows" title="Brutal arrows" target="_blank"><img src="./images/susceptible/s/Steel_brutal_2.png" decoding="async" loading="lazy" width="19" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Skogre' AND v.name = '1'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Brutal_arrows" title="Brutal arrows" target="_blank"><img src="./images/susceptible/s/Steel_brutal_2.png" decoding="async" loading="lazy" width="19" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Brutal_arrows" title="Brutal arrows" target="_blank"><img src="./images/susceptible/s/Steel_brutal_2.png" decoding="async" loading="lazy" width="19" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Skogre' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Brutal_arrows" title="Brutal arrows" target="_blank"><img src="./images/susceptible/s/Steel_brutal_2.png" decoding="async" loading="lazy" width="19" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Brutal_arrows" title="Brutal arrows" target="_blank"><img src="./images/susceptible/s/Steel_brutal_2.png" decoding="async" loading="lazy" width="19" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Skogre' AND v.name = '3'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Brutal_arrows" title="Brutal arrows" target="_blank"><img src="./images/susceptible/s/Steel_brutal_2.png" decoding="async" loading="lazy" width="19" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Brutal_arrows" title="Brutal arrows" target="_blank"><img src="./images/susceptible/s/Steel_brutal_2.png" decoding="async" loading="lazy" width="19" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Zogre' AND v.name = '1'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Brutal_arrows" title="Brutal arrows" target="_blank"><img src="./images/susceptible/s/Steel_brutal_2.png" decoding="async" loading="lazy" width="19" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Brutal_arrows" title="Brutal arrows" target="_blank"><img src="./images/susceptible/s/Steel_brutal_2.png" decoding="async" loading="lazy" width="19" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Zogre' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Brutal_arrows" title="Brutal arrows" target="_blank"><img src="./images/susceptible/s/Steel_brutal_2.png" decoding="async" loading="lazy" width="19" height="25"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Brutal_arrows" title="Brutal arrows" target="_blank"><img src="./images/susceptible/s/Steel_brutal_2.png" decoding="async" loading="lazy" width="19" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Zogre' AND v.name = '3'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3807,13 +3849,13 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Pyrefiend' AND v.name = 'Level 38'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Pyrefiend' AND v.name = 'God Wars Dungeon'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3825,25 +3867,25 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Pyrefiend (summoned)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Seething Pyrefiend' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Smoulders' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Smoulders, the Revenger' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3969,13 +4011,19 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Rat' AND v.name = 'Ratcatchers'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Warped rat' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Slasher Demon' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -3987,13 +4035,13 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Elite rune dragon' AND v.name = 'Armoured'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Dragon_slayer_(effect)" title="Dragon slayer (effect)" target="_blank"><img src="./images/susceptible/Dragon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Elite rune dragon' AND v.name = 'Unarmoured'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -4005,7 +4053,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Locust ranger' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -4017,7 +4065,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Locust rider' AND v.name = 'Range (1)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -4029,7 +4077,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Locust rider' AND v.name = 'Range (2)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -4041,7 +4089,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Locust rider' AND v.name = 'Range (3)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -4059,7 +4107,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Scabaras ranger' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -4119,7 +4167,7 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Keris" title="Keris" target="_blank"><img src="./images/susceptible/Keris.png" decoding="async" loading="lazy" width="25" height="27"></a>', '<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Small scarab' AND v.name = 'Do No Evil'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -4330,7 +4378,7 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Skeleton (Dark Warriors'''' Fortress)' AND v.name = '2'
+WHERE c.name = 'Skeleton (Dark Warriors'' Fortress)' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -4354,13 +4402,13 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Skeleton (Tarn''''s Lair)' AND v.name = '2'
+WHERE c.name = 'Skeleton (Tarn''s Lair)' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Skeleton (Tarn''''''''s Lair)' AND v.name = '8'
+WHERE c.name = 'Skeleton (Tarn''s Lair)' AND v.name = '8'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -4433,6 +4481,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Skeleton Archer' AND v.name = 'Normal mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Skeleton Archer' AND v.name = 'Story mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -4581,6 +4635,18 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Summoned skeleton archer' AND v.name = 'Story mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Training dummy' AND v.name = 'Permanent'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Training dummy' AND v.name = 'Melee (weak to air, weak)'
 UNION ALL
@@ -4661,6 +4727,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Training dummy' AND v.name = 'Melee (weak to nothing, medium)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Training dummy' AND v.name = 'Melee (weak to nothing, strong)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -4821,6 +4893,12 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Training dummy' AND v.name = 'Dragon (melee)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Training dummy' AND v.name = 'Undead (magic)'
 UNION ALL
@@ -4829,6 +4907,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Training dummy' AND v.name = 'Undead (ranged)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Training dummy' AND v.name = 'Undead (melee)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -4845,6 +4929,12 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Training dummy' AND v.name = 'Demon (melee)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Training dummy' AND v.name = 'Abyssal demon (magic)'
 UNION ALL
@@ -4853,6 +4943,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Training dummy' AND v.name = 'Abyssal demon (ranged)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Training dummy' AND v.name = 'Abyssal demon (melee)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -4869,6 +4965,12 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Training dummy' AND v.name = 'Wallasalki (melee)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Training dummy' AND v.name = 'Basilisk (magic)'
 UNION ALL
@@ -4881,6 +4983,12 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Training dummy' AND v.name = 'Basilisk (melee)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Training dummy' AND v.name = 'Revenant (magic)'
 UNION ALL
@@ -4889,6 +4997,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Training dummy' AND v.name = 'Revenant (ranged)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Training dummy' AND v.name = 'Revenant (melee)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -5133,6 +5247,30 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Veil-ripper Ozharakha' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Suqah' AND v.name = 'Level 73 (Dual wielding swords)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Suqah' AND v.name = 'Level 74'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Suqah' AND v.name = 'Level 74 (Magic)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Suqah' AND v.name = 'Level 79'
 UNION ALL
@@ -5207,6 +5345,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Pee Hat' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'River troll' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -5423,6 +5567,42 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Turoth' AND v.name = '68 - Female'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'TzHaar-Hur' AND v.name = 'Level 86'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'TzHaar-Hur' AND v.name = 'Level 98'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'TzHaar-Ket' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'TzHaar-Mej' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'TzHaar-Xil' AND v.name = 'Melee'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'TzHaar-Xil' AND v.name = 'Ranged'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -5787,6 +5967,12 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Soulless unarmoured zombie' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Taraket the Necromancer' AND v.name = 'Normal mode'
 UNION ALL
@@ -5830,12 +6016,6 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Zombie' AND v.name = 'Level 29 (Entrana)'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Zombie' AND v.name = 'Level 12'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -5860,7 +6040,31 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+WHERE c.name = 'Zombie' AND v.name = 'Level 29 (Entrana)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Zombie' AND v.name = 'Level 29 (Graveyard of Shadows)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zombie (New Varrock)' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zombie cow (New Varrock)' AND v.name = 'Boss'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zombie cow (New Varrock)' AND v.name = 'Regular'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -5897,6 +6101,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Zombie pirate' AND v.name = 'Pieces of Hate'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zombie swab' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -5943,8 +6153,44 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Vampyre' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Vampyre Juvenile' AND v.name = 'Burgh de Rott'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
 WHERE c.name = 'Vampyre Juvenile' AND v.name = 'Meiyerditch'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Vampyre Juvinate' AND v.name = 'Burgh de Rott (Level 58)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Vampyre Juvinate' AND v.name = 'Burgh de Rott (Level 63)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Vampyre Juvinate' AND v.name = 'Meiyerditch'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Vampyre Juvinate' AND v.name = 'Darkmeyer'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -5973,73 +6219,73 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vyrelady' AND v.name = '1'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vyrelady' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vyrelady' AND v.name = '3'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vyrelady' AND v.name = '4'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vyrelady' AND v.name = '5'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vyrelady' AND v.name = '6'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vyrelord' AND v.name = '1'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vyrelord' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vyrelord' AND v.name = '3'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vyrelord' AND v.name = '4'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vyrelord' AND v.name = '5'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Blisterwood" title="Blisterwood" target="_blank"><img src="./images/susceptible/s/Blisterwood_staff.png" decoding="async" loading="lazy" width="25" height="29"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vyrelord' AND v.name = '6'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -6099,8 +6345,152 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Vyrewatch' AND v.name = 'Level 70 (East of Burgh de Rott)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Vyrewatch' AND v.name = 'Level 72 (East of Burgh de Rott)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Vyrewatch' AND v.name = 'Level 75 (East of Burgh de Rott)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Vyrewatch' AND v.name = 'Level 78 (East of Burgh de Rott)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Wall beast' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '1'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '1 (chimed)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '2'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '2 (chimed)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '3'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '3 (chimed)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '4'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '4 (chimed)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '5'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '5 (chimed)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '6'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '6 (chimed)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '7'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '7 (chimed)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '8'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '8 (chimed)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '9'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '9 (chimed)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '10'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Warped terrorbird' AND v.name = '10 (chimed)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6117,38 +6507,50 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Maelstrom, Raging Waterfiend' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Torrential Waterfiend' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Torrential Waterfiend (summoned)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Waterfiend' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Waterfiend (Ghorrock)' AND v.name = '102'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Waterfiend (Ghorrock)' AND v.name = '107'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Waterfiend (Temple of Aminishi)' AND v.name = 'Normal mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Waterfiend (Temple of Aminishi)' AND v.name = 'Story mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6159,8 +6561,152 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>', '<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Waterfiend (elite)' AND v.name = 'Ancient Cavern'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Waterfiend (elite)' AND v.name = 'Ghorrock'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Demon_slayer_(effect)" title="Demon slayer (effect)" target="_blank"><img src="./images/susceptible/Demon_Slayer_%28perk%29.png" decoding="async" loading="lazy" width="25" height="25"></a>', '<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Waterfiend (summoned)' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Boris'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Imre'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Yuri'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Joseph'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Nikolai'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Eduard'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Lev'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Georgy'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Svetlana'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Irina'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Alexis'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Milla'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Galina'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Sofiya'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Ksenia'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Yadviga'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Nikita'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Vera'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Zoja'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'Liliya'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'God Wars Dungeon (male)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Werewolf' AND v.name = 'God Wars Dungeon (female)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6203,12 +6749,6 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Fenris wolf' AND v.name = 'Default'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'Fenris wolf (Sköll)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6327,8 +6867,20 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Summoned Zombie (The Shadow Reef)' AND v.name = 'Story mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>', '<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Summoned armoured zombie' AND v.name = 'Normal mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Summoned armoured zombie' AND v.name = 'Story mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6471,6 +7023,12 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zombie (Temple Trekking)' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Zombie (The Shadow Reef)' AND v.name = 'Normal mode'
 UNION ALL
@@ -6479,6 +7037,24 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Zombie (The Shadow Reef)' AND v.name = 'Story mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zombie (Uncharted Isles)' AND v.name = 'Male'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zombie (Uncharted Isles)' AND v.name = 'Female'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zombie (Uncharted Isles)' AND v.name = 'Aggressive'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6550,31 +7126,91 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Chaos Elemental' AND v.name = 'P2P'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Chaos Elemental' AND v.name = 'F2P'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'Commander Zilyana' AND v.name = 'Normal'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Chaos Elemental' AND v.name = 'P2P'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'Commander Zilyana' AND v.name = 'Hard Mode'
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Aftermath'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'General Graardor' AND v.name = 'Normal'
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Battle of the Monolith'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Council of Burthorpe'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Extinction'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Gower Quest'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Missing, Presumed Death'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Once Upon a Time in Gielinor'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Ritual of the Mahjarrat'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Senntisten'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'The World Wakes'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Croesus' AND v.name = 'Active'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Croesus' AND v.name = 'Dormant'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Corporeal Beast' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6586,7 +7222,7 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'General Graardor' AND v.name = 'The World Wakes'
+WHERE c.name = 'General Graardor' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6598,7 +7234,7 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'Giant mole' AND v.name = 'Normal'
+WHERE c.name = 'General Graardor' AND v.name = 'The World Wakes'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6609,14 +7245,20 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
-WHERE c.name = 'Gregorovic' AND v.name = 'Normal Mode'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Giant mole' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
 WHERE c.name = 'Gregorovic' AND v.name = 'Challenge Mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Terrasaur_maul" title="Terrasaur maul" target="_blank"><img src="./images/susceptible/Terrasaur_maul.png" decoding="async" loading="lazy" width="25" height="30"></a>')
+WHERE c.name = 'Gregorovic' AND v.name = 'Normal Mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6646,13 +7288,13 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'Helwyr' AND v.name = 'Normal Mode'
+WHERE c.name = 'Helwyr' AND v.name = 'Challenge Mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'Helwyr' AND v.name = 'Challenge Mode'
+WHERE c.name = 'Helwyr' AND v.name = 'Normal Mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6670,7 +7312,7 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'Nex' AND v.name = 'Standard'
+WHERE c.name = 'Nex' AND v.name = 'Magic'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6688,7 +7330,7 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'Nex' AND v.name = 'Magic'
+WHERE c.name = 'Nex' AND v.name = 'Standard'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6706,6 +7348,12 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Raksha, the Shadow Colossus' AND v.name = 'During fight (duo)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Raksha, the Shadow Colossus' AND v.name = 'Shackled'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -6717,20 +7365,14 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Raksha, the Shadow Colossus' AND v.name = 'During fight (duo)'
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+WHERE c.name = 'Rasial, the First Necromancer' AND v.name = 'Alpha vs Omega'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Rasial, the First Necromancer' AND v.name = 'Normal'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Rasial, the First Necromancer' AND v.name = 'Alpha vs Omega'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6747,6 +7389,30 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Solak' AND v.name = 'Left arm'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Solak' AND v.name = 'Left leg'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Solak' AND v.name = 'Right arm'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Solak' AND v.name = 'Right leg'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Solak' AND v.name = 'Solak'
 UNION ALL
@@ -6759,14 +7425,20 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'Telos, the Warden' AND v.name = 'Standard'
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Telos, the Warden' AND v.name = 'Dormant'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Telos, the Warden' AND v.name = 'Phase 5'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Telos, the Warden' AND v.name = 'Standard'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6784,12 +7456,6 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'Avaryss, the Unceasing' AND v.name = 'Normal Mode'
-UNION ALL
-SELECT v.id AS variant_id, s.id AS susceptible_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Avaryss, the Unceasing' AND v.name = 'Challenge Mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
@@ -6802,7 +7468,7 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'TzKal-Zuk' AND v.name = 'Normal Mode'
+WHERE c.name = 'Avaryss, the Unceasing' AND v.name = 'Normal Mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6814,7 +7480,13 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
-WHERE c.name = 'Vindicta' AND v.name = 'Normal mode'
+WHERE c.name = 'TzKal-Zuk' AND v.name = 'Normal Mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'TzTok-Jad' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6826,7 +7498,19 @@ SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
+WHERE c.name = 'Vindicta' AND v.name = 'Normal mode'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Inquisitor_staff" title="Inquisitor staff" target="_blank"><img src="./images/susceptible/Inquisitor_staff.png" decoding="async" loading="lazy" width="25" height="23"></a>')
 WHERE c.name = 'Vorago' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Zamorak, Lord of Chaos' AND v.name = 'Hard mode'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
@@ -6843,13 +7527,151 @@ UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Hexhunter_bow" title="Hexhunter bow" target="_blank"><img src="./images/susceptible/Hexhunter_bow.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Zamorak, Lord of Chaos' AND v.name = 'Hard mode'
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Defender of Varrock (1)'
 UNION ALL
 SELECT v.id AS variant_id, s.id AS susceptible_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_susceptible s ON s.link IN ('<a href="https://runescape.wiki/w/Undead_slayer_(effect)" title="Undead slayer (effect)" target="_blank"><img src="./images/susceptible/Undead_Slayer.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Zombie (Entrana Dungeon)' AND v.name = 'Default'
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Defender of Varrock (2)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Ritual of the Mahjarrat'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Ritual of the Mahjarrat (fort, skeletal)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Ritual of the Mahjarrat (fort)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Nadir'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'The World Wakes'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Missing, Presumed Death'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Dishonour among Thieves'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Dishonour among Thieves (lair)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Dishonour among Thieves (lair, examinable)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Dishonour among Thieves (cutscene)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Dimension of Disaster'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Children of Mah'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Children of Mah (examinable)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Children of Mah (Freneskae cutscene)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'TzekHaar Front'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Daughter of Chaos'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Succession'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Succession (skeletal)'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Unwelcome Guests'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Dead and Buried'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Ancient Awakening'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Battle of Forinthry'
+UNION ALL
+SELECT v.id AS variant_id, s.id AS susceptible_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_susceptible s ON s.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Requiem for a Dragon'
 ON DUPLICATE KEY UPDATE
     updated_at = NOW();

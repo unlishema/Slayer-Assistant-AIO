@@ -27,7 +27,17 @@ WHERE a.index = 'Aberrant spectres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Aberrant spectres' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Chaeldar'
+WHERE a.index = 'Aberrant spectres' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Aberrant spectres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -38,16 +48,6 @@ INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
-WHERE a.index = 'Aberrant spectres' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Aberrant spectres' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Aberrant spectres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_aliases (assignment_id, alias_id)
 SELECT a.id, al.id
@@ -79,11 +79,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Abyssal savage'
 WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -92,17 +87,7 @@ WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Abyssal_Area" title="Abyssal Area" target="_blank">Abyssal Area</a>'
-WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Forinthry_Dungeon" title="Forinthry Dungeon" target="_blank">Forinthry Dungeon</a>'
-WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Graveyard_of_Shadows" title="Graveyard of Shadows" target="_blank">Graveyard of Shadows</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Slayer_Tower" title="Slayer Tower" target="_blank">Slayer Tower</a>'
 WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -112,7 +97,27 @@ WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Slayer_Tower" title="Slayer Tower" target="_blank">Slayer Tower</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Abyssal_Area" title="Abyssal Area" target="_blank">Abyssal Area</a>'
+WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Graveyard_of_Shadows" title="Graveyard of Shadows" target="_blank">Graveyard of Shadows</a>'
+WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Forinthry_Dungeon" title="Forinthry Dungeon" target="_blank">Forinthry Dungeon</a>'
+WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -127,6 +132,11 @@ WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Morvran'
+WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
@@ -134,30 +144,10 @@ SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mandrith'
 WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
-WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
-WHERE a.index = 'Abyssal Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Abyssal beast'
-WHERE a.index = 'Abyssal beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Abyssal beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -179,11 +169,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Abyssal lord'
 WHERE a.index = 'Abyssal lords' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Abyssal lords' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -203,11 +188,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Abyssal savage'
-WHERE a.index = 'Abyssal savages' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Abyssal savages' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -234,25 +214,30 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Acheron mammoth'
 WHERE a.index = 'Acheron mammoths' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Mammoth_iceberg" title="Mammoth iceberg" target="_blank">Mammoth iceberg</a>'
 WHERE a.index = 'Acheron mammoths' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Frozen_Waste_Plateau" title="Frozen Waste Plateau" target="_blank">Frozen Waste Plateau</a>'
 WHERE a.index = 'Acheron mammoths' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Mammoth_iceberg" title="Mammoth iceberg" target="_blank">Mammoth iceberg</a>'
+JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Acheron mammoths' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
+WHERE a.index = 'Acheron mammoths' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Acheron mammoths' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -263,16 +248,6 @@ INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mandrith'
-WHERE a.index = 'Acheron mammoths' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
-WHERE a.index = 'Acheron mammoths' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Acheron mammoths' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -287,12 +262,12 @@ WHERE a.index = 'Adamant dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
 WHERE a.index = 'Adamant dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
 WHERE a.index = 'Adamant dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -312,22 +287,17 @@ WHERE a.index = 'Adamant dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Adamant dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Adamant dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Airut'
-WHERE a.index = 'Airut' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Airut' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -337,12 +307,12 @@ WHERE a.index = 'Airut' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Mazcab" title="Mazcab" target="_blank">Mazcab</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Piscatoris_Fishing_Colony" title="Piscatoris Fishing Colony" target="_blank">Piscatoris Fishing Colony</a>'
 WHERE a.index = 'Airut' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Piscatoris_Fishing_Colony" title="Piscatoris Fishing Colony" target="_blank">Piscatoris Fishing Colony</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Mazcab" title="Mazcab" target="_blank">Mazcab</a>'
 WHERE a.index = 'Airut' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -357,12 +327,12 @@ WHERE a.index = 'Airut' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Airut' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Airut' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_aliases (assignment_id, alias_id)
 SELECT a.id, al.id
@@ -377,17 +347,12 @@ WHERE a.index = 'Ankou' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Ankou (elite)'
+JOIN all_creatures c ON c.name = 'Ankou (Kili''s Knowledge IV)'
 WHERE a.index = 'Ankou' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Ankou (Kili''s Knowledge IV)'
-WHERE a.index = 'Ankou' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
+JOIN all_creatures c ON c.name = 'Ankou (elite)'
 WHERE a.index = 'Ankou' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -407,12 +372,12 @@ WHERE a.index = 'Ankou' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
+JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Ankou' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Ankou' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -442,6 +407,11 @@ WHERE a.index = 'Aquanites' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
+WHERE a.index = 'Aquanites' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Duradel'
 WHERE a.index = 'Aquanites' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
@@ -452,52 +422,42 @@ WHERE a.index = 'Aquanites' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Aquanites' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Aquanites' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Aquanites' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Armoured phantom'
 WHERE a.index = 'Armoured phantoms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Armoured phantoms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Crypt_(Wilderness)" title="Crypt (Wilderness)" target="_blank">crypt</a>'
-WHERE a.index = 'Armoured phantoms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Fort_Forinthry" title="Fort Forinthry" target="_blank">Fort Forinthry</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Crypt_(Wilderness)" title="Crypt (Wilderness)" target="_blank">Crypt</a>'
 WHERE a.index = 'Armoured phantoms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness" title="Wilderness" target="_blank">Wilderness</a>'
 WHERE a.index = 'Armoured phantoms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Fort_Forinthry" title="Fort Forinthry" target="_blank">Fort Forinthry</a>'
 WHERE a.index = 'Armoured phantoms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Armoured phantoms' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Armoured phantoms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -549,11 +509,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Scutarius'
 WHERE a.index = 'Ascension members' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Ascension members' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -572,12 +527,12 @@ WHERE a.index = 'Ascension members' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Ascension members' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Ascension members' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_aliases (assignment_id, alias_id)
 SELECT a.id, al.id
@@ -624,11 +579,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Wingman Skree'
 WHERE a.index = 'Aviansies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Aviansies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -657,6 +607,16 @@ WHERE a.index = 'Aviansies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Aviansies' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
+WHERE a.index = 'Aviansies' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Duradel'
 WHERE a.index = 'Aviansies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
@@ -667,22 +627,12 @@ WHERE a.index = 'Aviansies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Aviansies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Aviansies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Aviansies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Aviansies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -722,12 +672,12 @@ WHERE a.index = 'Banshees' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Chaeldar'
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Banshees' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
+JOIN all_masters m ON m.name = 'Chaeldar'
 WHERE a.index = 'Banshees' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -757,12 +707,12 @@ WHERE a.index = 'Basilisks' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Chaeldar'
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Basilisks' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
+JOIN all_masters m ON m.name = 'Chaeldar'
 WHERE a.index = 'Basilisks' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -789,20 +739,15 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Warped bat'
 WHERE a.index = 'Bats' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Silvarea" title="Silvarea" target="_blank">Silvarea</a>'
 WHERE a.index = 'Bats' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Morytania" title="Morytania" target="_blank">Morytania</a>'
-WHERE a.index = 'Bats' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Silvarea" title="Silvarea" target="_blank">Silvarea</a>'
 WHERE a.index = 'Bats' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -839,11 +784,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Grizzly bear cub'
 WHERE a.index = 'Bears' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Bears' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -863,11 +803,6 @@ INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
 JOIN all_hidden_creatures hc ON hc.name = 'Grizzly bear cub'
-WHERE a.index = 'Bears' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = 'No Locations'
 WHERE a.index = 'Bears' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -958,11 +893,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Undead pekin'
-WHERE a.index = 'Birds' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Birds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -1057,12 +987,12 @@ WHERE a.index = 'Birds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Jacquelyn'
+JOIN all_masters m ON m.name = 'Turael'
 WHERE a.index = 'Birds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Turael'
+JOIN all_masters m ON m.name = 'Jacquelyn'
 WHERE a.index = 'Birds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -1074,11 +1004,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Black demon'
 WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -1087,12 +1012,7 @@ WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Brimhaven_Dungeon" title="Brimhaven Dungeon" target="_blank">Brimhaven Dungeon</a>'
-WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Taverley_Dungeon" title="Taverley Dungeon" target="_blank">Taverley Dungeon</a>'
 WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -1102,7 +1022,22 @@ WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Taverley_Dungeon" title="Taverley Dungeon" target="_blank">Taverley Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
+WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Brimhaven_Dungeon" title="Brimhaven Dungeon" target="_blank">Brimhaven Dungeon</a>'
+WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -1117,27 +1052,17 @@ WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Morvran'
+WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mandrith'
-WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
-WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Black demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -1187,12 +1112,12 @@ WHERE a.index = 'Black dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
 WHERE a.index = 'Black dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
 WHERE a.index = 'Black dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -1212,7 +1137,7 @@ WHERE a.index = 'Black dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Evil_Chicken%27s_Lair" title="Evil Chicken''s Lair" target="_blank">Evil Chicken''s Lair</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Taverley_Dungeon" title="Taverley Dungeon" target="_blank">Taverley Dungeon</a>'
 WHERE a.index = 'Black dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -1222,7 +1147,12 @@ WHERE a.index = 'Black dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Taverley_Dungeon" title="Taverley Dungeon" target="_blank">Taverley Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Evil_Chicken%27s_Lair" title="Evil Chicken''s Lair" target="_blank">Evil Chicken''s Lair</a>'
+WHERE a.index = 'Black dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Black dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -1237,17 +1167,12 @@ WHERE a.index = 'Black dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Black dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Black dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Black dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -1269,10 +1194,10 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Mutated bloodveld'
 WHERE a.index = 'Bloodveld' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Slayer_Tower" title="Slayer Tower" target="_blank">Slayer Tower</a>'
 WHERE a.index = 'Bloodveld' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -1284,15 +1209,20 @@ SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Meiyerditch_Dungeon" class="mw-redirect" title="Meiyerditch Dungeon" target="_blank">Meiyerditch Dungeon</a>'
 WHERE a.index = 'Bloodveld' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Slayer_Tower" title="Slayer Tower" target="_blank">Slayer Tower</a>'
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Bloodveld' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Chaeldar'
+WHERE a.index = 'Bloodveld' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Bloodveld' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -1303,16 +1233,6 @@ INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
-WHERE a.index = 'Bloodveld' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
-WHERE a.index = 'Bloodveld' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Bloodveld' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -1337,12 +1257,22 @@ WHERE a.index = 'Blue dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
 WHERE a.index = 'Blue dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
+WHERE a.index = 'Blue dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Taverley_Dungeon" title="Taverley Dungeon" target="_blank">Taverley Dungeon</a>'
+WHERE a.index = 'Blue dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ogre_Enclave" title="Ogre Enclave" target="_blank">Ogre Enclave</a>'
 WHERE a.index = 'Blue dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -1354,20 +1284,15 @@ SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Kuradal%27s_Dungeon" title="Kuradal''s Dungeon" target="_blank">Kuradal''s Dungeon</a>'
 WHERE a.index = 'Blue dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ogre_Enclave" title="Ogre Enclave" target="_blank">Ogre Enclave</a>'
-WHERE a.index = 'Blue dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Taverley_Dungeon" title="Taverley Dungeon" target="_blank">Taverley Dungeon</a>'
-WHERE a.index = 'Blue dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Chaeldar'
+WHERE a.index = 'Blue dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Blue dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -1379,20 +1304,10 @@ SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Blue dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Blue dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Bound skeleton'
-WHERE a.index = 'Bound skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Bound skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -1402,22 +1317,17 @@ WHERE a.index = 'Bound skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Chaeldar'
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Bound skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
+JOIN all_masters m ON m.name = 'Chaeldar'
 WHERE a.index = 'Bound skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Brine rat'
-WHERE a.index = 'Brine rats' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Brine rats' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -1427,12 +1337,12 @@ WHERE a.index = 'Brine rats' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Chaeldar'
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Brine rats' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
+JOIN all_masters m ON m.name = 'Chaeldar'
 WHERE a.index = 'Brine rats' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -1447,12 +1357,12 @@ WHERE a.index = 'Bronze dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
 WHERE a.index = 'Bronze dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
 WHERE a.index = 'Bronze dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -1484,15 +1394,15 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Camel Warrior'
 WHERE a.index = 'Camel warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Camel warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Camel_Warriors_island" title="Camel Warriors island" target="_blank">Camel Warriors island</a>'
+WHERE a.index = 'Camel warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Camel warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -1502,27 +1412,17 @@ WHERE a.index = 'Camel warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Camel warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Camel warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Camel warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Catablepon'
-WHERE a.index = 'Catablepon' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Catablepon' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -1538,11 +1438,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Cave bug'
-WHERE a.index = 'Cave bugs' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Cave bugs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -1567,27 +1462,17 @@ WHERE a.index = 'Cave bugs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Jacquelyn'
+JOIN all_masters m ON m.name = 'Turael'
 WHERE a.index = 'Cave bugs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Turael'
+JOIN all_masters m ON m.name = 'Jacquelyn'
 WHERE a.index = 'Cave bugs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Cave crawler'
-WHERE a.index = 'Cave crawlers' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Cave crawlers' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Dorgesh-Kaan_South_Dungeon" title="Dorgesh-Kaan South Dungeon" target="_blank">Dorgesh-Kaan South Dungeon</a>'
 WHERE a.index = 'Cave crawlers' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -1602,17 +1487,22 @@ WHERE a.index = 'Cave crawlers' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Dorgesh-Kaan_South_Dungeon" title="Dorgesh-Kaan South Dungeon" target="_blank">Dorgesh-Kaan South Dungeon</a>'
+WHERE a.index = 'Cave crawlers' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Pollnivneach_Slayer_Dungeon" title="Pollnivneach Slayer Dungeon" target="_blank">Pollnivneach Slayer Dungeon</a>'
 WHERE a.index = 'Cave crawlers' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Chaeldar'
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Cave crawlers' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
+JOIN all_masters m ON m.name = 'Chaeldar'
 WHERE a.index = 'Cave crawlers' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -1642,12 +1532,12 @@ WHERE a.index = 'Cave horrors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Light_source" class="mw-redirect" title="Light source" target="_blank">Light source</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Witchwood_icon" title="Witchwood icon" target="_blank">Witchwood icon</a>'
 WHERE a.index = 'Cave horrors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Witchwood_icon" title="Witchwood icon" target="_blank">Witchwood icon</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Light_source" class="mw-redirect" title="Light source" target="_blank">Light source</a>'
 WHERE a.index = 'Cave horrors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -1694,11 +1584,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Laboratory slime'
 WHERE a.index = 'Cave slimes' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Cave slimes' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -1712,12 +1597,12 @@ WHERE a.index = 'Cave slimes' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Dorgesh-Kaan_South_Dungeon" title="Dorgesh-Kaan South Dungeon" target="_blank">Dorgesh-Kaan South Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lumbridge_Swamp_Caves" title="Lumbridge Swamp Caves" target="_blank">Lumbridge Swamp Caves</a>'
 WHERE a.index = 'Cave slimes' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lumbridge_Swamp_Caves" title="Lumbridge Swamp Caves" target="_blank">Lumbridge Swamp Caves</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Dorgesh-Kaan_South_Dungeon" title="Dorgesh-Kaan South Dungeon" target="_blank">Dorgesh-Kaan South Dungeon</a>'
 WHERE a.index = 'Cave slimes' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -1782,22 +1667,17 @@ WHERE a.index = 'Celestial dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Celestial dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Celestial dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Chaos Giant'
-WHERE a.index = 'Chaos giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Chaos giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -1812,12 +1692,12 @@ WHERE a.index = 'Chaos giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Chaos giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Chaos giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_aliases (assignment_id, alias_id)
 SELECT a.id, al.id
@@ -1863,11 +1743,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Warped cockroach'
-WHERE a.index = 'Cockroaches' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Cockroaches' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -1962,12 +1837,12 @@ WHERE a.index = 'Corrupted creatures' ON DUPLICATE KEY UPDATE updated_at = NOW()
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Kuradal'
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Corrupted creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Kuradal'
 WHERE a.index = 'Corrupted creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -1977,7 +1852,7 @@ WHERE a.index = 'Corrupted creatures' ON DUPLICATE KEY UPDATE updated_at = NOW()
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Corrupted creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -1999,11 +1874,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Undead cow'
 WHERE a.index = 'Cows' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Cows' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -2019,20 +1889,15 @@ SELECT a.id, hc.id
 FROM all_assignments a
 JOIN all_hidden_creatures hc ON hc.name = 'Undead cow'
 WHERE a.index = 'Cows' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = 'No Locations'
+JOIN all_masters m ON m.name = 'Turael'
 WHERE a.index = 'Cows' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Jacquelyn'
-WHERE a.index = 'Cows' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Turael'
 WHERE a.index = 'Cows' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -2048,11 +1913,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Zombie hand'
-WHERE a.index = 'Crawling hands' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Crawling hands' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -2077,12 +1937,12 @@ WHERE a.index = 'Crawling hands' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Chaeldar'
+JOIN all_masters m ON m.name = 'Turael'
 WHERE a.index = 'Crawling hands' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Turael'
+JOIN all_masters m ON m.name = 'Chaeldar'
 WHERE a.index = 'Crawling hands' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -2114,20 +1974,10 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Soulgazer'
 WHERE a.index = 'Creatures of Daemonheim' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Creatures of Daemonheim' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
 JOIN all_hidden_creatures hc ON hc.name = 'Edimmu (elite)'
-WHERE a.index = 'Creatures of Daemonheim' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = 'No Locations'
 WHERE a.index = 'Creatures of Daemonheim' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -2154,11 +2004,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Vinecrawler'
 WHERE a.index = 'Creatures of the Lost Grove' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Creatures of the Lost Grove' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -2167,12 +2012,12 @@ WHERE a.index = 'Creatures of the Lost Grove' ON DUPLICATE KEY UPDATE updated_at
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Creatures of the Lost Grove' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Creatures of the Lost Grove' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_aliases (assignment_id, alias_id)
 SELECT a.id, al.id
@@ -2194,15 +2039,15 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Automaton Tracer'
 WHERE a.index = 'Cres''s creations' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Cres''s creations' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Guthix%27s_Cave" class="mw-redirect" title="Guthix''s Cave" target="_blank">Guthix''s Cave</a>'
+WHERE a.index = 'Cres''s creations' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Cres''s creations' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -2217,17 +2062,12 @@ WHERE a.index = 'Cres''s creations' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Cres''s creations' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Cres''s creations' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Cres''s creations' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -2249,11 +2089,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Sea crocodile'
 WHERE a.index = 'Crocodiles' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Crocodiles' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -2267,12 +2102,12 @@ WHERE a.index = 'Crocodiles' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Kharidian_Desert" title="Kharidian Desert" target="_blank">Kharidian Desert</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/River_Elid" title="River Elid" target="_blank">Elid</a>'
 WHERE a.index = 'Crocodiles' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/River_Elid" title="River Elid" target="_blank">Elid</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Kharidian_Desert" title="Kharidian Desert" target="_blank">Kharidian Desert</a>'
 WHERE a.index = 'Crocodiles' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -2289,11 +2124,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Crystal Shapeshifter'
 WHERE a.index = 'Crystal shapeshifters' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Crystal shapeshifters' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -2302,12 +2132,12 @@ WHERE a.index = 'Crystal shapeshifters' ON DUPLICATE KEY UPDATE updated_at = NOW
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Crystal shapeshifters' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Crystal shapeshifters' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -2319,15 +2149,20 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Cyclossus'
 WHERE a.index = 'Cyclopes' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Cyclopes' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
 JOIN all_hidden_creatures hc ON hc.name = 'Cyclossus'
+WHERE a.index = 'Cyclopes' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<span class="floornumber" target="_blank" href="https://runescape.wiki"><span class="floornumber-gb">2<sup class="floornumber-ordinal-suffix">nd</sup>&nbsp;floor<sup class="floornumber-help noexcerpt">[<span class="fact-text floor-convention" title="British convention; floor 3 in the US">UK</span>]</sup></span><span class="floornumber-us noexcerpt">3<sup class="floornumber-ordinal-suffix">rd</sup>&nbsp;floor<sup class="floornumber-help noexcerpt">[<span class="fact-text floor-convention" title="US convention; floor 2 in the UK">US</span>]</sup></span></span>'
+WHERE a.index = 'Cyclopes' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Warriors%27_Guild" title="Warriors'' Guild" target="_blank">Warriors'' Guild</a>'
 WHERE a.index = 'Cyclopes' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -2338,16 +2173,6 @@ INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/God_Wars_Dungeon" title="God Wars Dungeon" target="_blank">God Wars Dungeon</a>'
-WHERE a.index = 'Cyclopes' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Warriors%27_Guild" title="Warriors'' Guild" target="_blank">Warriors'' Guild</a>'
-WHERE a.index = 'Cyclopes' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<span class="floornumber" target="_blank" href="https://runescape.wiki"><span class="floornumber-gb">2<sup class="floornumber-ordinal-suffix">nd</sup>&nbsp;floor<sup class="floornumber-help noexcerpt">[<span class="fact-text floor-convention" title="British convention; floor 3 in the US">UK</span>]</sup></span><span class="floornumber-us noexcerpt">3<sup class="floornumber-ordinal-suffix">rd</sup>&nbsp;floor<sup class="floornumber-help noexcerpt">[<span class="fact-text floor-convention" title="US convention; floor 2 in the UK">US</span>]</sup></span></span>'
 WHERE a.index = 'Cyclopes' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -2362,22 +2187,12 @@ WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Dagannoth (Waterbirth Island, ranged)'
-WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_creatures (assignment_id, creature_id)
-SELECT a.id, c.id
-FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Dagannoth (Waterbirth Island)'
 WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Dagannoth fledgeling'
-WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_creatures (assignment_id, creature_id)
-SELECT a.id, c.id
-FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Dagannoth guardian'
+JOIN all_creatures c ON c.name = 'Dagannoth (Waterbirth Island, ranged)'
 WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -2392,17 +2207,22 @@ WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Dagannoth spawn'
+JOIN all_creatures c ON c.name = 'Dagannoth Supreme'
 WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Dagannoth Supreme'
+JOIN all_creatures c ON c.name = 'Dagannoth fledgeling'
 WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
+JOIN all_creatures c ON c.name = 'Dagannoth guardian'
+WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Dagannoth spawn'
 WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -2412,12 +2232,12 @@ WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
-JOIN all_hidden_creatures hc ON hc.name = 'Dagannoth (Waterbirth Island, ranged)'
+JOIN all_hidden_creatures hc ON hc.name = 'Dagannoth (Waterbirth Island)'
 WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
-JOIN all_hidden_creatures hc ON hc.name = 'Dagannoth (Waterbirth Island)'
+JOIN all_hidden_creatures hc ON hc.name = 'Dagannoth (Waterbirth Island, ranged)'
 WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -2452,7 +2272,17 @@ WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Chaeldar'
+WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -2467,22 +2297,12 @@ WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Dagannoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -2498,11 +2318,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Revenant dark beast'
-WHERE a.index = 'Dark beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Dark beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -2527,6 +2342,11 @@ WHERE a.index = 'Dark beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Dark beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Duradel'
 WHERE a.index = 'Dark beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
@@ -2537,22 +2357,17 @@ WHERE a.index = 'Dark beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Morvran'
+WHERE a.index = 'Dark beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Dark beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mandrith'
-WHERE a.index = 'Dark beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
-WHERE a.index = 'Dark beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Dark beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -2689,11 +2504,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Zakl''n Gritch'
 WHERE a.index = 'Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -2729,20 +2539,15 @@ SELECT a.id, hc.id
 FROM all_assignments a
 JOIN all_hidden_creatures hc ON hc.name = 'Zakl''n Gritch'
 WHERE a.index = 'Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = 'No Locations'
+JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -2789,15 +2594,15 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Desert strykewyrm'
 WHERE a.index = 'Desert strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Desert strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Al_Kharid" title="Al Kharid" target="_blank">Al Kharid</a>'
+WHERE a.index = 'Desert strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Desert strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -2812,17 +2617,12 @@ WHERE a.index = 'Desert strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Desert strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Desert strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Desert strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -2869,11 +2669,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Venomous dinosaur'
 WHERE a.index = 'Dinosaurs' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Dinosaurs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -2904,11 +2699,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Wild dog'
 WHERE a.index = 'Dogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Dogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -2932,12 +2722,12 @@ WHERE a.index = 'Dogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Black_Arm_Gang" title="Black Arm Gang" target="_blank">Black Arm Gang</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/McGrubor%27s_Wood" title="McGrubor''s Wood" target="_blank">McGrubor''s Wood</a>'
 WHERE a.index = 'Dogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Brimhaven_Dungeon" title="Brimhaven Dungeon" target="_blank">Brimhaven Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Black_Arm_Gang" title="Black Arm Gang" target="_blank">Black Arm Gang</a>'
 WHERE a.index = 'Dogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -2947,7 +2737,7 @@ WHERE a.index = 'Dogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/McGrubor%27s_Wood" title="McGrubor''s Wood" target="_blank">McGrubor''s Wood</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Brimhaven_Dungeon" title="Brimhaven Dungeon" target="_blank">Brimhaven Dungeon</a>'
 WHERE a.index = 'Dogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -3149,25 +2939,15 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Vorkath'
 WHERE a.index = 'Dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = 'No Locations'
+JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -3192,17 +2972,17 @@ WHERE a.index = 'Dust devils' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Gas_mask" title="Gas mask" target="_blank">Gas mask</a>'
-WHERE a.index = 'Dust devils' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
 JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Masked_earmuffs" title="Masked earmuffs" target="_blank">Masked earmuffs</a>'
 WHERE a.index = 'Dust devils' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
 JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Slayer_helmet" title="Slayer helmet" target="_blank">Slayer helmet</a>'
+WHERE a.index = 'Dust devils' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_equipment (assignment_id, equipment_id)
+SELECT a.id, e.id
+FROM all_assignments a
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Gas_mask" title="Gas mask" target="_blank">Gas mask</a>'
 WHERE a.index = 'Dust devils' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -3212,17 +2992,22 @@ WHERE a.index = 'Dust devils' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Smoke_Dungeon" title="Smoke Dungeon" target="_blank">Smoke Dungeon</a>'
 WHERE a.index = 'Dust devils' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Smoke_Dungeon" title="Smoke Dungeon" target="_blank">Smoke Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
 WHERE a.index = 'Dust devils' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Chaeldar'
+WHERE a.index = 'Dust devils' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Dust devils' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -3234,11 +3019,6 @@ SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
 WHERE a.index = 'Dust devils' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Dust devils' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
@@ -3249,11 +3029,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Earth warrior (elite)'
 WHERE a.index = 'Earth warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Earth warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -3262,12 +3037,12 @@ WHERE a.index = 'Earth warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Edgeville_Dungeon" title="Edgeville Dungeon" target="_blank">Edgeville Dungeon</a>'
 WHERE a.index = 'Earth warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Edgeville_Dungeon" title="Edgeville Dungeon" target="_blank">Edgeville Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
 WHERE a.index = 'Earth warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -3312,12 +3087,12 @@ WHERE a.index = 'Edimmu' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Edimmu' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Edimmu' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -3369,11 +3144,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Seren warrior'
 WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -3402,22 +3172,22 @@ WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Elf_Camp" title="Elf Camp" target="_blank">Elf Camp</a>'
-WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Heart_of_Gielinor" title="Heart of Gielinor" target="_blank">Heart of Gielinor</a>'
-WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lletya" title="Lletya" target="_blank">Lletya</a>'
 WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Elf_Camp" title="Elf Camp" target="_blank">Elf Camp</a>'
+WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Prifddinas" title="Prifddinas" target="_blank">Prifddinas</a>'
+WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Heart_of_Gielinor" title="Heart of Gielinor" target="_blank">Heart of Gielinor</a>'
 WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -3427,12 +3197,12 @@ WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Kuradal'
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Kuradal'
 WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -3442,17 +3212,12 @@ WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Elves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Fetid zombie'
-WHERE a.index = 'Fetid zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Fetid zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -3494,11 +3259,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Fire giant'
 WHERE a.index = 'Fire giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Fire giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -3512,12 +3272,12 @@ WHERE a.index = 'Fire giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Resource_dungeon" class="mw-redirect" title="Resource dungeon" target="_blank">Resource dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Smoke_Dungeon" title="Smoke Dungeon" target="_blank">Smoke Dungeon</a>'
 WHERE a.index = 'Fire giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Smoke_Dungeon" title="Smoke Dungeon" target="_blank">Smoke Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Resource_dungeon" class="mw-redirect" title="Resource dungeon" target="_blank">Resource dungeon</a>'
 WHERE a.index = 'Fire giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -3527,7 +3287,17 @@ WHERE a.index = 'Fire giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Fire giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Chaeldar'
+WHERE a.index = 'Fire giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Fire giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -3539,16 +3309,6 @@ SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
 WHERE a.index = 'Fire giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Fire giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
-WHERE a.index = 'Fire giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_aliases (assignment_id, alias_id)
 SELECT a.id, al.id
 FROM all_assignments a
@@ -3558,11 +3318,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Flesh Crawler'
-WHERE a.index = 'Fleshcrawlers' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Fleshcrawlers' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -3604,11 +3359,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Swamp frog'
 WHERE a.index = 'Frogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Frogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -3627,11 +3377,6 @@ WHERE a.index = 'Frogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Jade_vine_maze" title="Jade vine maze" target="_blank">Jade vine maze</a>'
-WHERE a.index = 'Frogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lumbridge_Swamp_Caves" title="Lumbridge Swamp Caves" target="_blank">Lumbridge Swamp Caves</a>'
 WHERE a.index = 'Frogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
@@ -3643,6 +3388,11 @@ INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Sophanem" title="Sophanem" target="_blank">Sophanem</a>'
+WHERE a.index = 'Frogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Jade_vine_maze" title="Jade vine maze" target="_blank">Jade vine maze</a>'
 WHERE a.index = 'Frogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -3682,12 +3432,12 @@ WHERE a.index = 'Fungal magi' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Duradel'
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Fungal magi' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_masters m ON m.name = 'Duradel'
 WHERE a.index = 'Fungal magi' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -3722,12 +3472,12 @@ WHERE a.index = 'Ganodermic creatures' ON DUPLICATE KEY UPDATE updated_at = NOW(
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Ganodermic creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Ganodermic creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -3767,6 +3517,11 @@ WHERE a.index = 'Gargoyles' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
+WHERE a.index = 'Gargoyles' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Duradel'
 WHERE a.index = 'Gargoyles' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
@@ -3777,22 +3532,17 @@ WHERE a.index = 'Gargoyles' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Morvran'
+WHERE a.index = 'Gargoyles' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Gargoyles' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mandrith'
-WHERE a.index = 'Gargoyles' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
-WHERE a.index = 'Gargoyles' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Gargoyles' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -3867,12 +3617,12 @@ WHERE a.index = 'Gemstone dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Gemstone dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Gemstone dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -4139,11 +3889,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Wight ranger (Sliske''s Endgame)'
 WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -4262,27 +4007,12 @@ WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Clan_Wars" title="Clan Wars" target="_blank">Clan Wars</a>'
-WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Death_Altar" class="mw-redirect" title="Death Altar" target="_blank">Death Altar</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Varrock_Sewers" title="Varrock Sewers" target="_blank">Varrock Sewers</a>'
 WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Draynor_Manor" title="Draynor Manor" target="_blank">Draynor Manor</a>'
-WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Forgotten_Cemetery" class="mw-redirect" title="Forgotten Cemetery" target="_blank">Forgotten Cemetery</a>'
-WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Haunted_Mine" title="Haunted Mine" target="_blank">Haunted Mine</a>'
 WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -4297,12 +4027,32 @@ WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Taverley_Dungeon" title="Taverley Dungeon" target="_blank">Taverley Dungeon</a>'
+WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Tarn%27s_Lair" class="mw-redirect" title="Tarn''s Lair" target="_blank">Tarn''s Lair</a>'
 WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Taverley_Dungeon" title="Taverley Dungeon" target="_blank">Tave'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Death_Altar" class="mw-redirect" title="Death Altar" target="_blank">Death Altar</a>'
+WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Haunted_Mine" title="Haunted Mine" target="_blank">Haunted Mine</a>'
+WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Clan_Wars" title="Clan Wars" target="_blank">Clan Wars</a>'
+WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Forgotten_Cemetery" class="mw-redirect" title="Forgotten Cemetery" target="_blank">Forgotten Cemetery</a>'
 WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -4312,12 +4062,12 @@ WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
+JOIN all_masters m ON m.name = 'Vannaka'
 WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Vannaka'
+JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -4338,11 +4088,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Ravenous ghoul (Mazchna)'
-WHERE a.index = 'Ghouls' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Ghouls' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -4417,11 +4162,6 @@ WHERE a.index = 'Glacors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Frozen_Waste_Plateau" title="Frozen Waste Plateau" target="_blank">Frozen Waste Plateau</a>'
-WHERE a.index = 'Glacors' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Glacor_Cave" title="Glacor Cave" target="_blank">Glacor Cave</a>'
 WHERE a.index = 'Glacors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
@@ -4429,10 +4169,20 @@ SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Glacor_Front" title="Glacor Front" target="_blank">Glacor front</a>'
 WHERE a.index = 'Glacors' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Frozen_Waste_Plateau" title="Frozen Waste Plateau" target="_blank">Frozen Waste Plateau</a>'
+WHERE a.index = 'Glacors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
+WHERE a.index = 'Glacors' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Glacors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -4443,11 +4193,6 @@ INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mandrith'
-WHERE a.index = 'Glacors' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Glacors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -4529,11 +4274,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Stinkears'
 WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -4592,12 +4332,7 @@ WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Coal_truck_mining_site" class="mw-redirect" title="Coal truck mining site" target="_blank">Coal truck mining site</a>'
-WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Goblin_Cave" title="Goblin Cave" target="_blank">Goblin Cave</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lumbridge_catacombs" class="mw-redirect" title="Lumbridge catacombs" target="_blank">Lumbridge catacombs</a>'
 WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -4607,17 +4342,37 @@ WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Port_Sarim" title="Port Sarim" target="_blank">Port Sarim</a>'
+WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Varrock_Dig_Site" title="Varrock Dig Site" target="_blank">Varrock Dig Site</a>'
+WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Stronghold_of_Security" title="Stronghold of Security" target="_blank">Stronghold of Security</a>'
+WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Underground_Pass_(dungeon)" title="Underground Pass (dungeon)" target="_blank">Underground Pass</a>'
+WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Goblin_Cave" title="Goblin Cave" target="_blank">Goblin Cave</a>'
+WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Coal_truck_mining_site" class="mw-redirect" title="Coal truck mining site" target="_blank">Coal truck mining site</a>'
+WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/God_Wars_Dungeon" title="God Wars Dungeon" target="_blank">God Wars Dungeon</a>'
-WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Gunnarsgrunn" class="mw-redirect" title="Gunnarsgrunn" target="_blank">Gunnarsgrunn</a>'
-WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lumbridge_catacombs" class="mw-redirect" title="Lumbridge catacombs" target="_blank">Lumbridge catacombs</a>'
 WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -4627,12 +4382,7 @@ WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Port_Sarim" title="Port Sarim" target="_blank">Port Sarim</a>'
-WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Stronghold_of_Security" title="Stronghold of Secu'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Gunnarsgrunn" class="mw-redirect" title="Gunnarsgrunn" target="_blank">Gunnarsgrunn</a>'
 WHERE a.index = 'Goblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -4649,11 +4399,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Gorak'
 WHERE a.index = 'Goraks' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Goraks' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -4662,12 +4407,12 @@ WHERE a.index = 'Goraks' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/God_Wars_Dungeon" title="God Wars Dungeon" target="_blank">God Wars Dungeon</a>'
+JOIN all_locations l ON l.link = '<span class="fairycode" style="word-break:keep-all" target="_blank" href="https://runescape.wiki"><b>D</b><b>I</b><b>R</b></span>'
 WHERE a.index = 'Goraks' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<span class="fairycode" style="word-break:keep-all" target="_blank" href="https://runescape.wiki"><b>D</b><b>I</b><b>R</b></span>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/God_Wars_Dungeon" title="God Wars Dungeon" target="_blank">God Wars Dungeon</a>'
 WHERE a.index = 'Goraks' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -4693,11 +4438,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Greater demon berserker'
-WHERE a.index = 'Greater demon berserkers and ash lords' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Greater demon berserkers and ash lords' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -4804,11 +4544,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Tstanon Karlak'
 WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -4827,27 +4562,12 @@ WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Brimhaven_Dungeon" title="Brimhaven Dungeon" target="_blank">Brimhaven Dungeon</a>'
-WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Demonic_ruins" class="mw-redirect" title="Demonic ruins" target="_blank">Demonic ruins</a>'
-WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Entrana_Dungeon" title="Entrana Dungeon" target="_blank">Entrana Dungeon</a>'
 WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Kuradal%27s_Dungeon" title="Kuradal''s Dungeon" target="_blank">Kuradal''s Dungeon</a>'
-WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lava_Maze_Dungeon" title="Lava Maze Dungeon" target="_blank">Lava Maze Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Brimhaven_Dungeon" title="Brimhaven Dungeon" target="_blank">Brimhaven Dungeon</a>'
 WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -4857,7 +4577,32 @@ WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Kuradal%27s_Dungeon" title="Kuradal''s Dungeon" target="_blank">Kuradal''s Dungeon</a>'
+WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Demonic_ruins" class="mw-redirect" title="Demonic ruins" target="_blank">Demonic ruins</a>'
+WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness_Crater" title="Wilderness Crater" target="_blank">Wilderness Crater</a>'
+WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lava_Maze_Dungeon" title="Lava Maze Dungeon" target="_blank">Lava Maze Dungeon</a>'
+WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -4872,22 +4617,12 @@ WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Greater demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -4907,12 +4642,12 @@ WHERE a.index = 'Green dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
 WHERE a.index = 'Green dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
 WHERE a.index = 'Green dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -4937,7 +4672,7 @@ WHERE a.index = 'Green dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Green dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -4947,7 +4682,7 @@ WHERE a.index = 'Green dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Green dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -4957,12 +4692,12 @@ WHERE a.index = 'Grifolapines' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Neem_oil" title="Neem oil" target="_blank">Neem oil</a>'
+JOIN all_equipment e ON e.link = '<span class="pic-link inventory-image" target="_blank" href="https://runescape.wiki"><span class="mw-default-size" typeof="mw:File"><a href="/w/Neem_oil" title="Neem oil"><img alt="Neem oil.png: RS3 Inventory image of Neem oil" src="/images/Neem_oil.png?f5dec" decoding="async" loading="lazy" width="27" height="29" class="mw-file-element" data-file-width="27" data-file-height="29"></a></span></span>'
 WHERE a.index = 'Grifolapines' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<span class="pic-link inventory-image" target="_blank" href="https://runescape.wiki"><span class="mw-default-size" typeof="mw:File"><a href="/w/Neem_oil" title="Neem oil"><img alt="Neem oil.png: RS3 Inventory image of Neem oil" src="/images/Neem_oil.png?f5dec" decoding="async" loading="lazy" width="27" height="29" class="mw-file-element" data-file-width="27" data-file-height="29"></a></span></span>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Neem_oil" title="Neem oil" target="_blank">Neem oil</a>'
 WHERE a.index = 'Grifolapines' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -4977,17 +4712,17 @@ WHERE a.index = 'Grifolapines' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
+WHERE a.index = 'Grifolapines' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Duradel'
 WHERE a.index = 'Grifolapines' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
-WHERE a.index = 'Grifolapines' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Grifolapines' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -4997,12 +4732,12 @@ WHERE a.index = 'Grifolaroos' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Neem_oil" title="Neem oil" target="_blank">Neem oil</a>'
+JOIN all_equipment e ON e.link = '<span class="pic-link inventory-image" target="_blank" href="https://runescape.wiki"><span class="mw-default-size" typeof="mw:File"><a href="/w/Neem_oil" title="Neem oil"><img alt="Neem oil.png: RS3 Inventory image of Neem oil" src="/images/Neem_oil.png?f5dec" decoding="async" loading="lazy" width="27" height="29" class="mw-file-element" data-file-width="27" data-file-height="29"></a></span></span>'
 WHERE a.index = 'Grifolaroos' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<span class="pic-link inventory-image" target="_blank" href="https://runescape.wiki"><span class="mw-default-size" typeof="mw:File"><a href="/w/Neem_oil" title="Neem oil"><img alt="Neem oil.png: RS3 Inventory image of Neem oil" src="/images/Neem_oil.png?f5dec" decoding="async" loading="lazy" width="27" height="29" class="mw-file-element" data-file-width="27" data-file-height="29"></a></span></span>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Neem_oil" title="Neem oil" target="_blank">Neem oil</a>'
 WHERE a.index = 'Grifolaroos' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -5017,17 +4752,17 @@ WHERE a.index = 'Grifolaroos' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
+WHERE a.index = 'Grifolaroos' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Duradel'
 WHERE a.index = 'Grifolaroos' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
-WHERE a.index = 'Grifolaroos' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Grifolaroos' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -5049,11 +4784,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Young grotworm'
 WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -5067,7 +4797,27 @@ WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Vannaka'
+WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Mazchna'
+WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Chaeldar'
+WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -5082,27 +4832,7 @@ WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
-WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
-WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
-WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Vannaka'
 WHERE a.index = 'Grotworms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -5152,12 +4882,12 @@ WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Hellhound (summoned)'
+JOIN all_creatures c ON c.name = 'Hellhound (The Zamorakian Undercity)'
 WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Hellhound (The Zamorakian Undercity)'
+JOIN all_creatures c ON c.name = 'Hellhound (summoned)'
 WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -5179,11 +4909,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Revenant hellhound'
 WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -5192,7 +4917,17 @@ WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Taverley_Dungeon" title="Taverley Dungeon" target="_blank">Taverley Dungeon</a>'
+WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Deserted_Keep" title="Deserted Keep" target="_blank">Deserted Keep</a>'
+WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Witchaven_Shrine_Dungeon" class="mw-redirect" title="Witchaven Shrine Dungeon" target="_blank">Witchaven Shrine Dungeon</a>'
 WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -5207,17 +4942,17 @@ WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Taverley_Dungeon" title="Taverley Dungeon" target="_blank">Taverley Dungeon</a>'
-WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness_Crater" title="Wilderness Crater" target="_blank">Wilderness Crater</a>'
 WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Witchaven_Shrine_Dungeon" class="mw-redirect" title="Witchaven Shrine Dungeon" target="_blank">Witchaven Shrine Dungeon</a>'
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -5229,25 +4964,10 @@ SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
 WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
-WHERE a.index = 'Hellhounds' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Hill Giant'
-WHERE a.index = 'Hill giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Hill giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -5258,6 +4978,11 @@ INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Edgeville_Dungeon" title="Edgeville Dungeon" target="_blank">Edgeville Dungeon</a>'
+WHERE a.index = 'Hill giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<sup target="_blank" href="https://runescape.wiki">(<a href="/w/Edgeville_Dungeon_hill_giant_resource_dungeon" title="Edgeville Dungeon hill giant resource dungeon">resource dungeon</a>)</sup>'
 WHERE a.index = 'Hill giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -5289,11 +5014,6 @@ SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness" title="Wilderness" target="_blank">Wilderness</a>'
 WHERE a.index = 'Hill giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<sup target="_blank" href="https://runescape.wiki">(<a href="/w/Edgeville_Dungeon_hill'
-WHERE a.index = 'Hill giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
@@ -5308,11 +5028,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Hobgoblin (elite)'
-WHERE a.index = 'Hobgoblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Hobgoblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -5332,22 +5047,17 @@ WHERE a.index = 'Hobgoblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Hobgoblin_Peninsula" title="Hobgoblin Peninsula" target="_blank">Hobgoblin Peninsula</a>'
+WHERE a.index = 'Hobgoblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Edgeville_Dungeon" title="Edgeville Dungeon" target="_blank">Edgeville Dungeon</a>'
 WHERE a.index = 'Hobgoblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/God_Wars_Dungeon" title="God Wars Dungeon" target="_blank">God Wars Dungeon</a>'
-WHERE a.index = 'Hobgoblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Hobgoblin_Mine" class="mw-redirect" title="Hobgoblin Mine" target="_blank">Hobgoblin Mine</a>'
-WHERE a.index = 'Hobgoblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Hobgoblin_Peninsula" title="Hobgoblin Peninsula" target="_blank">Hobgoblin Peninsula</a>'
 WHERE a.index = 'Hobgoblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -5362,7 +5072,12 @@ WHERE a.index = 'Hobgoblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Witchaven_Dungeon" title="Witchaven Dungeon" target="_blank">Witchaven Dungeo'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Hobgoblin_Mine" class="mw-redirect" title="Hobgoblin Mine" target="_blank">Hobgoblin Mine</a>'
+WHERE a.index = 'Hobgoblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Witchaven_Dungeon" title="Witchaven Dungeon" target="_blank">Witchaven Dungeon</a>'
 WHERE a.index = 'Hobgoblins' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -5382,12 +5097,12 @@ WHERE a.index = 'Hydrix dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Deep_Wilderness_Dungeon" title="Deep Wilderness Dungeon" target="_blank">Deep Wilderness Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness_(level_47)_Lava_Maze_mine" title="Wilderness (level 47) Lava Maze mine" target="_blank">Wilderness (level 47) Lava Maze mine</a>'
 WHERE a.index = 'Hydrix dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness_(level_47)_Lava_Maze_mine" title="Wilderness (level 47) Lava Maze mine" target="_blank">Wilderness (level 47) Lava Maze mine</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Deep_Wilderness_Dungeon" title="Deep Wilderness Dungeon" target="_blank">Deep Wilderness Dungeon</a>'
 WHERE a.index = 'Hydrix dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -5398,11 +5113,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Ice giant'
-WHERE a.index = 'Ice giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Ice giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -5427,12 +5137,12 @@ WHERE a.index = 'Ice giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
+JOIN all_masters m ON m.name = 'Vannaka'
 WHERE a.index = 'Ice giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Vannaka'
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Ice giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -5447,12 +5157,12 @@ WHERE a.index = 'Ice strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Frozen_Waste_Plateau" title="Frozen Waste Plateau" target="_blank">Frozen Waste Plateau</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ice_strykewyrm_cave" title="Ice strykewyrm cave" target="_blank">Ice strykewyrm cave</a>'
 WHERE a.index = 'Ice strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ice_strykewyrm_cave" title="Ice strykewyrm cave" target="_blank">Ice strykewyrm cave</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Frozen_Waste_Plateau" title="Frozen Waste Plateau" target="_blank">Frozen Waste Plateau</a>'
 WHERE a.index = 'Ice strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -5467,17 +5177,17 @@ WHERE a.index = 'Ice strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Morvran'
+WHERE a.index = 'Ice strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Ice strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mandrith'
-WHERE a.index = 'Ice strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Ice strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -5489,15 +5199,20 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Icelord'
 WHERE a.index = 'Ice warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Ice warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
 JOIN all_hidden_creatures hc ON hc.name = 'Icelord'
+WHERE a.index = 'Ice warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/White_Wolf_Mountain" title="White Wolf Mountain" target="_blank">White Wolf Mountain</a>'
+WHERE a.index = 'Ice warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Frozen_Waste_Plateau" title="Frozen Waste Plateau" target="_blank">Frozen Waste Plateau</a>'
 WHERE a.index = 'Ice warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -5509,25 +5224,15 @@ SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
 WHERE a.index = 'Ice warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Frozen_Waste_Plateau" title="Frozen Waste Plateau" target="_blank">Frozen Waste Plateau</a>'
-WHERE a.index = 'Ice warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/White_Wolf_Mountain" title="White Wolf Mountain" target="_blank">White Wolf Mountain</a>'
+JOIN all_masters m ON m.name = 'Vannaka'
 WHERE a.index = 'Ice warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mazchna'
-WHERE a.index = 'Ice warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Vannaka'
 WHERE a.index = 'Ice warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -5544,11 +5249,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Revenant icefiend'
 WHERE a.index = 'Icefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Icefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -5557,7 +5257,7 @@ WHERE a.index = 'Icefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ghorrock" title="Ghorrock" target="_blank">Ghorrock</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ice_mountain" class="mw-redirect" title="Ice mountain" target="_blank">Ice mountain</a>'
 WHERE a.index = 'Icefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -5567,7 +5267,7 @@ WHERE a.index = 'Icefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ice_mountain" class="mw-redirect" title="Ice mountain" target="_blank">Ice mountain</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ghorrock" title="Ghorrock" target="_blank">Ghorrock</a>'
 WHERE a.index = 'Icefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -5584,11 +5284,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Infernal Mage (elite)'
 WHERE a.index = 'Infernal mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Infernal mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -5597,22 +5292,22 @@ WHERE a.index = 'Infernal mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Slayer_Tower" title="Slayer Tower" target="_blank">Slayer Tower</a>'
 WHERE a.index = 'Infernal mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Slayer_Tower" title="Slayer Tower" target="_blank">Slayer Tower</a>'
-WHERE a.index = 'Infernal mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Chaeldar'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
 WHERE a.index = 'Infernal mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mazchna'
+WHERE a.index = 'Infernal mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Chaeldar'
 WHERE a.index = 'Infernal mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -5627,12 +5322,12 @@ WHERE a.index = 'Iron dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
 WHERE a.index = 'Iron dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
 WHERE a.index = 'Iron dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -5652,6 +5347,11 @@ WHERE a.index = 'Iron dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
+WHERE a.index = 'Iron dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Duradel'
 WHERE a.index = 'Iron dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
@@ -5662,32 +5362,17 @@ WHERE a.index = 'Iron dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Iron dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Iron dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Iron dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Jelly'
-WHERE a.index = 'Jellies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Jellies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
 WHERE a.index = 'Jellies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -5697,22 +5382,27 @@ WHERE a.index = 'Jellies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Mahjarrat_Ritual_Site_Cavern" class="mw-redirect" title="Mahjarrat Ritual Site Cavern" target="_blank">Mahjarrat Ritual Site Cavern</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
 WHERE a.index = 'Jellies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Soul_Wars" title="Soul Wars" target="_blank">Soul Wars</a>'
 WHERE a.index = 'Jellies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Chaeldar'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Mahjarrat_Ritual_Site_Cavern" class="mw-redirect" title="Mahjarrat Ritual Site Cavern" target="_blank">Mahjarrat Ritual Site Cavern</a>'
 WHERE a.index = 'Jellies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mazchna'
+WHERE a.index = 'Jellies' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Chaeldar'
 WHERE a.index = 'Jellies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -5728,11 +5418,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Sea horror'
-WHERE a.index = 'Jungle horrors' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Jungle horrors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -5752,22 +5437,17 @@ WHERE a.index = 'Jungle horrors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Chaeldar'
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Jungle horrors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
+JOIN all_masters m ON m.name = 'Chaeldar'
 WHERE a.index = 'Jungle horrors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Jungle strykewyrm'
-WHERE a.index = 'Jungle strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Jungle strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -5778,6 +5458,11 @@ INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Chaeldar'
+WHERE a.index = 'Jungle strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Jungle strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -5793,11 +5478,6 @@ INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Jungle strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Jungle strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_aliases (assignment_id, alias_id)
 SELECT a.id, al.id
@@ -5819,25 +5499,25 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Yor''Ger the Deceiver'
 WHERE a.index = 'Kal''gerion demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Kal%27gerion_resource_dungeon" title="Kal''gerion resource dungeon" target="_blank">Kal''gerion resource dungeon</a>'
 WHERE a.index = 'Kal''gerion demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Demonic_Ruins" title="Demonic Ruins" target="_blank">Demonic Ruins</a>'
 WHERE a.index = 'Kal''gerion demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Kal%27gerion_resource_dungeon" title="Kal''gerion resource dungeon" target="_blank">Kal''gerion resource dungeon</a>'
-WHERE a.index = 'Kal''gerion demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
+WHERE a.index = 'Kal''gerion demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Kal''gerion demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -5848,11 +5528,6 @@ INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mandrith'
-WHERE a.index = 'Kal''gerion demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Kal''gerion demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_aliases (assignment_id, alias_id)
 SELECT a.id, al.id
@@ -5872,6 +5547,11 @@ WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Exiled Kalphite Queen'
+WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Exiled kalphite guardian'
 WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
@@ -5883,11 +5563,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Exiled kalphite paragon'
-WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_creatures (assignment_id, creature_id)
-SELECT a.id, c.id
-FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Exiled Kalphite Queen'
 WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -5924,11 +5599,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Kalphite Worker'
 WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -5947,17 +5617,32 @@ WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Exiled_Kalphite_Hive" title="Exiled Kalphite Hive" target="_blank">Exiled Kalphite Hive</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Kalphite_Lair" class="mw-redirect" title="Kalphite Lair" target="_blank">Kalphite Lair</a>'
 WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Kalphite_Lair" class="mw-redirect" title="Kalphite Lair" target="_blank">Kalphite Lair</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Exiled_Kalphite_Hive" title="Exiled Kalphite Hive" target="_blank">Exiled Kalphite Hive</a>'
+WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Vannaka'
+WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Chaeldar'
+WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -5972,27 +5657,12 @@ WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
-WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Vannaka'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Kalphite' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -6027,12 +5697,7 @@ WHERE a.index = 'Kurask' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Broad_arrows" class="mw-redirect" title="Broad arrows" target="_blank">Broad arrows</a>'
-WHERE a.index = 'Kurask' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Broad-tipped_bolts" title="Broad-tipped bolts" target="_blank">Broad-tipped bolts</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Leaf-bladed_sword" title="Leaf-bladed sword" target="_blank">Leaf-bladed sword</a>'
 WHERE a.index = 'Kurask' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
@@ -6042,12 +5707,17 @@ WHERE a.index = 'Kurask' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Leaf-bladed_sword" title="Leaf-bladed sword" target="_blank">Leaf-bladed sword</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Slayer_Dart" title="Slayer Dart" target="_blank">Slayer Dart</a>'
 WHERE a.index = 'Kurask' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Slayer_Dart" title="Slayer Dart" target="_blank">Slayer Dart</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Broad_arrows" class="mw-redirect" title="Broad arrows" target="_blank">Broad arrows</a>'
+WHERE a.index = 'Kurask' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_equipment (assignment_id, equipment_id)
+SELECT a.id, e.id
+FROM all_assignments a
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Broad-tipped_bolts" title="Broad-tipped bolts" target="_blank">Broad-tipped bolts</a>'
 WHERE a.index = 'Kurask' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -6089,11 +5759,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'WildyWyrm (2015, historical)'
 WHERE a.index = 'Lava strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Lava strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -6117,17 +5782,17 @@ WHERE a.index = 'Lava strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Morvran'
+WHERE a.index = 'Lava strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Lava strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mandrith'
-WHERE a.index = 'Lava strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Lava strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -6144,40 +5809,10 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Zakl''n Gritch'
 WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Clan_Wars" title="Clan Wars" target="_blank">Clan Wars</a>'
-WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Crandor" title="Crandor" target="_blank">Crandor</a>'
-WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Demonic_Ruins" title="Demonic Ruins" target="_blank">Demonic Ruins</a>'
-WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Karamja_Dungeon" class="mw-redirect" title="Karamja Dungeon" target="_blank">Karamja Dungeon</a>'
-WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lava_Maze" title="Lava Maze" target="_blank">Lava Maze</a>'
-WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Melzar%27s_Maze" title="Melzar''s Maze" target="_blank">Melzar''s Maze</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wizards%27_Tower" title="Wizards'' Tower" target="_blank">Wizards'' Tower</a>'
 WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -6187,12 +5822,47 @@ WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness_Crater" title="Wilderness Crater" target="_blank">Wilderness Crater</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Karamja_Dungeon" class="mw-redirect" title="Karamja Dungeon" target="_blank">Karamja Dungeon</a>'
 WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wizards%27_Tower" title="Wizards'' Tower" target="_blank">Wizards'' Tower</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Crandor" title="Crandor" target="_blank">Crandor</a>'
+WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Melzar%27s_Maze" title="Melzar''s Maze" target="_blank">Melzar''s Maze</a>'
+WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Demonic_Ruins" title="Demonic Ruins" target="_blank">Demonic Ruins</a>'
+WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Clan_Wars" title="Clan Wars" target="_blank">Clan Wars</a>'
+WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lava_Maze" title="Lava Maze" target="_blank">Lava Maze</a>'
+WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness_Crater" title="Wilderness Crater" target="_blank">Wilderness Crater</a>'
+WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -6203,16 +5873,6 @@ INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
-WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Lesser demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -6228,11 +5888,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Living rock striker'
-WHERE a.index = 'Living rock creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Living rock creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -6257,17 +5912,17 @@ WHERE a.index = 'Living wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Wyrmfire_potion" title="Wyrmfire potion" target="_blank">Wyrmfire potion</a>'
+WHERE a.index = 'Living wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_equipment (assignment_id, equipment_id)
+SELECT a.id, e.id
+FROM all_assignments a
 JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
 WHERE a.index = 'Living wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
 JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Elemental_Workshop_equipment" title="Elemental Workshop equipment" target="_blank">Elemental Workshop shield</a>'
-WHERE a.index = 'Living wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Wyrmfire_potion" title="Wyrmfire potion" target="_blank">Wyrmfire potion</a>'
 WHERE a.index = 'Living wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -6287,7 +5942,17 @@ WHERE a.index = 'Living wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Living wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
+WHERE a.index = 'Living wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Living wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -6299,25 +5964,10 @@ SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mandrith'
 WHERE a.index = 'Living wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
-WHERE a.index = 'Living wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
-WHERE a.index = 'Living wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Minotaur'
-WHERE a.index = 'Minotaurs' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Minotaurs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -6342,12 +5992,12 @@ WHERE a.index = 'Mithril dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
 WHERE a.index = 'Mithril dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
 WHERE a.index = 'Mithril dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -6367,12 +6017,12 @@ WHERE a.index = 'Mithril dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Mithril dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Mithril dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -6382,12 +6032,12 @@ WHERE a.index = 'Mogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Fishing_explosive" title="Fishing explosive" target="_blank">Fishing explosives</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Super_fishing_explosive" title="Super fishing explosive" target="_blank">Super</a>'
 WHERE a.index = 'Mogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Super_fishing_explosive" title="Super fishing explosive" target="_blank">Super</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Fishing_explosive" title="Fishing explosive" target="_blank">Fishing explosives</a>'
 WHERE a.index = 'Mogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -6424,20 +6074,10 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Moss giant'
 WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Brimhaven_Dungeon" title="Brimhaven Dungeon" target="_blank">Brimhaven Dungeon</a>'
-WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
 WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -6452,17 +6092,12 @@ WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Glarial%27s_Tomb" title="Glarial''s Tomb" target="_blank">Glarial''s Tomb</a>'
-WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Moss_Giant_Island" title="Moss Giant Island" target="_blank">Moss Giant Island</a>'
 WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Pirates%27_Cove" title="Pirates'' Cove" target="_blank">Pirates'' Cove</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness" title="Wilderness" target="_blank">Wilderness</a>'
 WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -6472,17 +6107,27 @@ WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness" title="Wilderness" target="_blank">Wilderness</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Pirates%27_Cove" title="Pirates'' Cove" target="_blank">Pirates'' Cove</a>'
 WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
+WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Glarial%27s_Tomb" title="Glarial''s Tomb" target="_blank">Glarial''s Tomb</a>'
 WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Vannaka'
+WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Moss giants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -6499,11 +6144,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Throwing muspah'
 WHERE a.index = 'Muspah' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Muspah' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -6517,12 +6157,12 @@ WHERE a.index = 'Muspah' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Muspah' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Muspah' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -6539,15 +6179,15 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Mutated jadinko male'
 WHERE a.index = 'Mutated jadinkos' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Mutated jadinkos' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Jadinko_Lair" title="Jadinko Lair" target="_blank">Jadinko Lair</a>'
+WHERE a.index = 'Mutated jadinkos' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Mutated jadinkos' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -6562,17 +6202,12 @@ WHERE a.index = 'Mutated jadinkos' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Mutated jadinkos' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Mutated jadinkos' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Mutated jadinkos' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -6602,37 +6237,37 @@ WHERE a.index = 'Nechryael' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Nechryael (elite)'
+JOIN all_creatures c ON c.name = 'Nechryael (Heart of Gielinor)'
 WHERE a.index = 'Nechryael' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Nechryael (Heart of Gielinor)'
-WHERE a.index = 'Nechryael' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Nechryael' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
-SELECT a.id, hc.id
-FROM all_assignments a
-JOIN all_hidden_creatures hc ON hc.name = 'Nechryael (elite)'
+JOIN all_creatures c ON c.name = 'Nechryael (elite)'
 WHERE a.index = 'Nechryael' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
 JOIN all_hidden_creatures hc ON hc.name = 'Nechryael (Heart of Gielinor)'
 WHERE a.index = 'Nechryael' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
+INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
+SELECT a.id, hc.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
+JOIN all_hidden_creatures hc ON hc.name = 'Nechryael (elite)'
 WHERE a.index = 'Nechryael' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Slayer_Tower" title="Slayer Tower" target="_blank">Slayer Tower</a>'
+WHERE a.index = 'Nechryael' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
+WHERE a.index = 'Nechryael' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Nechryael' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -6648,11 +6283,6 @@ INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
-WHERE a.index = 'Nechryael' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Nechryael' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_aliases (assignment_id, alias_id)
 SELECT a.id, al.id
@@ -6682,12 +6312,12 @@ WHERE a.index = 'Nightmare creatures' ON DUPLICATE KEY UPDATE updated_at = NOW()
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Nightmare creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Nightmare creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -6709,11 +6339,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Smoke nihil'
 WHERE a.index = 'Nihil' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Nihil' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -6727,12 +6352,12 @@ WHERE a.index = 'Nihil' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Nihil' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Nihil' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -6769,11 +6394,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Siege engine'
 WHERE a.index = 'Nodon dragonkin' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Nodon dragonkin' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -6782,12 +6402,12 @@ WHERE a.index = 'Nodon dragonkin' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Nodon dragonkin' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Nodon dragonkin' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -6834,11 +6454,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Zogre'
 WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -6847,7 +6462,17 @@ WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Yanille" title="Yanille" target="_blank">Yanille</a>'
+WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Castle_Wars" title="Castle Wars" target="_blank">Castle Wars</a>'
+WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Gu%27Tanoth" title="Gu''Tanoth" target="_blank">Gu''Tanoth</a>'
 WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -6862,27 +6487,22 @@ WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Witchaven_Dungeon" title="Witchaven Dungeon" target="_blank">Witchaven Dungeon</a>'
+WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Underground_Pass_(dungeon)" title="Underground Pass (dungeon)" target="_blank">Underground Pass (dungeon)</a>'
+WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Combat_Training_Camp" title="Combat Training Camp" target="_blank">Combat Training Camp</a>'
 WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/God_Wars_Dungeon" title="God Wars Dungeon" target="_blank">God Wars Dungeon</a>'
-WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Gu%27Tanoth" title="Gu''Tanoth" target="_blank">Gu''Tanoth</a>'
-WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Witchaven_Dungeon" title="Witchaven Dungeon" target="_blank">Witchaven Dungeon</a>'
-WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Yanille" title="Yanille" target="_blank">Yanille</a>'
 WHERE a.index = 'Ogres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -6902,17 +6522,17 @@ WHERE a.index = 'Onyx dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Deep_Wilderness_Dungeon" title="Deep Wilderness Dungeon" target="_blank">Deep Wilderness Dungeon</a>'
-WHERE a.index = 'Onyx dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Gemstone_cavern" title="Gemstone cavern" target="_blank">Gemstone cavern</a>'
 WHERE a.index = 'Onyx dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness" title="Wilderness" target="_blank">Wilderness</a>'
+WHERE a.index = 'Onyx dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Deep_Wilderness_Dungeon" title="Deep Wilderness Dungeon" target="_blank">Deep Wilderness Dungeon</a>'
 WHERE a.index = 'Onyx dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -6923,11 +6543,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Otherworldly being'
-WHERE a.index = 'Otherworldly beings' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Otherworldly beings' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -6947,12 +6562,12 @@ WHERE a.index = 'Pyrefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Pyrefiend (summoned)'
+JOIN all_creatures c ON c.name = 'Pyrefiend (The Zamorakian Undercity)'
 WHERE a.index = 'Pyrefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Pyrefiend (The Zamorakian Undercity)'
+JOIN all_creatures c ON c.name = 'Pyrefiend (summoned)'
 WHERE a.index = 'Pyrefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -6974,11 +6589,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Smoulders, the Revenger'
 WHERE a.index = 'Pyrefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Pyrefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -6987,12 +6597,12 @@ WHERE a.index = 'Pyrefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/God_Wars_Dungeon" title="God Wars Dungeon" target="_blank">God Wars Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Smoke_Dungeon" title="Smoke Dungeon" target="_blank">Smoke Dungeon</a>'
 WHERE a.index = 'Pyrefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Smoke_Dungeon" title="Smoke Dungeon" target="_blank">Smoke Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/God_Wars_Dungeon" title="God Wars Dungeon" target="_blank">God Wars Dungeon</a>'
 WHERE a.index = 'Pyrefiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -7039,16 +6649,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Warped rat'
 WHERE a.index = 'Rats' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Rats' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = 'No Locations'
-WHERE a.index = 'Rats' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
@@ -7082,12 +6682,12 @@ WHERE a.index = 'Red dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
 WHERE a.index = 'Red dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
 WHERE a.index = 'Red dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -7102,22 +6702,22 @@ WHERE a.index = 'Red dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Brimhaven_Dungeon" title="Brimhaven Dungeon" target="_blank">Brimhaven Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Red_Dragon_Isle" title="Red Dragon Isle" target="_blank">Red Dragon Isle</a>'
 WHERE a.index = 'Red dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Red_Dragon_Isle" title="Red Dragon Isle" target="_blank">Red Dragon Isle</a>'
-WHERE a.index = 'Red dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Brimhaven_Dungeon" title="Brimhaven Dungeon" target="_blank">Brimhaven Dungeon</a>'
 WHERE a.index = 'Red dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Sumona'
+WHERE a.index = 'Red dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Red dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -7189,11 +6789,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Revenant werewolf'
 WHERE a.index = 'Revenants' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Revenants' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -7219,11 +6814,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Slasher Demon'
 WHERE a.index = 'Ripper demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Ripper demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -7242,7 +6832,17 @@ WHERE a.index = 'Ripper demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'The Raptor'
+WHERE a.index = 'Ripper demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
+WHERE a.index = 'Ripper demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Ripper demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -7254,16 +6854,6 @@ SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Mandrith'
 WHERE a.index = 'Ripper demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
-WHERE a.index = 'Ripper demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
-WHERE a.index = 'Ripper demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_aliases (assignment_id, alias_id)
 SELECT a.id, al.id
 FROM all_assignments a
@@ -7274,10 +6864,10 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Risen ghost'
 WHERE a.index = 'Risen ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Crypt_(Wilderness)" title="Crypt (Wilderness)" target="_blank">Crypt (Wilderness)</a>'
 WHERE a.index = 'Risen ghosts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -7307,17 +6897,17 @@ WHERE a.index = 'Rockslugs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Dorgesh-Kaan_South_Dungeon" title="Dorgesh-Kaan South Dungeon" target="_blank">Dorgesh-Kaan South Dungeon</a>'
-WHERE a.index = 'Rockslugs' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Fremennik_Slayer_Dungeon" title="Fremennik Slayer Dungeon" target="_blank">Fremennik Slayer Dungeon</a>'
 WHERE a.index = 'Rockslugs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lumbridge_Swamp_Caves" title="Lumbridge Swamp Caves" target="_blank">Lumbridge Swamp Caves</a>'
+WHERE a.index = 'Rockslugs' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Dorgesh-Kaan_South_Dungeon" title="Dorgesh-Kaan South Dungeon" target="_blank">Dorgesh-Kaan South Dungeon</a>'
 WHERE a.index = 'Rockslugs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -7357,12 +6947,12 @@ WHERE a.index = 'Rune dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Rune dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Rune dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -7414,10 +7004,10 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Small scarab'
 WHERE a.index = 'Scabarites' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Sophanem" title="Sophanem" target="_blank">Sophanem</a>'
 WHERE a.index = 'Scabarites' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -7429,20 +7019,15 @@ SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Dealing_with_Scabaras" title="Dealing with Scabaras" target="_blank">Dealing with Scabaras</a>'
 WHERE a.index = 'Scabarites' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Sophanem" title="Sophanem" target="_blank">Sophanem</a>'
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Scabarites' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Duradel'
-WHERE a.index = 'Scabarites' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Scabarites' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -7479,11 +7064,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Scorpion (Ape Atoll)'
 WHERE a.index = 'Scorpions' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Scorpions' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -7517,17 +7097,12 @@ WHERE a.index = 'Scorpions' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ardougne_Zoo" title="Ardougne Zoo" target="_blank">Ardougne Zoo</a>'
-WHERE a.index = 'Scorpions' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Dwarven_mines" title="Dwarven mines" target="_blank">Dwarven mines</a>'
 WHERE a.index = 'Scorpions' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Karamja_Volcano" title="Karamja Volcano" target="_blank">Karamja Volcano</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ardougne_Zoo" title="Ardougne Zoo" target="_blank">Ardougne Zoo</a>'
 WHERE a.index = 'Scorpions' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -7549,15 +7124,20 @@ SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness" title="Wilderness" target="_blank">Wilderness</a>'
 WHERE a.index = 'Scorpions' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Karamja_Volcano" title="Karamja Volcano" target="_blank">Karamja Volcano</a>'
 WHERE a.index = 'Scorpions' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Vannaka'
+WHERE a.index = 'Scorpions' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Scorpions' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -7568,11 +7148,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Sea Snake Young'
-WHERE a.index = 'Sea snakes' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Sea snakes' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -7589,10 +7164,10 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Shade'
 WHERE a.index = 'Shades' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Stronghold_of_Security" title="Stronghold of Security" target="_blank">Stronghold of Security</a>'
 WHERE a.index = 'Shades' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -7603,11 +7178,6 @@ INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Shade_Catacombs" title="Shade Catacombs" target="_blank">Shade Catacombs</a>'
-WHERE a.index = 'Shades' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Stronghold_of_Security" title="Stronghold of Security" target="_blank">Stronghold of Security</a>'
 WHERE a.index = 'Shades' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -7639,15 +7209,10 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Truthful shadow'
 WHERE a.index = 'Shadow creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Shadow creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Amlodd_Clan" title="Amlodd Clan" target="_blank">Amlodd Clan</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Temple_of_Light" title="Temple of Light" target="_blank">Temple of Light</a>'
 WHERE a.index = 'Shadow creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -7657,27 +7222,22 @@ WHERE a.index = 'Shadow creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Temple_of_Light" title="Temple of Light" target="_blank">Temple of Light</a>'
-WHERE a.index = 'Shadow creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Amlodd_Clan" title="Amlodd Clan" target="_blank">Amlodd Clan</a>'
 WHERE a.index = 'Shadow creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Shadow creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Laniakea'
+WHERE a.index = 'Shadow creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Shadow warrior'
-WHERE a.index = 'Shadow warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Shadow warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -7687,17 +7247,22 @@ WHERE a.index = 'Shadow warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Chaeldar'
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Shadow warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
+JOIN all_masters m ON m.name = 'Chaeldar'
 WHERE a.index = 'Shadow warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Skeletal Wyvern'
+WHERE a.index = 'Skeletal wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_equipment (assignment_id, equipment_id)
+SELECT a.id, e.id
+FROM all_assignments a
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Wyrmfire_potion" title="Wyrmfire potion" target="_blank">Wyrmfire potion</a>'
 WHERE a.index = 'Skeletal wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
@@ -7708,11 +7273,6 @@ INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
 JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Elemental_Workshop_equipment" title="Elemental Workshop equipment" target="_blank">Elemental Workshop shield</a>'
-WHERE a.index = 'Skeletal wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Wyrmfire_potion" title="Wyrmfire potion" target="_blank">Wyrmfire potion</a>'
 WHERE a.index = 'Skeletal wyverns' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -7777,6 +7337,11 @@ WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeletal Wyvern'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Skeletal hand'
 WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
@@ -7788,11 +7353,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Skeletal shielder'
-WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_creatures (assignment_id, creature_id)
-SELECT a.id, c.id
-FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Skeletal Wyvern'
 WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -7852,6 +7412,11 @@ WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeleton Mage'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Skeleton archer (Ancient Awakening)'
 WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
@@ -7878,11 +7443,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Skeleton knight'
-WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_creatures (assignment_id, creature_id)
-SELECT a.id, c.id
-FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Skeleton Mage'
 WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -7944,11 +7504,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Warped skeleton'
 WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -7977,22 +7532,12 @@ WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ape_Atoll_Dungeon" title="Ape Atoll Dungeon" target="_blank">Ape Atoll Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lumbridge_Catacombs" title="Lumbridge Catacombs" target="_blank">Lumbridge Catacombs</a>'
 WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Barrows" title="Barrows" target="_blank">Barrows</a>'
-WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
-WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Crypt_(Wilderness)" title="Crypt (Wilderness)" target="_blank">crypt</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Edgeville_Dungeon" title="Edgeville Dungeon" target="_blank">Edgeville Dungeon</a>'
 WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -8007,22 +7552,92 @@ WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Edgeville_Dungeon" title="Edgeville Dungeon" target="_blank">Edgeville Dungeon</a>'
-WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Fort_Forinthry" title="Fort Forinthry" target="_blank">Fort Forinthry</a>'
-WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Karamja_Volcano" title="Karamja Volcano" target="_blank">Karamja Volcano</a>'
 WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runesca'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ogre_Enclave" title="Ogre Enclave" target="_blank">Ogre Enclave</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Steel_Mine" class="mw-redirect" title="Steel Mine" target="_blank">Steel Mine</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Stronghold_of_Security" title="Stronghold of Security" target="_blank">Stronghold of Security</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Taverley_Dungeon" title="Taverley Dungeon" target="_blank">Taverley Dungeon</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Temple_of_Ikov_(dungeon)" title="Temple of Ikov (dungeon)" target="_blank">Temple of Ikov</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Varrock_Sewers" title="Varrock Sewers" target="_blank">Varrock Sewers</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Waterfall_Dungeon" title="Waterfall Dungeon" target="_blank">Waterfall Dungeon</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Barrows" title="Barrows" target="_blank">Barrows</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ruins_of_Ullek" class="mw-redirect" title="Ruins of Ullek" target="_blank">Ruins of Ullek</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Melzar%27s_Maze" title="Melzar''s Maze" target="_blank">Melzar''s Maze</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness_Crater" title="Wilderness Crater" target="_blank">Wilderness Crater</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ape_Atoll_Dungeon" title="Ape Atoll Dungeon" target="_blank">Ape Atoll Dungeon</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Senntisten_Temple" title="Senntisten Temple" target="_blank">Senntisten Temple</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Underground_Pass_(dungeon)" title="Underground Pass (dungeon)" target="_blank">Underground Pass (dungeon)</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Crypt_(Wilderness)" title="Crypt (Wilderness)" target="_blank">crypt</a>'
+WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Fort_Forinthry" title="Fort Forinthry" target="_blank">Fort Forinthry</a>'
 WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -8032,12 +7647,12 @@ WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
+JOIN all_masters m ON m.name = 'Vannaka'
 WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Vannaka'
+JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Skeletons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_aliases (assignment_id, alias_id)
 SELECT a.id, al.id
@@ -8142,12 +7757,12 @@ WHERE a.index = 'Soul devourers' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Kuradal'
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Soul devourers' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Kuradal'
 WHERE a.index = 'Soul devourers' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -8157,7 +7772,7 @@ WHERE a.index = 'Soul devourers' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Soul devourers' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -8168,11 +7783,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Soulgazer (elite)'
-WHERE a.index = 'Soulgazers' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Soulgazers' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -8259,35 +7869,10 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Spyndra'
 WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ape_Atoll" title="Ape Atoll" target="_blank">Ape Atoll</a>'
-WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Karamja" title="Karamja" target="_blank">Karamja</a>'
-WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lumbridge_Castle" title="Lumbridge Castle" target="_blank">Lumbridge Castle</a>'
-WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Melzar%27s_Maze" title="Melzar''s Maze" target="_blank">Melzar''s Maze</a>'
-WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ogre_Enclave" title="Ogre Enclave" target="_blank">Ogre Enclave</a>'
 WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -8297,17 +7882,37 @@ WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lumbridge_Castle" title="Lumbridge Castle" target="_blank">Lumbridge Castle</a>'
+WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Stronghold_of_Security" title="Stronghold of Security" target="_blank">Stronghold of Security</a>'
 WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Underground_Pass_(dungeon)" title="Underground Pass (dungeon)" target="_blank">Underground Pass</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ape_Atoll" title="Ape Atoll" target="_blank">Ape Atoll</a>'
+WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ogre_Enclave" title="Ogre Enclave" target="_blank">Ogre Enclave</a>'
 WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness" title="Wilderness" target="_blank">Wilderness</a>'
+WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Karamja" title="Karamja" target="_blank">Karamja</a>'
+WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Underground_Pass_(dungeon)" title="Underground Pass (dungeon)" target="_blank">Underground Pass</a>'
 WHERE a.index = 'Spiders' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -8324,15 +7929,15 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Spiritual mage'
 WHERE a.index = 'Spiritual mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Spiritual mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/God_Wars_Dungeon" title="God Wars Dungeon" target="_blank">God Wars Dungeon</a>'
+WHERE a.index = 'Spiritual mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Spiritual mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -8344,20 +7949,10 @@ SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Kuradal'
 WHERE a.index = 'Spiritual mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
-WHERE a.index = 'Spiritual mages' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Spiritual warrior'
-WHERE a.index = 'Spiritual warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Spiritual warriors' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -8389,11 +7984,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Veil-ripper Ozharakha'
 WHERE a.index = 'Stalker creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Stalker creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -8417,12 +8007,12 @@ WHERE a.index = 'Stalker creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Stalker creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Stalker creatures' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -8437,12 +8027,17 @@ WHERE a.index = 'Steel dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
 WHERE a.index = 'Steel dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Dragonfire_shield" title="Dragonfire shield" target="_blank">Dragonfire shield</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Antifire_potion" class="mw-redirect" title="Antifire potion" target="_blank">Antifire potion</a>'
+WHERE a.index = 'Steel dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Kuradal%27s_Dungeon" title="Kuradal''s Dungeon" target="_blank">Kuradal''s Dungeon</a>'
 WHERE a.index = 'Steel dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -8453,11 +8048,6 @@ INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ghorrock" title="Ghorrock" target="_blank">Ghorrock</a>'
-WHERE a.index = 'Steel dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Kuradal%27s_Dungeon" title="Kuradal''s Dungeon" target="_blank">Kuradal''s Dungeon</a>'
 WHERE a.index = 'Steel dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -8472,12 +8062,12 @@ WHERE a.index = 'Steel dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Steel dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Steel dragons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -8509,20 +8099,10 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'WildyWyrm (2015, historical)'
 WHERE a.index = 'Strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
 JOIN all_hidden_creatures hc ON hc.name = 'WildyWyrm (2015, historical)'
-WHERE a.index = 'Strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = 'No Locations'
 WHERE a.index = 'Strykewyrms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -8542,12 +8122,12 @@ WHERE a.index = 'Suqahs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Moon_Clan" title="Moon Clan" target="_blank">Moon Clan</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Seal_of_passage" title="Seal of passage" target="_blank">Seal of passage</a>'
 WHERE a.index = 'Suqahs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Seal_of_passage" title="Seal of passage" target="_blank">Seal of passage</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Moon_Clan" title="Moon Clan" target="_blank">Moon Clan</a>'
 WHERE a.index = 'Suqahs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -8569,11 +8149,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Terror dog'
 WHERE a.index = 'Terror dogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Terror dogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
@@ -8582,12 +8157,12 @@ WHERE a.index = 'Terror dogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Kuradal'
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Terror dogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_masters m ON m.name = 'Kuradal'
 WHERE a.index = 'Terror dogs' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_aliases (assignment_id, alias_id)
 SELECT a.id, al.id
@@ -8617,12 +8192,12 @@ WHERE a.index = 'Tormented demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
+JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Tormented demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Morvran'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Tormented demons' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -8754,11 +8329,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Undead troll'
 WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -8777,42 +8347,7 @@ WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Burthorpe_Troll_Cave" title="Burthorpe Troll Cave" target="_blank">Burthorpe Troll Cave</a>'
-WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Death_Plateau" title="Death Plateau" target="_blank">Death Plateau</a>'
-WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Fremennik_Isles" title="Fremennik Isles" target="_blank">Fremennik Isles</a>'
-WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ice_troll" title="Ice troll" target="_blank">Ice trolls</a>'
-WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Keldagrim" title="Keldagrim" target="_blank">Keldagrim</a>'
-WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lucien%27s_camp" title="Lucien''s camp" target="_blank">Lucien''s camp</a>'
-WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Mountain_troll" title="Mountain troll" target="_blank">Mountain trolls</a>'
-WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Troll_cave" title="Troll cave" target="_blank">Troll cave</a>'
 WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -8822,7 +8357,47 @@ WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Undead_troll" title="Undead troll" target="_bla'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Keldagrim" title="Keldagrim" target="_blank">Keldagrim</a>'
+WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Death_Plateau" title="Death Plateau" target="_blank">Death Plateau</a>'
+WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Burthorpe_Troll_Cave" title="Burthorpe Troll Cave" target="_blank">Burthorpe Troll Cave</a>'
+WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Troll_cave" title="Troll cave" target="_blank">Troll cave</a>'
+WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Ice_troll" title="Ice troll" target="_blank">Ice trolls</a>'
+WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Fremennik_Isles" title="Fremennik Isles" target="_blank">Fremennik Isles</a>'
+WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Undead_troll" title="Undead troll" target="_blank">Undead trolls</a>'
+WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Lucien%27s_camp" title="Lucien''s camp" target="_blank">Lucien''s camp</a>'
+WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
+JOIN all_masters m ON m.name = 'Turael'
 WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -8834,15 +8409,25 @@ SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'Turael'
-WHERE a.index = 'Trolls' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Turoth'
+WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_equipment (assignment_id, equipment_id)
+SELECT a.id, e.id
+FROM all_assignments a
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Leaf-bladed_sword" title="Leaf-bladed sword" target="_blank">Leaf-bladed sword</a>'
+WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_equipment (assignment_id, equipment_id)
+SELECT a.id, e.id
+FROM all_assignments a
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Leaf-bladed_spear" title="Leaf-bladed spear" target="_blank">Leaf-bladed spear</a>'
+WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_equipment (assignment_id, equipment_id)
+SELECT a.id, e.id
+FROM all_assignments a
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Slayer_Dart" title="Slayer Dart" target="_blank">Slayer Dart</a>'
 WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
@@ -8854,20 +8439,10 @@ SELECT a.id, e.id
 FROM all_assignments a
 JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Broad-tipped_bolts" title="Broad-tipped bolts" target="_blank">Broad-tipped bolts</a>'
 WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Leaf-bladed_spear" title="Leaf-bladed spear" target="_blank">Leaf-bladed spear</a>'
-WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Leaf-bladed_sword" title="Leaf-bladed sword" target="_blank">Leaf-bladed sword</a>'
-WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Slayer_Dart" title="Slayer Dart" target="_blank">Slayer Dart</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Fremennik_Slayer_Dungeon" title="Fremennik Slayer Dungeon" target="_blank">Fremennik Slayer Dungeon</a>'
 WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -8877,22 +8452,17 @@ WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Fremennik_Slayer_Dungeon" title="Fremennik Slayer Dungeon" target="_blank">Fremennik Slayer Dungeon</a>'
-WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Pollnivneach_Slayer_Dungeon" title="Pollnivneach Slayer Dungeon" target="_blank">Pollnivneach Slayer Dungeon</a>'
 WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Chaeldar'
+JOIN all_masters m ON m.name = 'Mazchna'
 WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Mazchna'
+JOIN all_masters m ON m.name = 'Chaeldar'
 WHERE a.index = 'Turoth' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -8923,11 +8493,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'TzHaar-Xil'
-WHERE a.index = 'TzHaar' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'TzHaar' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -8983,11 +8548,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Armoured zombie'
-WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_creatures (assignment_id, creature_id)
-SELECT a.id, c.id
-FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Baby Dinosaur Skeleton'
 WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -9222,12 +8782,282 @@ WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Revena'
+JOIN all_creatures c ON c.name = 'Revenant hobgoblin'
 WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
+JOIN all_creatures c ON c.name = 'Revenant icefiend'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Revenant imp'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Revenant knight'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Revenant ork'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Revenant pyrefiend'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Revenant vampyre'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Revenant werewolf'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Risen ghost'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Shade'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Shadow warrior'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeletal Wyvern'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeletal hand'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeletal miner'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeleton'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeleton (Lumbridge Catacombs)'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeleton (Tarn''s Lair)'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeleton Mage'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeleton archer (Ancient Awakening)'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeleton knight'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeleton ranger (Ancient Awakening)'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeleton warrior (Ancient Awakening)'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skeleton warrior (Rasial)'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skoblin'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Skogre'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Small scarab'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Soulless armoured zombie'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Soulless unarmoured zombie'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Spiritual mage'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Spiritual ranger'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Spiritual warrior'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Taraket the Necromancer'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Torag the Corrupted'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Tormented wraith'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Training dummy'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Undead chicken'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Undead cow'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Undead giant (Battle of Forinthry)'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Undead one'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Undead pekin'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Undead troll'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Unstable zombie'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Verac the Defiled'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Vorkath'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Wight'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Wight ranger'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Wight ranger (Sliske''s Endgame)'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Zogre'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Zombie'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Zombie (New Varrock)'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Zombie cow (New Varrock)'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Zombie hand'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Zombie knight'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Zombie pirate'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Zombie swab'
+WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Zombie warrior'
 WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -9244,20 +9074,15 @@ SELECT a.id, hc.id
 FROM all_assignments a
 JOIN all_hidden_creatures hc ON hc.name = 'Wight ranger (Sliske''s Endgame)'
 WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = 'No Locations'
+JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
 JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -9289,20 +9114,10 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Vampyre Juvinate'
 WHERE a.index = 'Vampyres' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Vampyres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
 JOIN all_hidden_creatures hc ON hc.name = 'Feral vampyre'
-WHERE a.index = 'Vampyres' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Abandoned_Mine" title="Abandoned Mine" target="_blank">Abandoned Mine</a>'
 WHERE a.index = 'Vampyres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -9313,6 +9128,11 @@ INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Haunted_Woods" title="Haunted Woods" target="_blank">Haunted Woods</a>'
+WHERE a.index = 'Vampyres' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Abandoned_Mine" title="Abandoned Mine" target="_blank">Abandoned Mine</a>'
 WHERE a.index = 'Vampyres' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -9338,11 +9158,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Luminous snaggler'
-WHERE a.index = 'Vile blooms' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Vile blooms' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -9372,6 +9187,11 @@ WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Ivandis_flail" title="Ivandis flail" target="_blank">Ivandis flail</a>'
+WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_equipment (assignment_id, equipment_id)
+SELECT a.id, e.id
+FROM all_assignments a
 JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Blisterwood_polearm" title="Blisterwood polearm" target="_blank">Blisterwood polearm</a>'
 WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
@@ -9384,20 +9204,15 @@ SELECT a.id, e.id
 FROM all_assignments a
 JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Blisterwood_stake" title="Blisterwood stake" target="_blank">Blisterwood stake</a>'
 WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Ivandis_flail" title="Ivandis flail" target="_blank">Ivandis flail</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Darkmeyer" title="Darkmeyer" target="_blank">Darkmeyer</a>'
 WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Burgh_de_Rott_Woods" title="Burgh de Rott Woods" target="_blank">Burgh de Rott Woods</a>'
-WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Darkmeyer" title="Darkmeyer" target="_blank">Darkmeyer</a>'
 WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -9412,6 +9227,11 @@ WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
+JOIN all_masters m ON m.name = 'Sumona'
+WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_masters (assignment_id, master_id)
+SELECT a.id, m.id
+FROM all_assignments a
 JOIN all_masters m ON m.name = 'Duradel'
 WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
@@ -9422,17 +9242,12 @@ WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Laniakea'
-WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_masters (assignment_id, master_id)
-SELECT a.id, m.id
-FROM all_assignments a
 JOIN all_masters m ON m.name = 'Morvran'
 WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_masters m ON m.name = 'Laniakea'
 WHERE a.index = 'Vyrewatch' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -9442,7 +9257,7 @@ WHERE a.index = 'Wall beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Slayer_helmet" title="Slayer helmet" target="_blank">Slayer helmet</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Spiny_helmet" title="Spiny helmet" target="_blank">Spiny helmet</a>'
 WHERE a.index = 'Wall beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
@@ -9452,7 +9267,7 @@ WHERE a.index = 'Wall beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_equipment (assignment_id, equipment_id)
 SELECT a.id, e.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Spiny_helmet" title="Spiny helmet" target="_blank">Spiny helmet</a>'
+JOIN all_equipment e ON e.link = '<a href="https://runescape.wiki/w/Slayer_helmet" title="Slayer helmet" target="_blank">Slayer helmet</a>'
 WHERE a.index = 'Wall beasts' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -9507,12 +9322,12 @@ WHERE a.index = 'Warped tortoises' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Kuradal'
+JOIN all_masters m ON m.name = 'Sumona'
 WHERE a.index = 'Warped tortoises' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Sumona'
+JOIN all_masters m ON m.name = 'Kuradal'
 WHERE a.index = 'Warped tortoises' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -9537,17 +9352,7 @@ WHERE a.index = 'Waterfiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Waterfiend (elite)'
-WHERE a.index = 'Waterfiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_creatures (assignment_id, creature_id)
-SELECT a.id, c.id
-FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Waterfiend (Ghorrock)'
-WHERE a.index = 'Waterfiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_creatures (assignment_id, creature_id)
-SELECT a.id, c.id
-FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Waterfiend (summoned)'
 WHERE a.index = 'Waterfiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -9559,15 +9364,15 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Waterfiend (The Zamorakian Undercity)'
 WHERE a.index = 'Waterfiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
+JOIN all_creatures c ON c.name = 'Waterfiend (elite)'
 WHERE a.index = 'Waterfiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
-SELECT a.id, hc.id
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_hidden_creatures hc ON hc.name = 'Waterfiend (elite)'
+JOIN all_creatures c ON c.name = 'Waterfiend (summoned)'
 WHERE a.index = 'Waterfiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -9578,6 +9383,11 @@ INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
 JOIN all_hidden_creatures hc ON hc.name = 'Waterfiend (Temple of Aminishi)'
+WHERE a.index = 'Waterfiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
+SELECT a.id, hc.id
+FROM all_assignments a
+JOIN all_hidden_creatures hc ON hc.name = 'Waterfiend (elite)'
 WHERE a.index = 'Waterfiends' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -9613,11 +9423,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Werewolf'
-WHERE a.index = 'Werewolves' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
 WHERE a.index = 'Werewolves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -9684,11 +9489,6 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Wolf'
 WHERE a.index = 'Wolves' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Wolves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
 FROM all_assignments a
@@ -9702,17 +9502,17 @@ WHERE a.index = 'Wolves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Feldip_Hills" title="Feldip Hills" target="_blank">Feldip Hills</a>'
-WHERE a.index = 'Wolves' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Stronghold_of_Security" title="Stronghold of Security" target="_blank">Stronghold of Security</a>'
 WHERE a.index = 'Wolves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/White_Wolf_Mountain" title="White Wolf Mountain" target="_blank">White Wolf Mountain</a>'
+WHERE a.index = 'Wolves' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Feldip_Hills" title="Feldip Hills" target="_blank">Feldip Hills</a>'
 WHERE a.index = 'Wolves' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -9744,25 +9544,20 @@ SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Risen ghost'
 WHERE a.index = 'Zemouregal''s undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
-FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
-WHERE a.index = 'Zemouregal''s undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Crypt_(Wilderness)" title="Crypt (Wilderness)" target="_blank">crypt</a>'
-WHERE a.index = 'Zemouregal''s undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Fort_Forinthry" title="Fort Forinthry" target="_blank">Fort Forinthry</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Crypt_(Wilderness)" title="Crypt (Wilderness)" target="_blank">Crypt</a>'
 WHERE a.index = 'Zemouregal''s undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
 JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wilderness" title="Wilderness" target="_blank">Wilderness</a>'
+WHERE a.index = 'Zemouregal''s undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Fort_Forinthry" title="Fort Forinthry" target="_blank">Fort Forinthry</a>'
 WHERE a.index = 'Zemouregal''s undead' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -9897,11 +9692,6 @@ WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Summoned armoured zombie'
-WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_creatures (assignment_id, creature_id)
-SELECT a.id, c.id
-FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Summoned Zombie'
 WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
@@ -9912,7 +9702,17 @@ WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Summoned armoured zombie'
+WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Ulthven Keith'
+WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Undead Witch'
 WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -9947,11 +9747,6 @@ WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Undead Witch'
-WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_creatures (assignment_id, creature_id)
-SELECT a.id, c.id
-FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Unstable zombie'
 WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
@@ -9963,11 +9758,6 @@ INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
 JOIN all_creatures c ON c.name = 'Zombie'
-WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_creatures (assignment_id, creature_id)
-SELECT a.id, c.id
-FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Zombie (Entrana Dungeon)'
 WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
@@ -10027,12 +9817,17 @@ WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_creatures (assignment_id, creature_id)
 SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_creatures c ON c.name = 'Zom'
+JOIN all_creatures c ON c.name = 'Zombie pirate'
 WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_equipment (assignment_id, equipment_id)
-SELECT a.id, e.id
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
 FROM all_assignments a
-JOIN all_equipment e ON e.link = 'No Equipment'
+JOIN all_creatures c ON c.name = 'Zombie swab'
+WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_creatures (assignment_id, creature_id)
+SELECT a.id, c.id
+FROM all_assignments a
+JOIN all_creatures c ON c.name = 'Zombie warrior'
 WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_hidden_creatures (assignment_id, hidden_creature_id)
 SELECT a.id, hc.id
@@ -10047,17 +9842,7 @@ WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
-WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Draynor_Sewers" title="Draynor Sewers" target="_blank">Draynor Sewers</a>'
-WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
-INSERT INTO assignment_locations (assignment_id, location_id)
-SELECT a.id, l.id
-FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Edgeville_Dungeon" title="Edgeville Dungeon" target="_blank">Edgeville Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Gnome_Village_Dungeon" title="Gnome Village Dungeon" target="_blank">Gnome Village Dungeon</a>'
 WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -10067,7 +9852,12 @@ WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Gnome_Village_Dungeon" title="Gnome Village Dungeon" target="_blank">Gnome Village Dungeon</a>'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Edgeville_Dungeon" title="Edgeville Dungeon" target="_blank">Edgeville Dungeon</a>'
+WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Chaos_Tunnels" title="Chaos Tunnels" target="_blank">Chaos Tunnels</a>'
 WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
@@ -10087,7 +9877,17 @@ WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_locations (assignment_id, location_id)
 SELECT a.id, l.id
 FROM all_assignments a
-JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wizards%27_Guild" title="Wizards'' Guild" targe'
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Wizards%27_Guild" title="Wizards'' Guild" target="_blank">Wizards'' Guild</a>'
+WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Draynor_Sewers" title="Draynor Sewers" target="_blank">Draynor Sewers</a>'
+WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
+INSERT INTO assignment_locations (assignment_id, location_id)
+SELECT a.id, l.id
+FROM all_assignments a
+JOIN all_locations l ON l.link = '<a href="https://runescape.wiki/w/Tarn%27s_Lair" class="mw-redirect" title="Tarn''s Lair" target="_blank">lair of Tarn Razorlor</a>'
 WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
@@ -10097,10 +9897,10 @@ WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'The Raptor'
+JOIN all_masters m ON m.name = 'Vannaka'
 WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();
 INSERT INTO assignment_masters (assignment_id, master_id)
 SELECT a.id, m.id
 FROM all_assignments a
-JOIN all_masters m ON m.name = 'Vannaka'
+JOIN all_masters m ON m.name = 'The Raptor'
 WHERE a.index = 'Zombies' ON DUPLICATE KEY UPDATE updated_at = NOW();

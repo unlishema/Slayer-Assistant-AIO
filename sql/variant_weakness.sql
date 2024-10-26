@@ -250,19 +250,19 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Kree''arra' AND v.name = 'Hard Mode'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Kree''arra' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kree''''arra' AND v.name = 'The World Wakes'
-UNION ALL
-SELECT v.id AS variant_id, w.id AS weakness_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kree''''''''arra' AND v.name = 'Hard Mode'
+WHERE c.name = 'Kree''arra' AND v.name = 'The World Wakes'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -687,8 +687,8 @@ UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Queen Black Dragon' AND v.name = 'Normal'
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Magic" title="Magic" target="_blank"><img src="./images/weakness/Magic_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+WHERE c.name = 'Queen Black Dragon' AND v.name = 'Carapace'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -699,8 +699,8 @@ UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Magic" title="Magic" target="_blank"><img src="./images/weakness/Magic_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Queen Black Dragon' AND v.name = 'Carapace'
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Queen Black Dragon' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -784,7 +784,7 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Vorkath' AND v.name = 'Story mode'
+WHERE c.name = 'Vorkath' AND v.name = 'Hard mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -796,13 +796,13 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Vorkath' AND v.name = 'Hard mode'
+WHERE c.name = 'Vorkath' AND v.name = 'Requiem for a Dragon'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Vorkath' AND v.name = 'Requiem for a Dragon'
+WHERE c.name = 'Vorkath' AND v.name = 'Story mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -1180,31 +1180,31 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kal''''gerion demon' AND v.name = 'Riftsplitter'
+WHERE c.name = 'Kal''gerion demon' AND v.name = 'Riftsplitter'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kal''''''''gerion demon' AND v.name = 'Pummeller'
+WHERE c.name = 'Kal''gerion demon' AND v.name = 'Pummeller'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kal''''''''''''''''gerion demon' AND v.name = 'Thunderous'
+WHERE c.name = 'Kal''gerion demon' AND v.name = 'Thunderous'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kal''''''''''''''''''''''''''''''''gerion demon' AND v.name = 'Warmonger'
+WHERE c.name = 'Kal''gerion demon' AND v.name = 'Warmonger'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kal''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''gerion demon' AND v.name = 'Rush of Blood'
+WHERE c.name = 'Kal''gerion demon' AND v.name = 'Rush of Blood'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -1605,6 +1605,12 @@ UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'K''ril Tsutsaroth' AND v.name = 'Hard mode'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Fire_spells" title="Fire spells" target="_blank"><img src="./images/weakness/Fire_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'K''ril Tsutsaroth' AND v.name = 'Normal'
 UNION ALL
@@ -1612,13 +1618,7 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'K''''ril Tsutsaroth' AND v.name = 'Hard mode'
-UNION ALL
-SELECT v.id AS variant_id, w.id AS weakness_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'K''''''''ril Tsutsaroth' AND v.name = 'The World Wakes'
+WHERE c.name = 'K''ril Tsutsaroth' AND v.name = 'The World Wakes'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -1630,19 +1630,19 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kal''''gerion demon (The Shadow Reef)' AND v.name = 'Riftsplitter'
+WHERE c.name = 'Kal''gerion demon (The Shadow Reef)' AND v.name = 'Pummeller'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kal''''''''gerion demon (The Shadow Reef)' AND v.name = 'Pummeller'
+WHERE c.name = 'Kal''gerion demon (The Shadow Reef)' AND v.name = 'Riftsplitter'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kal''''''''''''''''gerion demon (The Shadow Reef)' AND v.name = 'Warmonger'
+WHERE c.name = 'Kal''gerion demon (The Shadow Reef)' AND v.name = 'Warmonger'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -1713,6 +1713,12 @@ UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Yor''Ger the Deceiver' AND v.name = 'Story mode'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Stab_weapons" title="Stab weapons" target="_blank"><img src="./images/weakness/Stab_weakness_icon.png" decoding="async" loading="lazy" width="25" height="20"></a>')
 WHERE c.name = 'Zakl''n Gritch' AND v.name = 'Default'
 UNION ALL
@@ -1762,12 +1768,6 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Baby Dinosaur Skeleton' AND v.name = 'Default'
-UNION ALL
-SELECT v.id AS variant_id, w.id AS weakness_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Brutish dinosaur' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
@@ -1781,6 +1781,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Feral Dinosaur' AND v.name = 'Normal'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Feral Dinosaur' AND v.name = 'Dinosaur invasion'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -2254,13 +2260,13 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Ahrim the Blighted' AND v.name = 'Ritual of the Mahjarrat'
+WHERE c.name = 'Ahrim the Blighted' AND v.name = 'Rise of the Six'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Ahrim the Blighted' AND v.name = 'Rise of the Six'
+WHERE c.name = 'Ahrim the Blighted' AND v.name = 'Ritual of the Mahjarrat'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -2644,13 +2650,13 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Slash_weapons" title="Slash weapons" target="_blank"><img src="./images/weakness/Slash_weakness_icon.png" decoding="async" loading="lazy" width="25" height="22"></a>')
-WHERE c.name = 'Wight ranger (Sliske''''s Endgame)' AND v.name = '78 (Weak in slash)'
+WHERE c.name = 'Wight ranger (Sliske''s Endgame)' AND v.name = '78 (Weak in slash)'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Air_spells" title="Air spells" target="_blank"><img src="./images/weakness/Air_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Wight ranger (Sliske''''''''s Endgame)' AND v.name = '85'
+WHERE c.name = 'Wight ranger (Sliske''s Endgame)' AND v.name = '85'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -2686,13 +2692,19 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Arch-Glacor' AND v.name = 'Normal mode'
+WHERE c.name = 'Arch-Glacor' AND v.name = 'Hard mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Arch-Glacor' AND v.name = 'Hard mode'
+WHERE c.name = 'Arch-Glacor' AND v.name = 'Normal mode'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Bolstered Glacyte' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -3076,13 +3088,13 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Bolts" title="Bolts" target="_blank"><img src="./images/weakness/Bolt_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kor''''Vath the Blightbringer' AND v.name = '170,000 life points'
+WHERE c.name = 'Kor''Vath the Blightbringer' AND v.name = '170,000 life points'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Bolts" title="Bolts" target="_blank"><img src="./images/weakness/Bolt_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kor''''''''Vath the Blightbringer' AND v.name = '400,000 life points'
+WHERE c.name = 'Kor''Vath the Blightbringer' AND v.name = '400,000 life points'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -3411,14 +3423,14 @@ UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Fire_spells" title="Fire spells" target="_blank"><img src="./images/weakness/Fire_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kalphite King' AND v.name = 'Melee'
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Arrows" title="Arrows" target="_blank"><img src="./images/weakness/Arrow_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+WHERE c.name = 'Kalphite King' AND v.name = 'Magic'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Arrows" title="Arrows" target="_blank"><img src="./images/weakness/Arrow_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Kalphite King' AND v.name = 'Magic'
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Fire_spells" title="Fire spells" target="_blank"><img src="./images/weakness/Fire_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+WHERE c.name = 'Kalphite King' AND v.name = 'Melee'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -3718,13 +3730,13 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kerapac, the bound' AND v.name = 'Normal mode'
+WHERE c.name = 'Kerapac, the bound' AND v.name = 'Hard mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Kerapac, the bound' AND v.name = 'Hard mode'
+WHERE c.name = 'Kerapac, the bound' AND v.name = 'Normal mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -3995,6 +4007,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Earth_spells" title="Earth spells" target="_blank"><img src="./images/weakness/Earth_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Rat' AND v.name = 'Stronghold of Security'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Rat' AND v.name = 'Ratcatchers'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -4360,7 +4378,7 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Earth_spells" title="Earth spells" target="_blank"><img src="./images/weakness/Earth_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Skeleton (Dark Warriors'''' Fortress)' AND v.name = '2'
+WHERE c.name = 'Skeleton (Dark Warriors'' Fortress)' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -4384,13 +4402,13 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Earth_spells" title="Earth spells" target="_blank"><img src="./images/weakness/Earth_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Skeleton (Tarn''''s Lair)' AND v.name = '2'
+WHERE c.name = 'Skeleton (Tarn''s Lair)' AND v.name = '2'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Earth_spells" title="Earth spells" target="_blank"><img src="./images/weakness/Earth_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Skeleton (Tarn''''''''s Lair)' AND v.name = '8'
+WHERE c.name = 'Skeleton (Tarn''s Lair)' AND v.name = '8'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -4463,6 +4481,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Crush_weapons" title="Crush weapons" target="_blank"><img src="./images/weakness/Crush_weakness_icon.png" decoding="async" loading="lazy" width="25" height="19"></a>')
 WHERE c.name = 'Skeleton Archer' AND v.name = 'Normal mode'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Skeleton Archer' AND v.name = 'Story mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -5379,6 +5403,12 @@ UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Troll chucker (Davendale)' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Water_spells" title="Water spells" target="_blank"><img src="./images/weakness/Water_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Troll general' AND v.name = 'Sword'
 UNION ALL
@@ -5405,6 +5435,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Arrows" title="Arrows" target="_blank"><img src="./images/weakness/Arrow_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Troll shaman' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Troll shaman (Davendale)' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -5980,12 +6016,6 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Fire_spells" title="Fire spells" target="_blank"><img src="./images/weakness/Fire_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Zombie' AND v.name = 'Level 29 (Entrana)'
-UNION ALL
-SELECT v.id AS variant_id, w.id AS weakness_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Fire_spells" title="Fire spells" target="_blank"><img src="./images/weakness/Fire_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Zombie' AND v.name = 'Level 12'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
@@ -6005,6 +6035,12 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Fire_spells" title="Fire spells" target="_blank"><img src="./images/weakness/Fire_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Zombie' AND v.name = 'Level 29'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Fire_spells" title="Fire spells" target="_blank"><img src="./images/weakness/Fire_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+WHERE c.name = 'Zombie' AND v.name = 'Level 29 (Entrana)'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -6305,6 +6341,30 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Fire_spells" title="Fire spells" target="_blank"><img src="./images/weakness/Fire_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Vyrewatch' AND v.name = 'Temple Trekking (Hard Route)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Vyrewatch' AND v.name = 'Level 70 (East of Burgh de Rott)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Vyrewatch' AND v.name = 'Level 72 (East of Burgh de Rott)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Vyrewatch' AND v.name = 'Level 75 (East of Burgh de Rott)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Vyrewatch' AND v.name = 'Level 78 (East of Burgh de Rott)'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -6693,12 +6753,6 @@ UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Crush_weapons" title="Crush weapons" target="_blank"><img src="./images/weakness/Crush_weakness_icon.png" decoding="async" loading="lazy" width="25" height="19"></a>')
-WHERE c.name = 'Fenris wolf (Sköll)' AND v.name = 'Default'
-UNION ALL
-SELECT v.id AS variant_id, w.id AS weakness_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Water_spells" title="Water spells" target="_blank"><img src="./images/weakness/Water_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Ice wolf' AND v.name = '58'
 UNION ALL
@@ -6813,8 +6867,20 @@ UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Summoned Zombie (The Shadow Reef)' AND v.name = 'Story mode'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Water_spells" title="Water spells" target="_blank"><img src="./images/weakness/Water_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Summoned armoured zombie' AND v.name = 'Normal mode'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Summoned armoured zombie' AND v.name = 'Story mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -6957,6 +7023,12 @@ UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zombie (Temple Trekking)' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Slash_weapons" title="Slash weapons" target="_blank"><img src="./images/weakness/Slash_weakness_icon.png" decoding="async" loading="lazy" width="25" height="22"></a>')
 WHERE c.name = 'Zombie (The Shadow Reef)' AND v.name = 'Normal mode'
 UNION ALL
@@ -7054,25 +7126,85 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Bolts" title="Bolts" target="_blank"><img src="./images/weakness/Bolt_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Chaos Elemental' AND v.name = 'P2P'
-UNION ALL
-SELECT v.id AS variant_id, w.id AS weakness_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Bolts" title="Bolts" target="_blank"><img src="./images/weakness/Bolt_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
 WHERE c.name = 'Chaos Elemental' AND v.name = 'F2P'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Commander Zilyana' AND v.name = 'Normal'
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Bolts" title="Bolts" target="_blank"><img src="./images/weakness/Bolt_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
+WHERE c.name = 'Chaos Elemental' AND v.name = 'P2P'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Commander Zilyana' AND v.name = 'Hard Mode'
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Aftermath'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Battle of the Monolith'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Council of Burthorpe'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Extinction'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Gower Quest'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Missing, Presumed Death'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Once Upon a Time in Gielinor'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Ritual of the Mahjarrat'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'Senntisten'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Commander Zilyana' AND v.name = 'The World Wakes'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Croesus' AND v.name = 'Active'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Croesus' AND v.name = 'Dormant'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7084,19 +7216,13 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'General Graardor' AND v.name = 'Normal'
-UNION ALL
-SELECT v.id AS variant_id, w.id AS weakness_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'General Graardor' AND v.name = 'Hard mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'General Graardor' AND v.name = 'The World Wakes'
+WHERE c.name = 'General Graardor' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7108,7 +7234,7 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Giant mole' AND v.name = 'Normal'
+WHERE c.name = 'General Graardor' AND v.name = 'The World Wakes'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7120,13 +7246,19 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Gregorovic' AND v.name = 'Normal Mode'
+WHERE c.name = 'Giant mole' AND v.name = 'Normal'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Gregorovic' AND v.name = 'Challenge Mode'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Gregorovic' AND v.name = 'Normal Mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7156,13 +7288,13 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Helwyr' AND v.name = 'Normal Mode'
+WHERE c.name = 'Helwyr' AND v.name = 'Challenge Mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Helwyr' AND v.name = 'Challenge Mode'
+WHERE c.name = 'Helwyr' AND v.name = 'Normal Mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7180,7 +7312,7 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Nex' AND v.name = 'Standard'
+WHERE c.name = 'Nex' AND v.name = 'Magic'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7198,7 +7330,7 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Nex' AND v.name = 'Magic'
+WHERE c.name = 'Nex' AND v.name = 'Standard'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7216,6 +7348,12 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Raksha, the Shadow Colossus' AND v.name = 'During fight (duo)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Raksha, the Shadow Colossus' AND v.name = 'Shackled'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
@@ -7228,19 +7366,13 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Raksha, the Shadow Colossus' AND v.name = 'During fight (duo)'
+WHERE c.name = 'Rasial, the First Necromancer' AND v.name = 'Alpha vs Omega'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Rasial, the First Necromancer' AND v.name = 'Normal'
-UNION ALL
-SELECT v.id AS variant_id, w.id AS weakness_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Rasial, the First Necromancer' AND v.name = 'Alpha vs Omega'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7258,25 +7390,7 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Solak' AND v.name = 'Solak'
-UNION ALL
-SELECT v.id AS variant_id, w.id AS weakness_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Solak' AND v.name = 'Withering'
-UNION ALL
-SELECT v.id AS variant_id, w.id AS weakness_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Solak' AND v.name = 'Left arm'
-UNION ALL
-SELECT v.id AS variant_id, w.id AS weakness_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Solak' AND v.name = 'Right arm'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7288,13 +7402,25 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Solak' AND v.name = 'Right arm'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Solak' AND v.name = 'Right leg'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Telos, the Warden' AND v.name = 'Standard'
+WHERE c.name = 'Solak' AND v.name = 'Solak'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Solak' AND v.name = 'Withering'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7312,6 +7438,12 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Telos, the Warden' AND v.name = 'Standard'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Nymora, the Vengeful' AND v.name = 'Normal Mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
@@ -7319,12 +7451,6 @@ FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Nymora, the Vengeful' AND v.name = 'Challenge Mode'
-UNION ALL
-SELECT v.id AS variant_id, w.id AS weakness_id
-FROM all_variants v
-JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Avaryss, the Unceasing' AND v.name = 'Normal Mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7342,7 +7468,7 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'TzKal-Zuk' AND v.name = 'Normal Mode'
+WHERE c.name = 'Avaryss, the Unceasing' AND v.name = 'Normal Mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7354,13 +7480,13 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'TzTok-Jad' AND v.name = 'Default'
+WHERE c.name = 'TzKal-Zuk' AND v.name = 'Normal Mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Vindicta' AND v.name = 'Normal mode'
+WHERE c.name = 'TzTok-Jad' AND v.name = 'Default'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7372,7 +7498,19 @@ SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
 JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Vindicta' AND v.name = 'Normal mode'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
 WHERE c.name = 'Vorago' AND v.name = 'Default'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
+WHERE c.name = 'Zamorak, Lord of Chaos' AND v.name = 'Hard mode'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
@@ -7389,13 +7527,151 @@ UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/No_weakness" title="No weakness" target="_blank"><img src="./images/weakness/Zero_weakness_icon.png" decoding="async" loading="lazy" width="25" height="26"></a>')
-WHERE c.name = 'Zamorak, Lord of Chaos' AND v.name = 'Hard mode'
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Defender of Varrock (1)'
 UNION ALL
 SELECT v.id AS variant_id, w.id AS weakness_id
 FROM all_variants v
 JOIN all_creatures c ON c.id = v.creature_id
-JOIN all_weaknesses w ON w.link IN ('<a href="https://runescape.wiki/w/Fire_spells" title="Fire spells" target="_blank"><img src="./images/weakness/Fire_weakness_icon.png" decoding="async" loading="lazy" width="25" height="25"></a>')
-WHERE c.name = 'Zombie (Entrana Dungeon)' AND v.name = 'Default'
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Defender of Varrock (2)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Ritual of the Mahjarrat'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Ritual of the Mahjarrat (fort, skeletal)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Ritual of the Mahjarrat (fort)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Nadir'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'The World Wakes'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Missing, Presumed Death'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Dishonour among Thieves'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Dishonour among Thieves (lair)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Dishonour among Thieves (lair, examinable)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Dishonour among Thieves (cutscene)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Dimension of Disaster'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Children of Mah'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Children of Mah (examinable)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Children of Mah (Freneskae cutscene)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'TzekHaar Front'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Daughter of Chaos'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Succession'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Succession (skeletal)'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Unwelcome Guests'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Dead and Buried'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Ancient Awakening'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Battle of Forinthry'
+UNION ALL
+SELECT v.id AS variant_id, w.id AS weakness_id
+FROM all_variants v
+JOIN all_creatures c ON c.id = v.creature_id
+JOIN all_weaknesses w ON w.link IN ('')
+WHERE c.name = 'Zemouregal' AND v.name = 'Requiem for a Dragon'
 ON DUPLICATE KEY UPDATE
     updated_at = NOW();
